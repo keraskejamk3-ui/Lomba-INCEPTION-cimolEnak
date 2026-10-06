@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Prestasi | SMK Telkom Malang — School of Global Digitalent</title>
+  <meta name="description" content="Prestasi siswa SMK Telkom Malang di tingkat provinsi, nasional, dan internasional.">
+  <meta property="og:title" content="Prestasi | SMK Telkom Malang">
+  <meta property="og:description" content="Mokleters berprestasi dari Malang untuk Indonesia.">
+  <meta property="og:type" content="website">
+  <meta name="theme-color" content="#E4002B">
+
+  <!-- CSS bersama: sama persis dengan beranda (navbar + footer) -->
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/responsive.css">
+  <link rel="stylesheet" href="css/cursor.css">
+  <!-- CSS khusus halaman Prestasi -->
+  <link rel="stylesheet" href="css/prestasi.css">
+  <!-- CSS chatbot (mengambang) -->
+  <link rel="stylesheet" href="css/ai.css">
+  <!-- navbar responsif: harus PALING AKHIR (setelah semua CSS lain) -->
+  <link rel="stylesheet" href="css/navbar.css">
+</head>
+<body>
+
+  <!-- NAVBAR (komponen yang sama dengan beranda) -->
+  <div data-include="components/navbar.html"></div>
+
+  <main id="main">
+    <div id="prestasi-root"></div>
+  </main>
+
+  <!-- FOOTER (komponen yang sama dengan beranda) -->
+  <div data-include="components/footer.html"></div>
+
+  <!-- ===== CHATBOT AI (mengambang) =====
+       Diletakkan LANGSUNG di dalam <body> (bukan di dalam wrapper lain)
+       dan SEBELUM <script>, supaya ai.js bisa menemukan elemennya. -->
+  <div class="chatbot-widget">
+  <button type="button" class="chatbot-trigger" id="chatbotTrigger" aria-expanded="false" aria-controls="chatbotWindow" aria-label="Buka Chatbot AI">
+    <img src="bombi.jpeg" alt="Icon Chatbot AI" class="chatbot-trigger-img">
+  </button>
+
+  <div class="chatbot-window" id="chatbotWindow" hidden role="dialog" aria-label="Asisten Virtual AI">
+    <div class="chatbot-header">
+      <div class="chatbot-header-info">
+        <div class="chatbot-avatar">
+          <img src="bombi.jpeg" alt="Avatar AI" class="chatbot-trigger-img">
+        </div>
+        <div>
+          <h3 class="chatbot-title">Bombi AI Service</h3>
+          <span class="chatbot-status"><span class="status-dot"></span> Online (LLM Powered)</span>
+        </div>
+      </div>
+      <button type="button" class="chatbot-close" id="chatbotClose" aria-label="Tutup percakapan">&times;</button>
+    </div>
+
+    <div class="chatbot-body" id="chatbotBody">
+      <div class="chat-bubble bot">
+        Halo! 👋 Saya Asisten AI Sekolah SMK Telkom Malang. Ada yang ingin Anda tanyakan seputar jurusan, PPDB, atau fasilitas?
+      </div>
+    </div>
+
+    <form class="chatbot-footer" id="chatbotForm">
+      <input type="text" class="chatbot-input" id="chatbotInput" placeholder="Ketik pertanyaan Anda..." required autocomplete="off">
+      <button type="submit" class="chatbot-send" aria-label="Kirim Pesan">
+        <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+          <line x1="22" y1="2" x2="11" y2="13"></line>
+          <polygon points="22 2 15 22 11 13 2 9 22 2"></polygon>
+        </svg>
+      </button>
+    </form>
+  </div>
+  </div><!-- /.chatbot-widget -->
+
+  <script src="js/i18n.js"></script>
+  <script src="js/render.js"></script>
+  <script src="js/main.js"></script>
+  <script src="js/prestasi.js"></script>
+  <script src="js/chatbot.js"></script>
+</body>
+</html>
