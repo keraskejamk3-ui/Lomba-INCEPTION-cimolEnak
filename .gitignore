@@ -1,5 +1,45 @@
-# Object file
-*.o
+# ---------- Rahasia (JANGAN di-commit) ----------
+.env
+.env.*
+!.env.example
 
-# Ada Library Information
-*.ali
+# ---------- Python ----------
+__pycache__/
+*.py[cod]
+*.pyo
+.venv/
+venv/
+env/
+*.egg-info/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+
+# ---------- Node ----------
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+.npm/
+
+# ---------- Deploy (Vercel dll.) ----------
+.vercel/
+.netlify/
+
+# ---------- Log & file sementara ----------
+*.log
+logs/
+tmp/
+*.tmp
+
+# ---------- Editor & OS ----------
+.vscode/
+!.vscode/extensions.json
+.idea/
+*.swp
+.DS_Store
+Thumbs.db
+desktop.ini
