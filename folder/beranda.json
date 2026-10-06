@@ -1,0 +1,35 @@
+{
+  "hero": [
+    {
+      "img": "20250820_170929 (1).JPG",
+      "alt": "hero.alt1",
+      "durasi": 7000
+    },
+    {
+      "img": "DSC04979.jpg",
+      "alt": "hero.alt2",
+      "durasi": 6000
+    },
+    {
+      "img": "DSC04962.jpg",
+      "alt": "hero.alt3",
+      "durasi": 6000
+    }
+  ],
+  "sambutan": {
+    "foto": "kepsek.jpg",
+    "nama": "Rahmat Dwi Djatmiko, S.Kom., M.M.",
+    "thumb": "assets/img/sambutan-poster.jpg",
+    "video": {
+      "type": "file",
+      "src": "video profile.mp4"
+    }
+  },
+  "why": [
+    "era",
+    "dtp",
+    "akreditasi",
+    "opes",
+    "yayasan"
+  ]
+}

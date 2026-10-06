@@ -1,0 +1,498 @@
+{
+ "_petunjuk": "Ubah isi di sini. Ganti \"tampil\": false menjadi true untuk menampilkan item. Tipe bagian: kartu, form, tautan, faq, sosial, tanya.",
+ "hero": {
+  "gambar": "img/sekolah.jpg",
+  "alt": {
+   "id": "Gedung SMK Telkom Malang",
+   "en": "SMK Telkom Malang building"
+  },
+  "label": {
+   "id": "HUBUNGI KAMI",
+   "en": "CONTACT US"
+  },
+  "judul_awal": {
+   "id": "Ada Pertanyaan?",
+   "en": "Have a Question?"
+  },
+  "judul_sorot": {
+   "id": "Kami",
+   "en": "We're"
+  },
+  "judul_akhir": {
+   "id": "Siap Membantu.",
+   "en": "Here to Help."
+  },
+  "deskripsi": {
+   "id": "Hubungi SMK Telkom Malang untuk informasi pendaftaran, program keahlian, dan layanan sekolah.",
+   "en": "Contact SMK Telkom Malang for admissions, majors, and school services."
+  },
+  "ikon": "💬",
+  "ikon_kecil": [
+   "📞",
+   "✉️",
+   "📍",
+   "🕐"
+  ],
+  "tombol": [
+   {
+    "teks": {
+     "id": "Kirim Pesan",
+     "en": "Send a Message"
+    },
+    "link": "#pesan",
+    "gaya": "primary"
+   },
+   {
+    "teks": {
+     "id": "Daftar PPDB",
+     "en": "Apply Now"
+    },
+    "link": "ppdb.html",
+    "gaya": "ghost"
+   }
+  ],
+  "jejak": [
+   {
+    "teks": {
+     "id": "Beranda",
+     "en": "Home"
+    },
+    "link": "index.html"
+   },
+   {
+    "teks": {
+     "id": "Hubungi Kami",
+     "en": "Contact Us"
+    }
+   }
+  ]
+ },
+ "bagian": [
+  {
+   "tipe": "kartu",
+   "id": "kontak",
+   "ringkas": true,
+   "label": {
+    "id": "INFORMASI KONTAK",
+    "en": "CONTACT INFO"
+   },
+   "judul": {
+    "id": "Cara Menghubungi Kami",
+    "en": "How to Reach Us"
+   },
+   "_periksa": "Telepon, alamat, dan situs sekolah cocok dengan data Kemendikdasmen. Email dan jam layanan diambil dari situs sekolah; mohon dicek ulang.",
+   "item": [
+    {
+     "ikon": "📞",
+     "judul": {
+      "id": "Telepon",
+      "en": "Phone"
+     },
+     "teks": {
+      "id": "0341 712500",
+      "en": "0341 712500"
+     },
+     "aksi": {
+      "teks": {
+       "id": "Telepon Sekarang",
+       "en": "Call Now"
+      },
+      "link": "tel:0341712500"
+     }
+    },
+    {
+     "ikon": "✉️",
+     "judul": {
+      "id": "Email",
+      "en": "Email"
+     },
+     "teks": {
+      "id": "info@smktelkom-mlg.sch.id",
+      "en": "info@smktelkom-mlg.sch.id"
+     },
+     "aksi": {
+      "teks": {
+       "id": "Kirim Email",
+       "en": "Send Email"
+      },
+      "link": "mailto:info@smktelkom-mlg.sch.id"
+     }
+    },
+    {
+     "ikon": "📍",
+     "judul": {
+      "id": "Alamat",
+      "en": "Address"
+     },
+     "teks": {
+      "id": "Jl. Danau Ranau No.1, Sawojajar, Kec. Kedungkandang, Kota Malang, Jawa Timur 65139",
+      "en": "Jl. Danau Ranau No.1, Sawojajar, Kedungkandang, Malang, East Java 65139"
+     },
+     "aksi": {
+      "teks": {
+       "id": "Buka di Google Maps",
+       "en": "Open in Google Maps"
+      },
+      "link": "https://www.google.com/maps/search/?api=1&query=-7.9772,112.6592"
+     }
+    },
+    {
+     "ikon": "🕐",
+     "judul": {
+      "id": "Jam Layanan",
+      "en": "Service Hours"
+     },
+     "teks": {
+      "id": "Senin–Sabtu, 06.00–16.00",
+      "en": "Monday–Saturday, 06:00–16:00"
+     }
+    },
+    {
+     "tampil": false,
+     "ikon": "💬",
+     "judul": {
+      "id": "WhatsApp",
+      "en": "WhatsApp"
+     },
+     "teks": {
+      "id": "0812-2348-8999",
+      "en": "0812-2348-8999"
+     },
+     "aksi": {
+      "teks": {
+       "id": "Chat WhatsApp",
+       "en": "Chat on WhatsApp"
+      },
+      "link": "https://wa.me/6281223488999"
+     },
+     "_periksa": "Nomor ini muncul di situs siswa, belum pasti nomor layanan resmi. Konfirmasi ke sekolah sebelum ditampilkan."
+    }
+   ]
+  },
+  {
+   "tipe": "alur",
+   "id": "alur",
+   "label": {
+    "id": "CARA MENGHUBUNGI",
+    "en": "HOW TO REACH US"
+   },
+   "judul": {
+    "id": "Tiga Langkah Mudah",
+    "en": "Three Easy Steps"
+   },
+   "sub": {
+    "id": "Supaya pertanyaanmu cepat terjawab, ikuti alur singkat ini.",
+    "en": "Follow this short flow to get your question answered quickly."
+   },
+   "item": [
+    {
+     "ikon": "🎯",
+     "judul": {
+      "id": "Pilih Topikmu",
+      "en": "Pick Your Topic"
+     },
+     "teks": {
+      "id": "Tentukan hal yang ingin ditanyakan: pendaftaran, program keahlian, akomodasi, atau lainnya.",
+      "en": "Decide what you want to ask: admissions, majors, accommodation, or something else."
+     },
+     "chip": [
+      {
+       "teks": {
+        "id": "PPDB",
+        "en": "Admissions"
+       },
+       "link": "ppdb.html"
+      },
+      {
+       "teks": {
+        "id": "Program",
+        "en": "Programs"
+       },
+       "link": "program.html#jurusan"
+      },
+      {
+       "teks": {
+        "id": "Akomodasi",
+        "en": "Accommodation"
+       },
+       "link": "akomodasi.html"
+      }
+     ]
+    },
+    {
+     "ikon": "📡",
+     "judul": {
+      "id": "Pilih Saluran",
+      "en": "Choose a Channel"
+     },
+     "teks": {
+      "id": "Hubungi sekolah lewat telepon, email, atau formulir di halaman ini.",
+      "en": "Reach the school by phone, email, or the form on this page."
+     },
+     "chip": [
+      {
+       "teks": {
+        "id": "Telepon",
+        "en": "Phone"
+       },
+       "link": "tel:0341712500"
+      },
+      {
+       "teks": {
+        "id": "Email",
+        "en": "Email"
+       },
+       "link": "mailto:info@smktelkom-mlg.sch.id"
+      },
+      {
+       "teks": {
+        "id": "Formulir",
+        "en": "Form"
+       },
+       "link": "#pesan"
+      }
+     ]
+    },
+    {
+     "ikon": "✍️",
+     "judul": {
+      "id": "Sampaikan dengan Jelas",
+      "en": "Be Clear"
+     },
+     "teks": {
+      "id": "Tulis nama, asal sekolah, dan pertanyaanmu agar mudah dibantu. Mau jawaban cepat? Tanya Bombi.",
+      "en": "Include your name, school, and question so we can help easily. Want a quick answer? Ask Bombi."
+     },
+     "chip": [
+      {
+       "teks": {
+        "id": "Tanya Bombi",
+        "en": "Ask Bombi"
+       },
+       "link": "#tanya"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "tipe": "form",
+   "id": "pesan",
+   "label": {
+    "id": "KIRIM PESAN",
+    "en": "SEND A MESSAGE"
+   },
+   "judul": {
+    "id": "Tulis Pesanmu",
+    "en": "Write Your Message"
+   },
+   "sub": {
+    "id": "Isi formulir, lalu pesan akan disiapkan di aplikasi email kamu dan dikirim ke sekolah.",
+    "en": "Fill in the form and your message will be prepared in your email app and sent to the school."
+   },
+   "email_tujuan": "info@smktelkom-mlg.sch.id",
+   "nama": {
+    "id": "Nama lengkap",
+    "en": "Full name"
+   },
+   "email": {
+    "id": "Email kamu",
+    "en": "Your email"
+   },
+   "topik_label": {
+    "id": "Topik",
+    "en": "Topic"
+   },
+   "topik": [
+    {
+     "id": "Pendaftaran (PPDB)",
+     "en": "Admissions (PPDB)"
+    },
+    {
+     "id": "Program Keahlian",
+     "en": "Skill Programs"
+    },
+    {
+     "id": "Akomodasi / Asrama",
+     "en": "Accommodation / Dormitory"
+    },
+    {
+     "id": "Lainnya",
+     "en": "Other"
+    }
+   ],
+   "pesan": {
+    "id": "Tulis pesanmu di sini…",
+    "en": "Write your message here…"
+   },
+   "kirim": {
+    "id": "Kirim Pesan",
+    "en": "Send Message"
+   },
+   "catatan": {
+    "id": "Tombol kirim akan membuka aplikasi email kamu. Tidak ada data yang disimpan di situs ini.",
+    "en": "The send button opens your email app. No data is stored on this site."
+   },
+   "lat": -7.9772,
+   "lng": 112.6592,
+   "alamat": "SMK Telkom Malang"
+  },
+  {
+   "tipe": "tautan",
+   "id": "topik",
+   "gelap": true,
+   "label": {
+    "id": "BUTUH INFO LAIN?",
+    "en": "NEED MORE INFO?"
+   },
+   "judul": {
+    "id": "Mungkin Ini yang Kamu Cari",
+    "en": "Maybe This Is What You Need"
+   },
+   "item": [
+    {
+     "ikon": "📝",
+     "judul": {
+      "id": "PPDB",
+      "en": "Admissions"
+     },
+     "teks": {
+      "id": "Informasi pendaftaran siswa baru.",
+      "en": "New student admissions info."
+     },
+     "link": "ppdb.html"
+    },
+    {
+     "ikon": "💻",
+     "judul": {
+      "id": "Program Keahlian",
+      "en": "Skill Programs"
+     },
+     "teks": {
+      "id": "Kenali jurusan yang tersedia.",
+      "en": "Explore available majors."
+     },
+     "link": "program.html#jurusan"
+    },
+    {
+     "ikon": "🏠",
+     "judul": {
+      "id": "Akomodasi",
+      "en": "Accommodation"
+     },
+     "teks": {
+      "id": "Pilihan hunian untuk siswa.",
+      "en": "Housing options for students."
+     },
+     "link": "akomodasi.html"
+    },
+    {
+     "ikon": "🔬",
+     "judul": {
+      "id": "Lab Tour",
+      "en": "Lab Tour"
+     },
+     "teks": {
+      "id": "Lihat ruang praktik sekolah.",
+      "en": "See the school's practice rooms."
+     },
+     "link": "lab-tour.html"
+    }
+   ]
+  },
+  {
+   "tipe": "faq",
+   "id": "faq",
+   "label": {
+    "id": "FAQ",
+    "en": "FAQ"
+   },
+   "judul": {
+    "id": "Pertanyaan Umum",
+    "en": "Common Questions"
+   },
+   "item": [
+    {
+     "q": {
+      "id": "Bagaimana cara menghubungi sekolah?",
+      "en": "How can I contact the school?"
+     },
+     "a": {
+      "id": "Lewat telepon 0341 712500, email info@smktelkom-mlg.sch.id, atau formulir di halaman ini.",
+      "en": "By phone at 0341 712500, by email at info@smktelkom-mlg.sch.id, or through the form on this page."
+     }
+    },
+    {
+     "q": {
+      "id": "Di mana alamat sekolah?",
+      "en": "Where is the school?"
+     },
+     "a": {
+      "id": "Jl. Danau Ranau No.1, Sawojajar, Kec. Kedungkandang, Kota Malang, Jawa Timur.",
+      "en": "Jl. Danau Ranau No.1, Sawojajar, Kedungkandang, Malang, East Java."
+     }
+    },
+    {
+     "q": {
+      "id": "Kapan jam layanan sekolah?",
+      "en": "What are the service hours?"
+     },
+     "a": {
+      "id": "Senin sampai Sabtu, pukul 06.00–16.00.",
+      "en": "Monday to Saturday, 06:00–16:00."
+     }
+    },
+    {
+     "q": {
+      "id": "Di mana info pendaftaran siswa baru?",
+      "en": "Where is the admissions info?"
+     },
+     "a": {
+      "id": "Lihat halaman PPDB, atau tanyakan ke Bombi.",
+      "en": "See the Admissions page, or ask Bombi."
+     }
+    }
+   ]
+  },
+  {
+   "tipe": "sosial",
+   "id": "sosial",
+   "label": {
+    "id": "IKUTI KAMI",
+    "en": "FOLLOW US"
+   },
+   "judul": {
+    "id": "Tetap Terhubung",
+    "en": "Stay Connected"
+   },
+   "teks": {
+    "id": "Ikuti media sosial resmi SMK Telkom Malang untuk kabar terbaru.",
+    "en": "Follow SMK Telkom Malang's official social media for the latest news."
+   }
+  },
+  {
+   "tipe": "tanya",
+   "id": "tanya",
+   "label": {
+    "id": "MASIH BINGUNG?",
+    "en": "STILL UNSURE?"
+   },
+   "judul": {
+    "id": "Tanya Bombi, Asisten Virtual Kami",
+    "en": "Ask Bombi, Our Virtual Assistant"
+   },
+   "teks": {
+    "id": "Bombi siap menjawab seputar jurusan, PPDB, dan fasilitas SMK Telkom Malang.",
+    "en": "Bombi can answer questions about majors, admissions, and facilities."
+   },
+   "tombol_bot": {
+    "id": "Tanya Bombi",
+    "en": "Ask Bombi"
+   },
+   "gelembung": {
+    "id": "Halo! 👋",
+    "en": "Hi! 👋"
+   }
+  }
+ ]
+}

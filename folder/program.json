@@ -1,0 +1,158 @@
+{
+ "_petunjuk": "Tipe bagian: jurusan (kartu ringkas), detail (panel per program), langkah, kartu (tambah \"gelap\": true untuk latar gelap), tautan. Data program ada di 'jurusan'. Perhatikan koma dan tanda kutip.",
+ "_periksa": "Daftar program (PG, RPL, TKJ), materi, karier, dan alur belajar disusun dari sumber umum dan perlu dicek/disesuaikan dengan kurikulum SMK Telkom Malang, lalu hapus baris ini.",
+ "meta": {"title": {"id": "Program Keahlian | SMK Telkom Malang", "en": "Skill Programs | SMK Telkom Malang"}},
+ "hero": {
+  "gambar": "DSC04962.jpg",
+  "alt": {"id": "Gedung SMK Telkom Malang", "en": "SMK Telkom Malang building"},
+  "label": {"id": "PROGRAM KEAHLIAN", "en": "SKILL PROGRAMS"},
+  "judul_awal": {"id": "Pilih Jalur", "en": "Choose Your"},
+  "judul_sorot": {"id": "Keahlian Digitalmu", "en": "Digital Path"},
+  "judul_akhir": {"id": "Sejak SMK.", "en": "Starting in Vocational School."},
+  "deskripsi": {"id": "Tiga program keahlian berbasis teknologi informasi yang menyiapkanmu untuk dunia kerja dan kuliah.", "en": "Three IT-based skill programs that prepare you for work and university."},
+  "tombol": [
+   {"teks": {"id": "Lihat Program", "en": "View Programs"}, "link": "#jurusan", "gaya": "primary"},
+   {"teks": {"id": "Daftar PPDB", "en": "Apply Now"}, "link": "ppdb.html", "gaya": "ghost"}
+  ],
+  "ikon_kecil": ["💻", "🌐", "🎮", "🔐"],
+  "jejak": [
+   {"teks": {"id": "Beranda", "en": "Home"}, "link": "index.html"},
+   {"teks": {"id": "Program", "en": "Programs"}, "link": "program.html"},
+   {"teks": {"id": "Program Keahlian", "en": "Skill Programs"}}
+  ]
+ },
+ "ringkasan": {
+  "item": [
+   {"ikon": "💻", "angka": 3, "label": {"id": "Program Keahlian", "en": "Skill Programs"}},
+   {"ikon": "✅", "angka": "A", "label": {"id": "Akreditasi Sekolah", "en": "School Accreditation"}},
+   {"ikon": "📅", "angka": "1992", "label": {"id": "Berdiri Sejak", "en": "Established"}},
+   {"ikon": "🏫", "angka": "Telkom", "label": {"id": "Yayasan Pendidikan Telkom", "en": "Telkom Education Foundation"}}
+  ]
+ },
+ "jurusan": [
+  {
+   "id": "rpl", "kode": "RPL", "ikon": "💻",
+   "nama": {"id": "Rekayasa Perangkat Lunak", "en": "Software Engineering"},
+   "singkat": {"id": "Merancang dan membangun aplikasi web, mobile, dan sistem berbasis perangkat lunak.", "en": "Design and build web, mobile, and software-based systems."},
+   "tag": ["Web", "Mobile", "UI/UX"],
+   "belajar": [
+    {"id": "Dasar pemrograman dan logika", "en": "Programming fundamentals and logic"},
+    {"id": "Basis data dan pemrograman web", "en": "Databases and web programming"},
+    {"id": "Pengembangan aplikasi mobile", "en": "Mobile app development"},
+    {"id": "Desain antarmuka dan pengalaman pengguna", "en": "Interface and user experience design"},
+    {"id": "Pengujian dan dokumentasi perangkat lunak", "en": "Software testing and documentation"}
+   ],
+   "karier": [
+    {"id": "Web / Mobile Developer", "en": "Web / Mobile Developer"},
+    {"id": "Software Engineer", "en": "Software Engineer"},
+    {"id": "UI/UX Designer", "en": "UI/UX Designer"},
+    {"id": "Software Tester (QA)", "en": "Software Tester (QA)"}
+   ],
+   "lanjut": [
+    {"id": "Teknik / Sistem Informatika", "en": "Informatics / Information Systems"},
+    {"id": "Rekayasa Perangkat Lunak", "en": "Software Engineering"}
+   ],
+   "ekskul": ["Web Design", "IT Software Solution for Bussiness Kelas X", "IT Software Solution for Bussiness Kelas XI", "Artificial Intelligence Kelas X"]
+  },
+  {
+   "id": "tkj", "kode": "TKJ", "ikon": "🌐",
+   "nama": {"id": "Teknik Komputer & Jaringan", "en": "Computer & Network Engineering"},
+   "singkat": {"id": "Membangun, mengelola, dan mengamankan infrastruktur jaringan dan sistem komputer.", "en": "Build, manage, and secure network infrastructure and computer systems."},
+   "tag": ["Jaringan", "Server", "Keamanan"],
+   "belajar": [
+    {"id": "Perakitan dan perawatan komputer", "en": "Computer assembly and maintenance"},
+    {"id": "Jaringan komputer dan infrastruktur", "en": "Computer networks and infrastructure"},
+    {"id": "Administrasi sistem dan server", "en": "System and server administration"},
+    {"id": "Keamanan jaringan", "en": "Network security"},
+    {"id": "Dasar komputasi awan", "en": "Cloud computing basics"}
+   ],
+   "karier": [
+    {"id": "Network / System Administrator", "en": "Network / System Administrator"},
+    {"id": "Cyber Security Analyst", "en": "Cyber Security Analyst"},
+    {"id": "Cloud Engineer", "en": "Cloud Engineer"},
+    {"id": "IT Support", "en": "IT Support"}
+   ],
+   "lanjut": [
+    {"id": "Teknik Komputer / Teknik Telekomunikasi", "en": "Computer / Telecommunication Engineering"},
+    {"id": "Teknologi Informasi", "en": "Information Technology"}
+   ],
+   "ekskul": ["Cyber Security Kelas X", "Cyber Security Kelas XI", "Cloud Computing", "Internet Network Cabling", "IT Network Systems Administration"]
+  },
+  {
+   "id": "pg", "kode": "PG", "ikon": "🎮",
+   "nama": {"id": "Pengembangan Gim", "en": "Game Development"},
+   "singkat": {"id": "Mengembangkan gim lewat desain, pemrograman, grafis, dan animasi.", "en": "Develop games through design, programming, graphics, and animation."},
+   "tag": ["Gim", "Grafis", "Animasi"],
+   "belajar": [
+    {"id": "Desain gim dan perancangan level", "en": "Game design and level design"},
+    {"id": "Pemrograman gim", "en": "Game programming"},
+    {"id": "Grafis dan animasi 2D/3D", "en": "2D/3D graphics and animation"},
+    {"id": "Audio dan efek gim", "en": "Game audio and effects"},
+    {"id": "Pengujian dan publikasi gim", "en": "Game testing and publishing"}
+   ],
+   "karier": [
+    {"id": "Game Developer", "en": "Game Developer"},
+    {"id": "Game Designer", "en": "Game Designer"},
+    {"id": "2D/3D Artist", "en": "2D/3D Artist"},
+    {"id": "Game Tester (QA)", "en": "Game Tester (QA)"}
+   ],
+   "lanjut": [
+    {"id": "Teknologi Gim / Informatika", "en": "Game Technology / Informatics"},
+    {"id": "Desain Komunikasi Visual", "en": "Visual Communication Design"}
+   ],
+   "ekskul": ["Graphic Design Kelas X", "Graphic Design Kelas XI", "Fotografi", "Artificial Intelligence Kelas XI"]
+  }
+ ],
+ "bagian": [
+  {
+   "tipe": "jurusan", "id": "jurusan",
+   "label": {"id": "PILIHAN PROGRAM", "en": "PROGRAM OPTIONS"},
+   "judul": {"id": "Tiga Program Keahlian", "en": "Three Skill Programs"},
+   "sub": {"id": "Pilih yang paling sesuai dengan minatmu.", "en": "Pick the one that fits your interests."},
+   "tombol": {"id": "Selengkapnya", "en": "Learn More"}
+  },
+  {
+   "tipe": "detail",
+   "ui": {
+    "belajar": {"id": "Yang Kamu Pelajari", "en": "What You Will Learn"},
+    "karier": {"id": "Prospek Karier", "en": "Career Paths"},
+    "lanjut": {"id": "Lanjut Kuliah", "en": "Further Study"},
+    "ekskul": {"id": "Ekstrakurikuler Pendukung", "en": "Related Extracurriculars"},
+    "daftar": {"id": "Daftar PPDB", "en": "Apply Now"}
+   }
+  },
+  {
+   "tipe": "langkah", "id": "alur-belajar",
+   "label": {"id": "ALUR BELAJAR", "en": "LEARNING PATH"},
+   "judul": {"id": "Perjalanan dari Kelas X sampai Lulus", "en": "Your Journey from Grade 10 to Graduation"},
+   "item": [
+    {"judul": {"id": "Kelas X", "en": "Grade 10"}, "teks": {"id": "Fondasi teknologi informasi dan pengenalan program keahlian.", "en": "IT foundations and an introduction to your program."}},
+    {"judul": {"id": "Kelas XI", "en": "Grade 11"}, "teks": {"id": "Materi inti, praktik laboratorium, dan proyek kelompok.", "en": "Core subjects, lab practice, and team projects."}},
+    {"judul": {"id": "PKL", "en": "Internship"}, "teks": {"id": "Praktik kerja lapangan di dunia usaha dan industri.", "en": "Work placement in business and industry."}},
+    {"judul": {"id": "Kelas XII", "en": "Grade 12"}, "teks": {"id": "Proyek akhir, uji kompetensi, dan persiapan karier atau kuliah.", "en": "Final project, competency test, and career or study preparation."}}
+   ]
+  },
+  {
+   "tipe": "kartu", "id": "keunggulan", "gelap": true,
+   "label": {"id": "PENDUKUNG", "en": "SUPPORT"},
+   "judul": {"id": "Belajar dengan Dukungan Penuh", "en": "Learning with Full Support"},
+   "item": [
+    {"ikon": "🖥️", "judul": {"id": "Laboratorium Praktik", "en": "Practice Labs"}, "teks": {"id": "Praktik langsung di laboratorium komputer sekolah.", "en": "Hands-on practice in the school's computer labs."}},
+    {"ikon": "👩‍🏫", "judul": {"id": "Guru Pembimbing", "en": "Mentor Teachers"}, "teks": {"id": "Didampingi guru berpengalaman di bidang masing-masing.", "en": "Guided by experienced teachers in each field."}},
+    {"ikon": "🏫", "judul": {"id": "Naungan Telkom", "en": "Telkom Backing"}, "teks": {"id": "Berada di bawah Yayasan Pendidikan Telkom.", "en": "Part of the Telkom Education Foundation."}},
+    {"ikon": "🏆", "judul": {"id": "Lomba & Ekskul", "en": "Contests & Clubs"}, "teks": {"id": "Ekstrakurikuler teknologi dan kesempatan mengikuti lomba.", "en": "Technology clubs and chances to join competitions."}}
+   ]
+  },
+  {
+   "tipe": "tautan", "id": "terkait",
+   "label": {"id": "JELAJAHI JUGA", "en": "EXPLORE MORE"},
+   "judul": {"id": "Lanjutkan Menjelajah", "en": "Keep Exploring"},
+   "item": [
+    {"ikon": "🎯", "judul": {"id": "Ekstrakurikuler", "en": "Extracurriculars"}, "teks": {"id": "Kembangkan minat dan bakat di luar kelas.", "en": "Grow your interests beyond the classroom."}, "link": "ekstrakurikuler.html"},
+    {"ikon": "🏆", "judul": {"id": "Prestasi", "en": "Achievements"}, "teks": {"id": "Prestasi siswa di berbagai tingkat.", "en": "Student achievements at many levels."}, "link": "prestasi.html"},
+    {"ikon": "🔬", "judul": {"id": "Lab Tour", "en": "Lab Tour"}, "teks": {"id": "Lihat fasilitas laboratorium kami.", "en": "See our laboratory facilities."}, "link": "lab-tour.html"},
+    {"ikon": "📝", "judul": {"id": "PPDB", "en": "Admissions"}, "teks": {"id": "Mulai perjalananmu sekarang.", "en": "Start your journey today."}, "link": "ppdb.html"}
+   ]
+  }
+ ]
+}

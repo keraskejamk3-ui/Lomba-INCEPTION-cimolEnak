@@ -1,0 +1,272 @@
+{
+  "meta": {
+    "title": {
+      "id": "International Class Program | SMK Telkom Malang",
+      "en": "International Class Program | SMK Telkom Malang"
+    }
+  },
+
+  "hero": {
+    "kicker": { "id": "International Class Program", "en": "International Class Program" },
+    "pre": { "id": "Siap Menjadi", "en": "Get Ready to Become" },
+    "big": { "id": "Global Digitalent!", "en": "A Global Digitalent!" },
+    "text": {
+      "id": "Kelas internasional SMK Telkom Malang: belajar bilingual, persiapan sertifikasi internasional, dan jalur lanjut ke luar negeri atau karier global.",
+      "en": "SMK Telkom Malang's international class: bilingual learning, international certification preparation, and pathways to study or work abroad."
+    },
+    "badge": { "id": "Kursi Terbatas", "en": "Limited Seat" },
+    "cta_primary": { "id": "Daftar Sekarang", "en": "Secure Your Seat Now" },
+    "cta_secondary": { "id": "Lihat Perjalanan Belajar", "en": "See the Learning Journey" },
+    "map_label": {
+      "id": "Peta alumni International Class di berbagai negara",
+      "en": "Map of International Class alumni around the world"
+    },
+    "pins": [
+      { "name": "USA", "x": 9.7, "y": 6.3, "side": "up" },
+      { "name": { "id": "Irlandia", "en": "Ireland" }, "x": 22, "y": 3.8, "side": "left" },
+      { "name": { "id": "Rusia", "en": "Russia" }, "x": 28.7, "y": 3.7, "side": "up" },
+      { "name": { "id": "Tiongkok", "en": "China" }, "x": 38, "y": 6.9, "side": "right" },
+      { "name": "India", "x": 34.4, "y": 9, "side": "left" },
+      { "name": { "id": "Singapura", "en": "Singapore" }, "x": 37.5, "y": 12.5, "side": "down" }
+    ]
+  },
+
+  "kompetensi": {
+    "title": { "id": "Kompetensi Keahlian di Moklet", "en": "Vocational Competencies at Moklet" },
+    "lead": {
+      "id": "Tiga program keahlian yang bisa dipilih siswa International Class.",
+      "en": "Three vocational programs International Class students can choose from."
+    },
+    "label": { "id": "Bidang keahlian", "en": "Expertise" },
+    "items": [
+      {
+        "icon": "💻",
+        "name": "Software Engineering",
+        "local": "Rekayasa Perangkat Lunak (RPL)",
+        "skills": ["Full-stack Developer", "Back-end Developer", "Front-end Developer", "Mobile App Developer", "UI/UX Designer"]
+      },
+      {
+        "icon": "🛡️",
+        "name": "Computer & Network Engineering",
+        "local": "Teknik Komputer Jaringan (TKJ)",
+        "skills": ["Cyber Security", "Cloud Computing", "IT Network and Service Administrator"]
+      },
+      {
+        "icon": "🎮",
+        "name": "Game Development",
+        "local": "Pengembangan Gim (PG)",
+        "skills": ["Game Art", "Game Programming"]
+      }
+    ]
+  },
+
+  "portofolio": {
+    "title": { "id": "Student Portfolio", "en": "Student Portfolio" },
+    "lead": {
+      "id": "Satu portofolio, banyak pengalaman global. Beberapa capaian siswa International Class.",
+      "en": "One portfolio, many global experiences. Selected achievements of International Class students."
+    },
+    "items": [
+      {
+        "tag": { "id": "Program Pemenang FIKSI", "en": "FIKSI Winner Program" },
+        "title": { "id": "Sakura Science High School Student Exchange di Jepang", "en": "Sakura Science High School Student Exchange in Japan" },
+        "status": { "id": "Dibiayai Penuh", "en": "Fully Funded" },
+        "names": ["Arsyad Ali Mahardika"]
+      },
+      {
+        "tag": { "id": "Cyber Security", "en": "Cyber Security" },
+        "title": { "id": "Cyber Defense Academy di India", "en": "Cyber Defense Academy in India" },
+        "status": { "id": "Dibiayai Penuh", "en": "Fully Funded" },
+        "names": ["M. Syamil Muwahid", "M. Zuhair Zuhdi"]
+      },
+      {
+        "tag": { "id": "Forum Internasional", "en": "International Forum" },
+        "title": { "id": "International Youth Summit #9 di Singapura dan Malaysia", "en": "International Youth Summit #9 in Singapore and Malaysia" },
+        "status": { "id": "Delegasi Resmi", "en": "Official Delegate" },
+        "names": ["Aisyah Thalita Shaqirah"]
+      },
+      {
+        "tag": { "id": "Artificial Intelligence", "en": "Artificial Intelligence" },
+        "title": { "id": "ASEAN Youth Camp di Thailand", "en": "ASEAN Youth Camp in Thailand" },
+        "status": { "id": "AI Hackathon", "en": "AI Hackathon" },
+        "names": ["Shabri Sebastian Siregar", "M. Keefa Syawal", "Fatimah Aqilah Zarrah", "Sophie Nabila Putri"]
+      }
+    ]
+  },
+
+  "journey": {
+    "title": { "id": "Perjalanan Belajar di Moklet", "en": "Learning Journey at Moklet" },
+    "lead": {
+      "id": "Tiga tahun yang disusun bertahap, dari fondasi bahasa sampai pilihan jalur masa depan.",
+      "en": "Three years built step by step, from language foundations to future pathways."
+    },
+    "grade_label": { "id": "Kelas", "en": "Grade" },
+    "grades": [
+      {
+        "grade": "10",
+        "title": { "id": "Membangun fondasi pemimpin digital global", "en": "Building the Foundation for Global Digital Leaders" },
+        "items": [
+          { "id": "Sistem pembelajaran bilingual", "en": "Bilingual Learning System" },
+          { "id": "Pengembangan listening & speaking intensif", "en": "Intensive Listening & Speaking Development" },
+          { "id": "Produksi konten berbahasa Inggris", "en": "English Content Production" },
+          { "id": "English Immersion Camp", "en": "English Immersion Camp" },
+          { "id": "Program akademik global dan nasional terpadu", "en": "Integrated Global and National Academic Program" }
+        ]
+      },
+      {
+        "grade": "11",
+        "title": { "id": "Eksplorasi keahlian & penguatan kompetensi", "en": "Expertise Exploration & Competency Strengthening" },
+        "items": [
+          { "id": "Sistem pembelajaran bilingual tingkat lanjut", "en": "Advanced Bilingual Learning System" },
+          { "id": "Program komunikasi global dan penguasaan bahasa Inggris", "en": "Global Communication and English Mastery Program" },
+          { "id": "Program studi akademik di luar negeri", "en": "Overseas Academic Study Program" },
+          { "id": "Program pertukaran pelajar global", "en": "Global Student Exchange Program" },
+          { "id": "Program sertifikasi internasional", "en": "International Certification Program" },
+          { "id": "Guru penutur asli bahasa Inggris", "en": "Native English-Speaking Teachers" },
+          { "id": "Program akademik global dan nasional terpadu", "en": "Integrated Global and National Academic Program" }
+        ]
+      },
+      {
+        "grade": "12",
+        "title": { "id": "Banyak jalur menuju sukses", "en": "Multiple Pathways to Success" },
+        "items": [
+          { "id": "Program persiapan studi ke luar negeri", "en": "Study Abroad Preparation Program" },
+          { "id": "Program persiapan karier global", "en": "Global Career Preparation Program" },
+          { "id": "Program magang internasional", "en": "International Internship Program" },
+          { "id": "Persiapan masuk instansi pemerintah", "en": "Government Institution Entrance Preparation Program" },
+          { "id": "Program akademik global dan nasional terpadu", "en": "Integrated Global and National Academic Program" }
+        ]
+      }
+    ]
+  },
+
+  "jadwal": {
+    "items": [
+      { "label": { "id": "Pendaftaran Terakhir", "en": "Last Registration" }, "date": "2026-06-05" },
+      { "label": { "id": "Tes Masuk", "en": "Entrance Test" }, "date": "2026-06-06" }
+    ],
+    "closed": { "id": "Telah berakhir", "en": "Ended" },
+    "closed_note": {
+      "id": "Jadwal ini sudah lewat. Pantau halaman PPDB untuk jadwal gelombang berikutnya.",
+      "en": "This schedule has passed. Check the PPDB page for the next intake."
+    }
+  },
+
+  "syarat": {
+    "title": { "id": "Syarat Pendaftaran", "en": "Admission Requirements" },
+    "items": [
+      {
+        "title": { "id": "Siswa kelas 9", "en": "Grade 9 Student" },
+        "note": { "id": "SMP/MTs atau sederajat", "en": "SMP/MTs or equivalent" }
+      },
+      {
+        "title": { "id": "Mengisi formulir pendaftaran", "en": "Complete Registration Form" },
+        "note": {
+          "id": "Pas foto, Kartu Keluarga (KK), akta kelahiran, rapor (semester 1–5), surat keterangan sehat, surat keterangan berkelakuan baik",
+          "en": "Passport-size photograph, Family Card (KK), Birth Certificate, Academic report (Semester 1–5), Medical Certificate, Certificate of Good Conduct"
+        }
+      },
+      { "title": { "id": "Menyerahkan rapor", "en": "Submit Academic Report" } },
+      { "title": { "id": "Lolos proses seleksi", "en": "Pass the Selection Process" } }
+    ]
+  },
+
+  "seleksi": {
+    "title": { "id": "Proses Seleksi", "en": "Selection Process" },
+    "items": [
+      { "id": "Tes kemampuan bahasa Inggris", "en": "English Proficiency Test" },
+      { "id": "Tes kompetensi matematika", "en": "Mathematics Competency Test" },
+      { "id": "Asesmen psikologi", "en": "Psychological Assessment" },
+      { "id": "Wawancara siswa", "en": "Student Interview" },
+      { "id": "Wawancara orang tua", "en": "Parent Interview" },
+      { "id": "Tes kebugaran bertahap (Beep Test)", "en": "Multi-Stage Fitness Test (Beep Test)" }
+    ]
+  },
+
+  "biaya": {
+    "title": { "id": "Biaya Pendidikan", "en": "Tuition & Education Investment" },
+    "contribution": {
+      "label": { "id": "Uang Pengembangan Pendidikan", "en": "Education Development Contribution" },
+      "amount": 27800000,
+      "note": {
+        "id": "Mencakup uang gedung, SPP Juli, paket seragam sekolah, program orientasi siswa, dan asuransi siswa. Seluruh biaya penting tahun pertama sudah termasuk dalam kontribusi ini.",
+        "en": "Covers the institutional fee, July tuition, school uniform package, student orientation program, and student insurance. All essential first-year fees are included in this contribution."
+      }
+    },
+    "monthly": { "label": { "id": "SPP per Bulan", "en": "Monthly Tuition Fee (SPP)" }, "amount": 850000 },
+    "admission": { "label": { "id": "Biaya Pendaftaran", "en": "Admission Fee" }, "amount": 250000 },
+    "reapply": {
+      "id": "Pernah diterima sebelumnya? Daftar ulang dengan akses prioritas.",
+      "en": "Previously accepted? Reapply with priority access."
+    },
+    "cta": { "id": "Daftar di PPDB", "en": "Register at PPDB" },
+    "wa_cta": { "id": "Tanya via WhatsApp", "en": "Ask on WhatsApp" },
+    "wa": "6281223488999",
+    "ppdb_url": "ppdb.html"
+  },
+
+  "pakar": {
+    "title": { "id": "Kenali Pakar IT Global Kami", "en": "Meet Our Global IT Experts" },
+    "lead": {
+      "id": "Alumni Moklet yang kini berkarier dan kuliah di berbagai negara.",
+      "en": "Moklet alumni now working and studying in different countries."
+    },
+    "batch": { "id": "Angkatan", "en": "Batch" },
+    "items": [
+      {
+        "name": "Andika Kurniantoro",
+        "batch": 13,
+        "role": { "id": "Cloud Platform Engineer", "en": "Cloud Platform Engineer" },
+        "org": "Apple",
+        "country": { "id": "Singapura", "en": "Singapore" },
+        "photo": "img/international/andika.jpg"
+      },
+      {
+        "name": "Noval Agung P.",
+        "batch": 18,
+        "role": { "id": "CTO", "en": "CTO" },
+        "org": "KangarooHealth Inc",
+        "country": { "id": "Amerika Serikat", "en": "USA" },
+        "photo": "img/international/noval.jpg"
+      },
+      {
+        "name": "Ibani M. Hillabi",
+        "batch": 31,
+        "role": { "id": "Mahasiswa Matematika dan Ilmu Komputer", "en": "Math and Computer Science" },
+        "org": "Kazan Federal University",
+        "country": { "id": "Rusia", "en": "Russia" },
+        "photo": "img/international/ibani.jpg"
+      },
+      {
+        "name": "Cantik Prameswari",
+        "batch": 31,
+        "role": { "id": "Mahasiswa Ilmu Komputer", "en": "Computer Science" },
+        "org": "National College of Ireland",
+        "country": { "id": "Irlandia", "en": "Ireland" },
+        "photo": "img/international/cantik.jpg"
+      }
+    ]
+  },
+
+  "fitur": {
+    "title": { "id": "Apa Saja di International Class?", "en": "What's in International Class?" },
+    "items": [
+      { "icon": "🌏", "id": "Wawasan internasional & perspektif global", "en": "International Exposure & Global Perspective" },
+      { "icon": "🏅", "id": "Persiapan sertifikasi internasional", "en": "International Certification Preparation" },
+      { "icon": "🧭", "id": "Coaching kepemimpinan & pola pikir global", "en": "Leadership & Global Mindset Coaching" },
+      { "icon": "🗂️", "id": "Pengembangan proyek & portofolio global", "en": "Global Project & Portfolio Development" },
+      { "icon": "🚀", "id": "Program jalur masa depan global", "en": "Global Future Pathway Program" },
+      { "icon": "🤝", "id": "Penasihat karier pribadi", "en": "Personal Career Advisor" },
+      { "icon": "🗣️", "id": "Lingkungan belajar bahasa Inggris imersif", "en": "Immersive English Learning Environment" },
+      { "icon": "👥", "id": "Sistem kelas kecil", "en": "Small Class System" },
+      { "icon": "💬", "id": "Program komunikasi strategis global", "en": "Global Strategic Communication Program" }
+    ]
+  },
+
+  "kontak": {
+    "web": "ppdb.smktelkom-mlg.sch.id",
+    "instagram": "@smktelkommalang",
+    "phone": "(0341) 712500",
+    "wa_display": "0812-2348-8999"
+  }
+}

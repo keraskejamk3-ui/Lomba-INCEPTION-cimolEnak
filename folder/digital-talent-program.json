@@ -1,0 +1,531 @@
+{
+ "_petunjuk": "Bagian halaman diatur di 'bagian' (tipe: kartu, mitra, langkah, daftar, cta). Tambah/ubah isinya, perhatikan koma dan tanda kutip. Tipe bagian: marquee, sorotan, kartu, daftar, langkah, mitra, kutipan, tautan, cta. Tambah \"gelap\": true di satu bagian untuk latar gelap.",
+ "hero": {
+  "gambar": "img/sekolah.jpg",
+  "alt": {
+   "id": "Gedung SMK Telkom Malang",
+   "en": "SMK Telkom Malang building"
+  },
+  "label": {
+   "id": "DIGITAL TALENT PROGRAM",
+   "en": "DIGITAL TALENT PROGRAM"
+  },
+  "judul_awal": {
+   "id": "Dibina Bersama",
+   "en": "Nurtured with"
+  },
+  "judul_sorot": {
+   "id": "Industri",
+   "en": "Industry"
+  },
+  "judul_akhir": {
+   "id": "Menjadi Talenta Digital.",
+   "en": "into Digital Talents."
+  },
+  "deskripsi": {
+   "id": "Pembinaan talenta digital bersama industri, dengan pembelajaran berbasis teknologi terkini.",
+   "en": "Digital talent development together with industry, powered by current technology."
+  },
+  "ikon": "🚀",
+  "tombol": [
+   {
+    "teks": {
+     "id": "Kenali Programnya",
+     "en": "Explore the Program"
+    },
+    "link": "#alur",
+    "gaya": "primary"
+   },
+   {
+    "teks": {
+     "id": "Daftar PPDB",
+     "en": "Apply Now"
+    },
+    "link": "ppdb.html",
+    "gaya": "ghost"
+   }
+  ],
+  "ikon_kecil": [
+   "💻",
+   "☁️",
+   "🔐",
+   "🎮"
+  ],
+  "jejak": [
+   {
+    "teks": {
+     "id": "Beranda",
+     "en": "Home"
+    },
+    "link": "index.html"
+   },
+   {
+    "teks": {
+     "id": "Program",
+     "en": "Programs"
+    },
+    "link": "program.html"
+   },
+   {
+    "teks": {
+     "id": "Digital Talent Program",
+     "en": "Digital Talent Program"
+    }
+   }
+  ]
+ },
+ "ringkasan": {
+  "_catatan": "3 Program Keahlian dan Akreditasi A mengikuti data di situs sekolah (guru.json & beranda). Mohon cek bila ada perubahan.",
+  "item": [
+   {
+    "ikon": "💻",
+    "angka": 3,
+    "label": {
+     "id": "Program Keahlian",
+     "en": "Skill Programs"
+    }
+   },
+   {
+    "ikon": "✅",
+    "angka": "A",
+    "label": {
+     "id": "Akreditasi Sekolah (Unggul)",
+     "en": "School Accreditation (Excellent)"
+    }
+   },
+   {
+    "ikon": "🏫",
+    "angka": "Telkom",
+    "label": {
+     "id": "Di bawah Yayasan Pendidikan Telkom",
+     "en": "Under Telkom Education Foundation"
+    }
+   }
+  ]
+ },
+ "bagian": [
+  {
+   "tipe": "marquee",
+   "item": [
+    {
+     "id": "Rekayasa Perangkat Lunak",
+     "en": "Software Engineering"
+    },
+    {
+     "id": "Teknik Komputer & Jaringan",
+     "en": "Computer & Network Engineering"
+    },
+    {
+     "id": "Pengembangan Gim",
+     "en": "Game Development"
+    },
+    {
+     "id": "Pemrograman Web",
+     "en": "Web Programming"
+    },
+    {
+     "id": "Keamanan Siber",
+     "en": "Cyber Security"
+    },
+    {
+     "id": "Basis Data",
+     "en": "Databases"
+    },
+    {
+     "id": "Talenta Digital",
+     "en": "Digital Talent"
+    }
+   ]
+  },
+  {
+   "tipe": "sorotan",
+   "id": "sorotan",
+   "label": {
+    "id": "TENTANG PROGRAM",
+    "en": "ABOUT THE PROGRAM"
+   },
+   "judul": {
+    "id": "Dari Ruang Kelas ke Dunia Industri",
+    "en": "From the Classroom to Industry"
+   },
+   "teks": {
+    "id": "Digital Talent Program memadukan pembelajaran berbasis teknologi terkini, praktik di laboratorium, dan kolaborasi dengan mitra industri agar kamu siap kerja, kuliah, atau berwirausaha.",
+    "en": "The Digital Talent Program blends current technology-driven learning, lab practice, and collaboration with industry partners so you are ready to work, study, or start a business."
+   },
+   "poin": [
+    {
+     "id": "Pembelajaran berbasis teknologi terkini",
+     "en": "Learning powered by current technology"
+    },
+    {
+     "id": "Praktik di laboratorium sesuai kebutuhan industri",
+     "en": "Lab practice matched to industry needs"
+    },
+    {
+     "id": "Kolaborasi dengan mitra industri",
+     "en": "Collaboration with industry partners"
+    },
+    {
+     "id": "Didukung jaringan alumni",
+     "en": "Backed by the alumni network"
+    }
+   ],
+   "ikon": "🚀",
+   "warna": 1,
+   "chip": [
+    {
+     "id": "Teknologi",
+     "en": "Technology"
+    },
+    {
+     "id": "Industri",
+     "en": "Industry"
+    },
+    {
+     "id": "Alumni",
+     "en": "Alumni"
+    }
+   ],
+   "tombol": {
+    "teks": {
+     "id": "Lihat Program Keahlian",
+     "en": "View Majors"
+    },
+    "link": "program.html#jurusan",
+    "gaya": "primary"
+   }
+  },
+  {
+   "tipe": "kartu",
+   "id": "keunggulan",
+   "label": {
+    "id": "KEUNGGULAN",
+    "en": "HIGHLIGHTS"
+   },
+   "judul": {
+    "id": "Belajar Langsung dari Dunia Industri",
+    "en": "Learn Straight from Industry"
+   },
+   "_periksa": "Isi awal ini disusun dari teks situs dan perlu dicek/disesuaikan dengan kondisi sekolah, lalu hapus baris ini.",
+   "item": [
+    {
+     "ikon": "🤝",
+     "judul": {
+      "id": "Kolaborasi Industri",
+      "en": "Industry Collaboration"
+     },
+     "teks": {
+      "id": "Berkolaborasi dengan mitra industri.",
+      "en": "Collaborate with industry partners."
+     }
+    },
+    {
+     "ikon": "💻",
+     "judul": {
+      "id": "Teknologi Terkini",
+      "en": "Current Technology"
+     },
+     "teks": {
+      "id": "Pembelajaran berbasis teknologi terkini.",
+      "en": "Learning powered by current technology."
+     }
+    },
+    {
+     "ikon": "💡",
+     "judul": {
+      "id": "Proyek Nyata",
+      "en": "Real Projects"
+     },
+     "teks": {
+      "id": "Praktik langsung lewat proyek yang dekat dengan kebutuhan industri.",
+      "en": "Hands-on practice through industry-relevant projects."
+     }
+    },
+    {
+     "ikon": "🎓",
+     "judul": {
+      "id": "Siap Melangkah",
+      "en": "Ready to Go"
+     },
+     "teks": {
+      "id": "Siap bekerja, kuliah, atau berwirausaha, didukung jaringan alumni.",
+      "en": "Ready to work, study, or start a business, backed by alumni."
+     }
+    }
+   ]
+  },
+  {
+   "tipe": "langkah",
+   "id": "alur",
+   "label": {
+    "id": "ALUR PROGRAM",
+    "en": "PROGRAM FLOW"
+   },
+   "judul": {
+    "id": "Perjalanan di Digital Talent Program",
+    "en": "Your Digital Talent Journey"
+   },
+   "item": [
+    {
+     "judul": {
+      "id": "Bergabung",
+      "en": "Join"
+     },
+     "teks": {
+      "id": "Daftar lewat PPDB dan pilih program keahlian yang sesuai minatmu.",
+      "en": "Apply through admissions and choose the major that fits your interests."
+     }
+    },
+    {
+     "judul": {
+      "id": "Belajar & Praktik",
+      "en": "Learn & Practice"
+     },
+     "teks": {
+      "id": "Kuasai teori dan praktik lewat pembelajaran berbasis teknologi terkini.",
+      "en": "Master theory and practice through technology-driven learning."
+     }
+    },
+    {
+     "judul": {
+      "id": "Bersama Industri",
+      "en": "With Industry"
+     },
+     "teks": {
+      "id": "Ikuti program dan berkolaborasi dengan mitra industri.",
+      "en": "Join the program and collaborate with industry partners."
+     }
+    },
+    {
+     "judul": {
+      "id": "Siap Melangkah",
+      "en": "Ready to Go"
+     },
+     "teks": {
+      "id": "Lulus siap kerja, kuliah, atau berwirausaha.",
+      "en": "Graduate ready to work, study, or start a business."
+     }
+    }
+   ]
+  },
+  {
+   "tipe": "mitra",
+   "id": "mitra",
+   "label": {
+    "id": "MITRA",
+    "en": "PARTNERS"
+   },
+   "judul": {
+    "id": "Mitra Teknologi & Industri",
+    "en": "Technology & Industry Partners"
+   },
+   "sub": {
+    "id": "Perusahaan dan institusi yang berkolaborasi dengan SMK Telkom Malang.",
+    "en": "Companies and institutions collaborating with SMK Telkom Malang."
+   },
+   "item": [
+    {
+     "nama": "Telkom Indonesia"
+    },
+    {
+     "nama": "Telkom University"
+    },
+    {
+     "nama": "Telkom Akses"
+    },
+    {
+     "nama": "Cisco"
+    },
+    {
+     "nama": "ITC"
+    },
+    {
+     "nama": "Global Xtreme"
+    },
+    {
+     "nama": "Livin Mandiri"
+    },
+    {
+     "nama": "Merkle Innovation"
+    },
+    {
+     "nama": "Alibaba"
+    },
+    {
+     "nama": "DOT"
+    },
+    {
+     "nama": "Wahana Artha"
+    },
+    {
+     "nama": "Telkomsel"
+    },
+    {
+     "nama": "Telkomsigma"
+    },
+    {
+     "nama": "Indico"
+    },
+    {
+     "nama": "Mitrael"
+    },
+    {
+     "nama": "Fortinet"
+    },
+    {
+     "nama": "Boxhill Institute"
+    },
+    {
+     "nama": "Jagoan Hosting"
+    },
+    {
+     "nama": "Sevima (Education Platform for Universities)"
+    },
+    {
+     "nama": "Lenovo"
+    },
+    {
+     "nama": "Information Technology Specialist"
+    },
+    {
+     "nama": "Kominfo Jatim"
+    }
+   ],
+   "gelap": true,
+   "sumber": "data/mitra.json"
+  },
+  {
+   "tipe": "kutipan",
+   "id": "sambutan",
+   "label": {
+    "id": "KEPALA SEKOLAH",
+    "en": "PRINCIPAL"
+   },
+   "teks": {
+    "id": "Mari terhubung, berinteraksi, dan berkarya bersama demi kemajuan anak bangsa.",
+    "en": "Let's connect, interact, and create together for the nation's progress."
+   },
+   "nama": "Rahmat Dwi Djatmiko, S.Kom., M.M.",
+   "jabatan": {
+    "id": "Kepala SMK Telkom Malang",
+    "en": "Principal of SMK Telkom Malang"
+   }
+  },
+  {
+   "tipe": "tautan",
+   "id": "terkait",
+   "label": {
+    "id": "JELAJAHI JUGA",
+    "en": "EXPLORE MORE"
+   },
+   "judul": {
+    "id": "Kenali Lebih Dekat SMK Telkom Malang",
+    "en": "Get to Know SMK Telkom Malang"
+   },
+   "item": [
+    {
+     "ikon": "💻",
+     "judul": {
+      "id": "Program Keahlian",
+      "en": "Majors"
+     },
+     "teks": {
+      "id": "Pilih program keahlian yang sesuai minatmu.",
+      "en": "Choose the major that fits your interests."
+     },
+     "link": "program.html#jurusan"
+    },
+    {
+     "ikon": "🔬",
+     "judul": {
+      "id": "Lab Tour",
+      "en": "Lab Tour"
+     },
+     "teks": {
+      "id": "Lihat langsung ruang praktik dan suasana belajar.",
+      "en": "See the practice rooms and learning atmosphere for yourself."
+     },
+     "link": "lab-tour.html"
+    },
+    {
+     "ikon": "🏆",
+     "judul": {
+      "id": "Prestasi",
+      "en": "Achievements"
+     },
+     "teks": {
+      "id": "Prestasi siswa di tingkat provinsi, nasional, dan internasional.",
+      "en": "Student achievements at provincial, national, and international levels."
+     },
+     "link": "prestasi.html"
+    },
+    {
+     "ikon": "📝",
+     "judul": {
+      "id": "PPDB",
+      "en": "Admissions"
+     },
+     "teks": {
+      "id": "Pendaftaran telah dibuka. Mulai perjalananmu sekarang.",
+      "en": "Admissions are open. Start your journey today."
+     },
+     "link": "ppdb.html"
+    }
+   ]
+  },
+  {
+   "tipe": "tanya",
+   "id": "tanya",
+   "label": {
+    "id": "MASIH BINGUNG?",
+    "en": "STILL UNSURE?"
+   },
+   "judul": {
+    "id": "Tanya Bombi, Asisten Virtual Kami",
+    "en": "Ask Bombi, Our Virtual Assistant"
+   },
+   "teks": {
+    "id": "Bombi siap menjawab seputar jurusan, PPDB, dan fasilitas SMK Telkom Malang.",
+    "en": "Bombi is ready to answer questions about majors, admissions, and facilities at SMK Telkom Malang."
+   },
+   "tombol_bot": {
+    "id": "Tanya Bombi",
+    "en": "Ask Bombi"
+   },
+   "tombol": {
+    "teks": {
+     "id": "Hubungi Kami",
+     "en": "Contact Us"
+    },
+    "link": "kontak.html",
+    "gaya": "ghost"
+   },
+   "gelembung": {
+    "id": "Halo! 👋",
+    "en": "Hi! 👋"
+   }
+  }
+ ],
+ "ui": {
+  "semua": {
+   "id": "Semua",
+   "en": "All"
+  },
+  "cari": {
+   "id": "Cari nama atau bidang…",
+   "en": "Search name or field…"
+  },
+  "menampilkan": {
+   "id": "Menampilkan {n} kegiatan",
+   "en": "Showing {n} items"
+  },
+  "kosong": {
+   "id": "Tidak ada yang cocok dengan pencarian.",
+   "en": "No match for your search."
+  },
+  "reset": {
+   "id": "Reset pencarian",
+   "en": "Reset filters"
+  }
+ }
+}

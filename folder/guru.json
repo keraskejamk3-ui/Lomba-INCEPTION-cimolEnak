@@ -1,0 +1,806 @@
+{
+ "_petunjuk": "Tambah guru dengan menyalin satu blok di \"guru\" lalu ubah isinya. Ganti \"tampil\": false menjadi true (atau hapus barisnya) agar guru itu muncul. \"kelompok\" harus salah satu id di \"kelompok\" (pimpinan, rpl, tkj, pg, umum, tendik). Foto: isi \"foto\" (misalnya \"assets/img/guru/budi.jpg\", disarankan persegi 400x400); kalau kosong atau file tidak ada, kartu otomatis memakai inisial berwarna. Kepala sekolah diatur di bagian \"kepsek\". Perhatikan koma dan tanda kutip.",
+ "hero": {
+  "gambar": "img/sekolah.jpg",
+  "alt": {
+   "id": "Gedung SMK Telkom Malang",
+   "en": "SMK Telkom Malang building"
+  },
+  "label": {
+   "id": "GURU & TENAGA PENDIDIK",
+   "en": "TEACHERS & STAFF"
+  },
+  "judul_awal": {
+   "id": "Pendidik yang Membimbing",
+   "en": "Educators Who Guide"
+  },
+  "judul_sorot": {
+   "id": "Mokleters",
+   "en": "Mokleters"
+  },
+  "judul_akhir": {
+   "id": "Menjadi Talenta Digital.",
+   "en": "into Digital Talents."
+  },
+  "deskripsi": {
+   "id": "Guru dan tenaga kependidikan SMK Telkom Malang mendampingi siswa dengan kompetensi yang selalu mengikuti perkembangan industri teknologi.",
+   "en": "The teachers and staff of SMK Telkom Malang guide students with competence that keeps up with the technology industry."
+  },
+  "tombol": [
+   {
+    "teks": {
+     "id": "Kenali Para Guru",
+     "en": "Meet Our Teachers"
+    },
+    "link": "#daftar-guru",
+    "gaya": "primary"
+   },
+   {
+    "teks": {
+     "id": "Daftar Sekarang",
+     "en": "Apply Now"
+    },
+    "link": "ppdb.html",
+    "gaya": "ghost"
+   }
+  ]
+ },
+ "ringkasan": {
+  "_catatan": "Angka bersumber dari Data Pokok Pendidikan (Dapodik) yang dikutip portal smk.sch.id. Mohon cek dan perbarui bila berbeda dengan data sekolah saat ini.",
+  "item": [
+   {
+    "ikon": "👩‍🏫",
+    "angka": 55,
+    "label": {
+     "id": "Guru",
+     "en": "Teachers"
+    }
+   },
+   {
+    "ikon": "🧑‍💼",
+    "angka": 64,
+    "label": {
+     "id": "Pendidik & Tenaga Kependidikan",
+     "en": "Educators & Staff"
+    }
+   },
+   {
+    "ikon": "💻",
+    "angka": 3,
+    "label": {
+     "id": "Program Keahlian",
+     "en": "Skill Programs"
+    }
+   },
+   {
+    "ikon": "✅",
+    "angka": "A",
+    "label": {
+     "id": "Akreditasi Sekolah",
+     "en": "School Accreditation"
+    }
+   }
+  ]
+ },
+ "kepsek": {
+  "label": {
+   "id": "KEPALA SEKOLAH",
+   "en": "PRINCIPAL"
+  },
+  "foto": "kepsek.jpg",
+  "nama": "Rahmat Dwi Djatmiko, S.Kom., M.M.",
+  "jabatan": {
+   "id": "Kepala SMK Telkom Malang",
+   "en": "Principal of SMK Telkom Malang"
+  },
+  "kutipan": {
+   "id": "Mari terhubung, berinteraksi, dan berkarya bersama demi kemajuan anak bangsa.",
+   "en": "Let's connect, interact, and create together for the nation's progress."
+  },
+  "tombol": {
+   "teks": {
+    "id": "Baca Sambutan",
+    "en": "Read the Welcome"
+   },
+   "link": "index.html#video"
+  }
+ },
+ "mengapa": {
+  "label": {
+   "id": "KENAPA GURU KAMI?",
+   "en": "WHY OUR TEACHERS?"
+  },
+  "judul": {
+   "id": "Pendamping Terbaik di Setiap Langkah",
+   "en": "The Best Companions at Every Step"
+  },
+  "sub": {
+   "id": "Lebih dari sekadar mengajar: membimbing kompetensi, prestasi, dan karakter.",
+   "en": "More than teaching: guiding competence, achievement, and character."
+  },
+  "item": [
+   {
+    "ikon": "🔄",
+    "judul": {
+     "id": "Selalu Up-to-date",
+     "en": "Always Up to Date"
+    },
+    "teks": {
+     "id": "Mengikuti perkembangan industri agar materi di kelas tetap relevan.",
+     "en": "Keeping pace with the industry so classroom material stays relevant."
+    }
+   },
+   {
+    "ikon": "🏆",
+    "judul": {
+     "id": "Pembimbing Prestasi",
+     "en": "Achievement Coaches"
+    },
+    "teks": {
+     "id": "Mendampingi siswa dalam lomba kompetensi dari tingkat provinsi hingga nasional.",
+     "en": "Coaching students in skills competitions from provincial to national levels."
+    }
+   },
+   {
+    "ikon": "🌱",
+    "judul": {
+     "id": "Pembentuk Karakter",
+     "en": "Character Builders"
+    },
+    "teks": {
+     "id": "Menanamkan nilai Mokleters: berani, berintegritas, dan melayani.",
+     "en": "Instilling Mokleters' values: brave, full of integrity, and service-minded."
+    }
+   },
+   {
+    "ikon": "🤝",
+    "judul": {
+     "id": "Terhubung dengan Industri",
+     "en": "Connected to Industry"
+    },
+    "teks": {
+     "id": "Berkolaborasi dengan mitra industri untuk membawa pengalaman dunia kerja ke kelas.",
+     "en": "Collaborating with industry partners to bring real-world experience into the classroom."
+    }
+   }
+  ]
+ },
+ "marquee": [
+  {"id": "Rekayasa Perangkat Lunak", "en": "Software Engineering"},
+  {"id": "Teknik Komputer & Jaringan", "en": "Computer & Network Engineering"},
+  {"id": "Pengembangan Gim", "en": "Game Development"},
+  {"id": "Pemrograman Web", "en": "Web Programming"},
+  {"id": "Keamanan Siber", "en": "Cyber Security"},
+  {"id": "Basis Data", "en": "Databases"},
+  {"id": "Talenta Digital", "en": "Digital Talent"}
+ ],
+ "tim": {
+  "label": {"id": "TIM PENDIDIK", "en": "OUR TEAMS"},
+  "judul": {"id": "Temukan Guru Berdasarkan Bidang", "en": "Find Teachers by Field"},
+  "sub": {"id": "Pilih satu bidang untuk langsung melihat guru-gurunya.", "en": "Pick a field to jump straight to its teachers."},
+  "tombol": {"id": "Lihat guru", "en": "View teachers"},
+  "segera": {"id": "Segera hadir", "en": "Coming soon"},
+  "satuan": {"id": "orang", "en": "people"}
+ },
+ "alur": {
+  "label": {"id": "CARA KAMI MENDAMPINGI", "en": "HOW WE GUIDE"},
+  "judul": {"id": "Dari Kelas Menuju Dunia Kerja", "en": "From Classroom to Career"},
+  "sub": {"id": "Empat langkah pendampingan yang diterapkan para guru. Silakan sesuaikan dengan praktik sekolah.", "en": "Four guidance steps our teachers follow. Please adjust to the school's actual practice."},
+  "item": [
+   {"judul": {"id": "Belajar Dasar yang Kuat", "en": "Strong Foundations"}, "teks": {"id": "Konsep inti dipelajari lewat materi yang selalu diperbarui.", "en": "Core concepts taught with continually updated material."}},
+   {"judul": {"id": "Praktik Langsung", "en": "Hands-on Practice"}, "teks": {"id": "Siswa mengerjakan proyek nyata di laboratorium.", "en": "Students build real projects in the lab."}},
+   {"judul": {"id": "Pendampingan Lomba", "en": "Competition Coaching"}, "teks": {"id": "Guru membimbing siswa berprestasi menuju lomba kompetensi.", "en": "Teachers coach high achievers toward skills competitions."}},
+   {"judul": {"id": "Siap Industri", "en": "Industry Ready"}, "teks": {"id": "Lulusan terbiasa dengan standar dan budaya kerja industri.", "en": "Graduates are used to industry standards and work culture."}}
+  ]
+ },
+ "daftar": {
+  "label": {
+   "id": "DIREKTORI",
+   "en": "DIRECTORY"
+  },
+  "judul": {
+   "id": "Kenali Guru dan Tenaga Kependidikan",
+   "en": "Meet Our Teachers and Staff"
+  },
+  "sub": {
+   "id": "Cari berdasarkan nama, jabatan, atau bidang yang diampu.",
+   "en": "Search by name, position, or subject area."
+  },
+  "pesan_lengkapi": {
+   "id": "Profil guru lainnya akan segera ditambahkan.",
+   "en": "More teacher profiles will be added soon."
+  }
+ },
+ "ui": {
+  "semua": {
+   "id": "Semua",
+   "en": "All"
+  },
+  "cari": {
+   "id": "Cari nama, jabatan, atau bidang…",
+   "en": "Search name, position, or subject…"
+  },
+  "menampilkan": {
+   "id": "Menampilkan {n} orang",
+   "en": "Showing {n} people"
+  },
+  "kosong": {
+   "id": "Tidak ada yang cocok dengan pencarian.",
+   "en": "No one matches your search."
+  },
+  "reset": {
+   "id": "Reset pencarian",
+   "en": "Reset filters"
+  },
+  "profil": {
+   "id": "Lihat Profil",
+   "en": "View Profile"
+  },
+  "tutup": {
+   "id": "Tutup",
+   "en": "Close"
+  },
+  "pendidikan": {
+   "id": "Pendidikan",
+   "en": "Education"
+  },
+  "bidang": {
+   "id": "Bidang yang diampu",
+   "en": "Subjects taught"
+  },
+  "tentang": {
+   "id": "Tentang",
+   "en": "About"
+  }
+ },
+ "kelompok": [
+  {
+   "id": "pimpinan",
+   "label": {
+    "id": "Pimpinan",
+    "en": "Leadership"
+   },
+   "ikon": "🧭"
+  },
+  {
+   "id": "rpl",
+   "label": {
+    "id": "Guru RPL",
+    "en": "Software Eng. Teachers"
+   },
+   "ikon": "💻"
+  },
+  {
+   "id": "tkj",
+   "label": {
+    "id": "Guru TKJ",
+    "en": "Network Eng. Teachers"
+   },
+   "ikon": "🌐"
+  },
+  {
+   "id": "pg",
+   "label": {
+    "id": "Guru Pengembangan Gim",
+    "en": "Game Dev. Teachers"
+   },
+   "ikon": "🎮"
+  },
+  {
+   "id": "umum",
+   "label": {
+    "id": "Mata Pelajaran Umum",
+    "en": "General Subjects"
+   },
+   "ikon": "📚"
+  },
+  {
+   "id": "tendik",
+   "label": {
+    "id": "Tenaga Kependidikan",
+    "en": "Support Staff"
+   },
+   "ikon": "🗂️"
+  }
+ ],
+ "guru": [
+  {
+   "nama": "Ifa Choirunnisa, S.Si., M.Pd.",
+   "kelompok": "pimpinan",
+   "jabatan": {
+    "id": "Wakil Kepala Sekolah Bidang Kurikulum",
+    "en": "Vice Principal for Curriculum"
+   },
+   "bidang": [
+    "Kurikulum"
+   ],
+   "pendidikan": "",
+   "foto": "",
+   "bio": {
+    "id": "",
+    "en": ""
+   },
+   "motto": {
+    "id": "",
+    "en": ""
+   },
+   "_periksa": "Nama, gelar, dan jabatan dibaca dari bagan struktur organisasi (smktelkom-mlg.sch.id/p/struktur-organisasi.html) yang teksnya kecil. Mohon cek ejaan nama dan gelar, lalu hapus baris ini."
+  },
+  {
+   "nama": "Drs. Bambang Siswantoro",
+   "kelompok": "pimpinan",
+   "jabatan": {
+    "id": "Wakil Kepala Sekolah Bidang Kesiswaan & Karakter",
+    "en": "Vice Principal for Student Affairs & Character"
+   },
+   "bidang": [
+    "Kesiswaan",
+    "Karakter"
+   ],
+   "pendidikan": "",
+   "foto": "",
+   "bio": {
+    "id": "",
+    "en": ""
+   },
+   "motto": {
+    "id": "",
+    "en": ""
+   },
+   "_periksa": "Nama, gelar, dan jabatan dibaca dari bagan struktur organisasi (smktelkom-mlg.sch.id/p/struktur-organisasi.html) yang teksnya kecil. Mohon cek ejaan nama dan gelar, lalu hapus baris ini."
+  },
+  {
+   "nama": "Qodir Akbar Wajdi, S.Kom.",
+   "kelompok": "pimpinan",
+   "jabatan": {
+    "id": "Wakil Kepala Sekolah Bidang Hubungan Industri & Komunikasi",
+    "en": "Vice Principal for Industry Relations & Communications"
+   },
+   "bidang": [
+    "Hubungan Industri",
+    "Komunikasi"
+   ],
+   "pendidikan": "",
+   "foto": "",
+   "bio": {
+    "id": "",
+    "en": ""
+   },
+   "motto": {
+    "id": "",
+    "en": ""
+   },
+   "_periksa": "Nama, gelar, dan jabatan dibaca dari bagan struktur organisasi (smktelkom-mlg.sch.id/p/struktur-organisasi.html) yang teksnya kecil. Mohon cek ejaan nama dan gelar, lalu hapus baris ini."
+  },
+  {
+   "nama": "M. Hadi Wijaya, S.Kom.",
+   "kelompok": "pimpinan",
+   "jabatan": {
+    "id": "Wakil Kepala Sekolah Bidang IT, Laboratorium & Sarpra",
+    "en": "Vice Principal for IT, Laboratories & Facilities"
+   },
+   "bidang": [
+    "IT",
+    "Laboratorium",
+    "Sarpra"
+   ],
+   "pendidikan": "",
+   "foto": "",
+   "bio": {
+    "id": "",
+    "en": ""
+   },
+   "motto": {
+    "id": "",
+    "en": ""
+   },
+   "_periksa": "Nama, gelar, dan jabatan dibaca dari bagan struktur organisasi (smktelkom-mlg.sch.id/p/struktur-organisasi.html) yang teksnya kecil. Mohon cek ejaan nama dan gelar, lalu hapus baris ini."
+  },
+  {
+   "nama": "Muhamad Arifin, M.Pd.",
+   "kelompok": "pimpinan",
+   "jabatan": {
+    "id": "Kaur. Quality Development Performance Management",
+    "en": "Head of Quality Development & Performance Management"
+   },
+   "bidang": [
+    "Quality Development",
+    "Performance Management"
+   ],
+   "pendidikan": "",
+   "foto": "",
+   "bio": {
+    "id": "",
+    "en": ""
+   },
+   "motto": {
+    "id": "",
+    "en": ""
+   },
+   "_periksa": "Nama, gelar, dan jabatan dibaca dari bagan struktur organisasi (smktelkom-mlg.sch.id/p/struktur-organisasi.html) yang teksnya kecil. Mohon cek ejaan nama dan gelar, lalu hapus baris ini."
+  },
+  {
+   "nama": "Rendi Luabiantoro, M.Pd.",
+   "kelompok": "pimpinan",
+   "jabatan": {
+    "id": "Kaur. Pengembangan Kursilmat",
+    "en": "Head of Kursilmat Development"
+   },
+   "bidang": [
+    "Pengembangan Kursilmat"
+   ],
+   "pendidikan": "",
+   "foto": "",
+   "bio": {
+    "id": "",
+    "en": ""
+   },
+   "motto": {
+    "id": "",
+    "en": ""
+   },
+   "_periksa": "Nama, gelar, dan jabatan dibaca dari bagan struktur organisasi (smktelkom-mlg.sch.id/p/struktur-organisasi.html) yang teksnya kecil. Mohon cek ejaan nama dan gelar, lalu hapus baris ini."
+  },
+  {
+   "nama": "Lanasati Chairun Nisa, S.Pd.",
+   "kelompok": "pimpinan",
+   "jabatan": {
+    "id": "Kaur. Pembelajaran & Perpustakaan",
+    "en": "Head of Learning & Library"
+   },
+   "bidang": [
+    "Pembelajaran",
+    "Perpustakaan"
+   ],
+   "pendidikan": "",
+   "foto": "",
+   "bio": {
+    "id": "",
+    "en": ""
+   },
+   "motto": {
+    "id": "",
+    "en": ""
+   },
+   "_periksa": "Nama, gelar, dan jabatan dibaca dari bagan struktur organisasi (smktelkom-mlg.sch.id/p/struktur-organisasi.html) yang teksnya kecil. Mohon cek ejaan nama dan gelar, lalu hapus baris ini."
+  },
+  {
+   "nama": "Ahmad Nasikin, M.Pd.",
+   "kelompok": "pimpinan",
+   "jabatan": {
+    "id": "Kaur. Bimbingan Konseling & Karakter",
+    "en": "Head of Counseling & Character"
+   },
+   "bidang": [
+    "Bimbingan Konseling",
+    "Karakter"
+   ],
+   "pendidikan": "",
+   "foto": "",
+   "bio": {
+    "id": "",
+    "en": ""
+   },
+   "motto": {
+    "id": "",
+    "en": ""
+   },
+   "_periksa": "Nama, gelar, dan jabatan dibaca dari bagan struktur organisasi (smktelkom-mlg.sch.id/p/struktur-organisasi.html) yang teksnya kecil. Mohon cek ejaan nama dan gelar, lalu hapus baris ini."
+  },
+  {
+   "nama": "Adi Nurrachman, S.T., M.Kom., Gr.",
+   "kelompok": "pimpinan",
+   "jabatan": {
+    "id": "Kaur. Ekstrakurikuler & Pembinaan Prestasi",
+    "en": "Head of Extracurriculars & Achievement Coaching"
+   },
+   "bidang": [
+    "Ekstrakurikuler",
+    "Pembinaan Prestasi"
+   ],
+   "pendidikan": "",
+   "foto": "",
+   "bio": {
+    "id": "",
+    "en": ""
+   },
+   "motto": {
+    "id": "",
+    "en": ""
+   },
+   "_periksa": "Nama, gelar, dan jabatan dibaca dari bagan struktur organisasi (smktelkom-mlg.sch.id/p/struktur-organisasi.html) yang teksnya kecil. Mohon cek ejaan nama dan gelar, lalu hapus baris ini."
+  },
+  {
+   "nama": "Tito Tri Prabowo, M.Pd.",
+   "kelompok": "pimpinan",
+   "jabatan": {
+    "id": "Kaur. Sinergi, Unit Produksi, & Alumni",
+    "en": "Head of Synergy, Production Unit & Alumni"
+   },
+   "bidang": [
+    "Sinergi",
+    "Unit Produksi",
+    "Alumni"
+   ],
+   "pendidikan": "",
+   "foto": "",
+   "bio": {
+    "id": "",
+    "en": ""
+   },
+   "motto": {
+    "id": "",
+    "en": ""
+   },
+   "_periksa": "Nama, gelar, dan jabatan dibaca dari bagan struktur organisasi (smktelkom-mlg.sch.id/p/struktur-organisasi.html) yang teksnya kecil. Mohon cek ejaan nama dan gelar, lalu hapus baris ini."
+  },
+  {
+   "nama": "Kinanti Retnaning W., M.Pd.",
+   "kelompok": "pimpinan",
+   "jabatan": {
+    "id": "Kaur. PPDB & Komunikasi",
+    "en": "Head of Admissions & Communications"
+   },
+   "bidang": [
+    "PPDB",
+    "Komunikasi"
+   ],
+   "pendidikan": "",
+   "foto": "",
+   "bio": {
+    "id": "",
+    "en": ""
+   },
+   "motto": {
+    "id": "",
+    "en": ""
+   },
+   "_periksa": "Nama, gelar, dan jabatan dibaca dari bagan struktur organisasi (smktelkom-mlg.sch.id/p/struktur-organisasi.html) yang teksnya kecil. Mohon cek ejaan nama dan gelar, lalu hapus baris ini."
+  },
+  {
+   "nama": "Whyna Agustin, S.Pd.",
+   "kelompok": "pimpinan",
+   "jabatan": {
+    "id": "Kaur. IT",
+    "en": "Head of IT"
+   },
+   "bidang": [
+    "IT"
+   ],
+   "pendidikan": "",
+   "foto": "",
+   "bio": {
+    "id": "",
+    "en": ""
+   },
+   "motto": {
+    "id": "",
+    "en": ""
+   },
+   "_periksa": "Nama, gelar, dan jabatan dibaca dari bagan struktur organisasi (smktelkom-mlg.sch.id/p/struktur-organisasi.html) yang teksnya kecil. Mohon cek ejaan nama dan gelar, lalu hapus baris ini."
+  },
+  {
+   "nama": "M. Chuzni Agus, M.Pd., Gr.",
+   "kelompok": "pimpinan",
+   "jabatan": {
+    "id": "Kaur. Laboratorium",
+    "en": "Head of Laboratories"
+   },
+   "bidang": [
+    "Laboratorium"
+   ],
+   "pendidikan": "",
+   "foto": "",
+   "bio": {
+    "id": "",
+    "en": ""
+   },
+   "motto": {
+    "id": "",
+    "en": ""
+   },
+   "_periksa": "Nama, gelar, dan jabatan dibaca dari bagan struktur organisasi (smktelkom-mlg.sch.id/p/struktur-organisasi.html) yang teksnya kecil. Mohon cek ejaan nama dan gelar, lalu hapus baris ini."
+  },
+  {
+   "nama": "Eko Anjar F., S.Kom.",
+   "kelompok": "pimpinan",
+   "jabatan": {
+    "id": "Kaur. Sarpra",
+    "en": "Head of Facilities"
+   },
+   "bidang": [
+    "Sarana & Prasarana"
+   ],
+   "pendidikan": "",
+   "foto": "",
+   "bio": {
+    "id": "",
+    "en": ""
+   },
+   "motto": {
+    "id": "",
+    "en": ""
+   },
+   "_periksa": "Nama, gelar, dan jabatan dibaca dari bagan struktur organisasi (smktelkom-mlg.sch.id/p/struktur-organisasi.html) yang teksnya kecil. Mohon cek ejaan nama dan gelar, lalu hapus baris ini."
+  },
+  {
+   "nama": "Firdausa, S.Pd., Gr.",
+   "kelompok": "rpl",
+   "jabatan": {
+    "id": "Ketua Kompetensi Keahlian RPL",
+    "en": "Head of Software Engineering Program"
+   },
+   "bidang": [
+    "Rekayasa Perangkat Lunak"
+   ],
+   "pendidikan": "",
+   "foto": "",
+   "bio": {
+    "id": "",
+    "en": ""
+   },
+   "motto": {
+    "id": "",
+    "en": ""
+   },
+   "_periksa": "Nama, gelar, dan jabatan dibaca dari bagan struktur organisasi (smktelkom-mlg.sch.id/p/struktur-organisasi.html) yang teksnya kecil. Mohon cek ejaan nama dan gelar, lalu hapus baris ini."
+  },
+  {
+   "nama": "Rosalina Feoriati, S.S.T., Gr.",
+   "kelompok": "tkj",
+   "jabatan": {
+    "id": "Ketua Kompetensi Keahlian TKJ",
+    "en": "Head of Network Engineering Program"
+   },
+   "bidang": [
+    "Teknik Komputer & Jaringan"
+   ],
+   "pendidikan": "",
+   "foto": "",
+   "bio": {
+    "id": "",
+    "en": ""
+   },
+   "motto": {
+    "id": "",
+    "en": ""
+   },
+   "_periksa": "Nama, gelar, dan jabatan dibaca dari bagan struktur organisasi (smktelkom-mlg.sch.id/p/struktur-organisasi.html) yang teksnya kecil. Mohon cek ejaan nama dan gelar, lalu hapus baris ini."
+  },
+  {
+   "nama": "Bias Damiasa, S.Pd.",
+   "kelompok": "pg",
+   "jabatan": {
+    "id": "Ketua Kompetensi Keahlian Pengembangan Gim",
+    "en": "Head of Game Development Program"
+   },
+   "bidang": [
+    "Pengembangan Gim"
+   ],
+   "pendidikan": "",
+   "foto": "",
+   "bio": {
+    "id": "",
+    "en": ""
+   },
+   "motto": {
+    "id": "",
+    "en": ""
+   },
+   "_periksa": "Nama, gelar, dan jabatan dibaca dari bagan struktur organisasi (smktelkom-mlg.sch.id/p/struktur-organisasi.html) yang teksnya kecil. Mohon cek ejaan nama dan gelar, lalu hapus baris ini."
+  },
+  {
+   "nama": "Laili Agustia, S.T.",
+   "kelompok": "tendik",
+   "jabatan": {
+    "id": "Kepala Administrasi",
+    "en": "Head of Administration"
+   },
+   "bidang": [
+    "Administrasi"
+   ],
+   "pendidikan": "",
+   "foto": "",
+   "bio": {
+    "id": "",
+    "en": ""
+   },
+   "motto": {
+    "id": "",
+    "en": ""
+   },
+   "_periksa": "Nama, gelar, dan jabatan dibaca dari bagan struktur organisasi (smktelkom-mlg.sch.id/p/struktur-organisasi.html) yang teksnya kecil. Mohon cek ejaan nama dan gelar, lalu hapus baris ini."
+  },
+  {
+   "nama": "Arum Rosalind Nur Muflida, S.E.",
+   "kelompok": "tendik",
+   "jabatan": {
+    "id": "Kaur. Keuangan",
+    "en": "Head of Finance"
+   },
+   "bidang": [
+    "Keuangan"
+   ],
+   "pendidikan": "",
+   "foto": "",
+   "bio": {
+    "id": "",
+    "en": ""
+   },
+   "motto": {
+    "id": "",
+    "en": ""
+   },
+   "_periksa": "Nama, gelar, dan jabatan dibaca dari bagan struktur organisasi (smktelkom-mlg.sch.id/p/struktur-organisasi.html) yang teksnya kecil. Mohon cek ejaan nama dan gelar, lalu hapus baris ini."
+  },
+  {
+   "nama": "Sri Chusnul Haniyah, S.Pd.",
+   "kelompok": "tendik",
+   "jabatan": {
+    "id": "Kaur. Human Capital, Logistik, dan Sekretariat",
+    "en": "Head of Human Capital, Logistics & Secretariat"
+   },
+   "bidang": [
+    "Human Capital",
+    "Logistik",
+    "Sekretariat"
+   ],
+   "pendidikan": "",
+   "foto": "",
+   "bio": {
+    "id": "",
+    "en": ""
+   },
+   "motto": {
+    "id": "",
+    "en": ""
+   },
+   "_periksa": "Nama, gelar, dan jabatan dibaca dari bagan struktur organisasi (smktelkom-mlg.sch.id/p/struktur-organisasi.html) yang teksnya kecil. Mohon cek ejaan nama dan gelar, lalu hapus baris ini."
+  },
+  {
+   "tampil": false,
+   "nama": "Nama Guru, S.Kom.",
+   "kelompok": "rpl",
+   "jabatan": {
+    "id": "Guru Produktif RPL",
+    "en": "Software Engineering Teacher"
+   },
+   "bidang": [
+    "Pemrograman Web",
+    "Basis Data"
+   ],
+   "pendidikan": "S1 Teknik Informatika",
+   "foto": "assets/img/guru/nama-guru.jpg",
+   "bio": {
+    "id": "Tulis profil singkat guru di sini.",
+    "en": "Write a short teacher profile here."
+   },
+   "motto": {
+    "id": "Tulis motto mengajar di sini.",
+    "en": "Write a teaching motto here."
+   }
+  },
+  {
+   "tampil": false,
+   "nama": "Nama Guru, S.Pd.",
+   "kelompok": "umum",
+   "jabatan": {
+    "id": "Guru Bahasa Inggris",
+    "en": "English Teacher"
+   },
+   "bidang": [
+    "Bahasa Inggris"
+   ],
+   "pendidikan": "",
+   "foto": "",
+   "bio": {
+    "id": "",
+    "en": ""
+   },
+   "motto": {
+    "id": "",
+    "en": ""
+   }
+  }
+ ]
+}

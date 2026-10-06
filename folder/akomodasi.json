@@ -1,0 +1,484 @@
+{
+ "_petunjuk": "Tambah kartu dengan menyalin satu blok di 'item'. Ganti \"tampil\": false menjadi true untuk menampilkannya. Tipe bagian: sorotan, kartu, langkah, lokasi, faq, tautan, tanya. Tambah \"gelap\": true di satu bagian untuk latar gelap.",
+ "hero": {
+  "gambar": "img/sekolah.jpg",
+  "alt": {
+   "id": "Gedung SMK Telkom Malang",
+   "en": "SMK Telkom Malang building"
+  },
+  "label": {
+   "id": "AKOMODASI",
+   "en": "ACCOMMODATION"
+  },
+  "judul_awal": {
+   "id": "Tinggal Nyaman,",
+   "en": "Live Well,"
+  },
+  "judul_sorot": {
+   "id": "Belajar",
+   "en": "Learn"
+  },
+  "judul_akhir": {
+   "id": "Maksimal.",
+   "en": "Better."
+  },
+  "deskripsi": {
+   "id": "Informasi hunian untuk siswa SMK Telkom Malang, termasuk siswa dari luar daerah.",
+   "en": "Housing information for SMK Telkom Malang students, including those from outside the region."
+  },
+  "ikon": "🏠",
+  "ikon_kecil": [
+   "🛏️",
+   "📍",
+   "🔑",
+   "🌿"
+  ],
+  "tombol": [
+   {
+    "teks": {
+     "id": "Lihat Pilihan Hunian",
+     "en": "View Housing Options"
+    },
+    "link": "#pilihan",
+    "gaya": "primary"
+   },
+   {
+    "teks": {
+     "id": "Daftar PPDB",
+     "en": "Apply Now"
+    },
+    "link": "ppdb.html",
+    "gaya": "ghost"
+   }
+  ],
+  "jejak": [
+   {
+    "teks": {
+     "id": "Beranda",
+     "en": "Home"
+    },
+    "link": "index.html"
+   },
+   {
+    "teks": {
+     "id": "Tentang",
+     "en": "About"
+    },
+    "link": "tentang.html"
+   },
+   {
+    "teks": {
+     "id": "Akomodasi",
+     "en": "Accommodation"
+    }
+   }
+  ]
+ },
+ "ringkasan": [
+  {
+   "ikon": "🏫",
+   "angka": "1992",
+   "label": {
+    "id": "Berdiri sejak",
+    "en": "Established"
+   }
+  },
+  {
+   "ikon": "✅",
+   "angka": "A",
+   "label": {
+    "id": "Akreditasi sekolah",
+    "en": "School accreditation"
+   }
+  },
+  {
+   "ikon": "🌏",
+   "angka": "1000+",
+   "label": {
+    "id": "Siswa dari berbagai daerah",
+    "en": "Students from many regions"
+   }
+  }
+ ],
+ "bagian": [
+  {
+   "tipe": "sorotan",
+   "id": "sorotan",
+   "label": {
+    "id": "UNTUK SISWA DARI MANA SAJA",
+    "en": "FOR STUDENTS FROM ANYWHERE"
+   },
+   "judul": {
+    "id": "Dekat Sekolah, Tenang untuk Belajar",
+    "en": "Close to School, Calm for Studying"
+   },
+   "teks": {
+    "id": "SMK Telkom Malang berada di Sawojajar, Kedungkandang, Kota Malang, dengan lingkungan yang asri, aman, dan kondusif. Siswa dari luar daerah dapat memilih hunian yang sesuai kebutuhan keluarga.",
+    "en": "SMK Telkom Malang is in Sawojajar, Kedungkandang, Malang, in a green, safe, and conducive environment. Students from outside the region can choose housing that suits their family's needs."
+   },
+   "poin": [
+    {
+     "id": "Asrama tersedia bagi siswa luar daerah",
+     "en": "Dormitory available for out-of-region students"
+    },
+    {
+     "id": "Lokasi di kawasan Sawojajar, Kota Malang",
+     "en": "Located in Sawojajar, Malang"
+    },
+    {
+     "id": "Pilihan hunian lain: kos atau tinggal bersama keluarga",
+     "en": "Other options: boarding house or living with family"
+    },
+    {
+     "id": "Informasi detail dapat ditanyakan langsung ke sekolah",
+     "en": "Details can be asked directly at the school"
+    }
+   ],
+   "ikon": "🏠",
+   "warna": 1,
+   "chip": [
+    {
+     "id": "Asrama",
+     "en": "Dormitory"
+    },
+    {
+     "id": "Aman",
+     "en": "Safe"
+    },
+    {
+     "id": "Dekat",
+     "en": "Nearby"
+    }
+   ],
+   "tombol": {
+    "teks": {
+     "id": "Lihat Pilihan Hunian",
+     "en": "View Housing Options"
+    },
+    "link": "#pilihan",
+    "gaya": "primary"
+   }
+  },
+  {
+   "tipe": "kartu",
+   "id": "pilihan",
+   "label": {
+    "id": "PILIHAN HUNIAN",
+    "en": "HOUSING OPTIONS"
+   },
+   "judul": {
+    "id": "Pilih yang Paling Cocok",
+    "en": "Choose What Fits Best"
+   },
+   "sub": {
+    "id": "Biaya, kapasitas, dan tata tertib hunian bisa berubah, jadi pastikan ke sekolah.",
+    "en": "Costs, capacity, and rules may change, so please confirm with the school."
+   },
+   "item": [
+    {
+     "ikon": "🛏️",
+     "badge": {
+      "id": "Tersedia",
+      "en": "Available"
+     },
+     "judul": {
+      "id": "Asrama",
+      "en": "Dormitory"
+     },
+     "teks": {
+      "id": "Tersedia bagi siswa dari luar daerah. Tanyakan biaya, kapasitas, dan tata tertib langsung ke sekolah.",
+      "en": "Available for students from outside the region. Ask the school about costs, capacity, and rules."
+     },
+     "_periksa": "Lengkapi: jenis (putra/putri), kapasitas, biaya, fasilitas, jam malam, lalu hapus baris ini."
+    },
+    {
+     "ikon": "🔑",
+     "badge": {
+      "id": "Pilihan mandiri",
+      "en": "Self-arranged"
+     },
+     "judul": {
+      "id": "Kos atau Kontrakan",
+      "en": "Boarding House or Rental"
+     },
+     "teks": {
+      "id": "Cari hunian di sekitar sekolah. Pertimbangkan jarak, keamanan, dan izin orang tua.",
+      "en": "Find housing near the school. Consider distance, safety, and parental consent."
+     }
+    },
+    {
+     "ikon": "👨‍👩‍👧",
+     "badge": {
+      "id": "Pilihan mandiri",
+      "en": "Self-arranged"
+     },
+     "judul": {
+      "id": "Bersama Keluarga atau Kerabat",
+      "en": "With Family or Relatives"
+     },
+     "teks": {
+      "id": "Tinggal bersama keluarga atau kerabat di Malang dan sekitarnya, lalu berangkat ke sekolah setiap hari.",
+      "en": "Stay with family or relatives in or around Malang and commute daily."
+     }
+    },
+    {
+     "tampil": false,
+     "ikon": "🤝",
+     "badge": {
+      "id": "Mitra",
+      "en": "Partner"
+     },
+     "judul": {
+      "id": "Asrama Mitra",
+      "en": "Partner Dormitory"
+     },
+     "teks": {
+      "id": "Tulis nama dan deskripsi asrama mitra sekolah di sini.",
+      "en": "Write the partner dormitory name and description here."
+     },
+     "_periksa": "Ada akun Instagram 'Asrama Telkom Malang' (asrama putra, mitra) dan listing di Jl. Danau Bratan V; belum terverifikasi resmi. Konfirmasi ke sekolah sebelum ditampilkan."
+    }
+   ]
+  },
+  {
+   "tipe": "langkah",
+   "id": "panduan",
+   "gelap": true,
+   "label": {
+    "id": "PANDUAN",
+    "en": "GUIDE"
+   },
+   "judul": {
+    "id": "Tips Memilih Hunian",
+    "en": "Tips for Choosing Housing"
+   },
+   "item": [
+    {
+     "judul": {
+      "id": "Tentukan jenis hunian",
+      "en": "Decide the type"
+     },
+     "teks": {
+      "id": "Diskusikan dengan orang tua: asrama, kos, atau tinggal bersama keluarga.",
+      "en": "Discuss with parents: dormitory, boarding house, or family."
+     }
+    },
+    {
+     "judul": {
+      "id": "Cek jarak dan akses",
+      "en": "Check distance and access"
+     },
+     "teks": {
+      "id": "Pilih yang mudah dijangkau ke sekolah agar waktu belajar dan istirahat tetap cukup.",
+      "en": "Pick somewhere easy to reach so study and rest time stay enough."
+     }
+    },
+    {
+     "judul": {
+      "id": "Pastikan aman dan tertib",
+      "en": "Check safety and rules"
+     },
+     "teks": {
+      "id": "Tanyakan pengelola, aturan jam malam, dan izin keluar masuk.",
+      "en": "Ask about the manager, curfew, and entry/exit rules."
+     }
+    },
+    {
+     "judul": {
+      "id": "Bandingkan biaya",
+      "en": "Compare costs"
+     },
+     "teks": {
+      "id": "Lihat biaya sewa, listrik, air, dan fasilitas yang termasuk.",
+      "en": "Compare rent, utilities, and included facilities."
+     }
+    },
+    {
+     "judul": {
+      "id": "Konfirmasi ke sekolah",
+      "en": "Confirm with the school"
+     },
+     "teks": {
+      "id": "Hubungi sekolah untuk informasi terbaru sebelum memutuskan.",
+      "en": "Contact the school for the latest info before deciding."
+     }
+    }
+   ]
+  },
+  {
+   "tipe": "lokasi",
+   "id": "lokasi",
+   "label": {
+    "id": "LOKASI",
+    "en": "LOCATION"
+   },
+   "judul": {
+    "id": "Temukan Kami",
+    "en": "Find Us"
+   },
+   "alamat": "Jl. Danau Ranau No.1, Sawojajar, Kec. Kedungkandang, Kota Malang, Jawa Timur 65139",
+   "telepon": "0341 712500",
+   "email": "info@smktelkom-mlg.sch.id",
+   "jam": {
+    "id": "Senin–Sabtu, 06.00–16.00",
+    "en": "Monday–Saturday, 06:00–16:00"
+   },
+   "lat": -7.9772,
+   "lng": 112.6592,
+   "peta": {
+    "id": "Buka di Google Maps",
+    "en": "Open in Google Maps"
+   },
+   "_periksa": "Telepon dari data Kemendikdasmen; ada juga nomor 0812-2348-8999 di situs siswa. Samakan dengan data kontak sekolah."
+  },
+  {
+   "tipe": "faq",
+   "id": "faq",
+   "label": {
+    "id": "FAQ",
+    "en": "FAQ"
+   },
+   "judul": {
+    "id": "Pertanyaan Umum",
+    "en": "Common Questions"
+   },
+   "item": [
+    {
+     "q": {
+      "id": "Apakah SMK Telkom Malang menyediakan asrama?",
+      "en": "Does SMK Telkom Malang provide a dormitory?"
+     },
+     "a": {
+      "id": "Ya. Menurut informasi resmi sekolah, tersedia asrama bagi siswa dari luar daerah.",
+      "en": "Yes. According to the school's official information, a dormitory is available for students from outside the region."
+     }
+    },
+    {
+     "q": {
+      "id": "Berapa biaya dan kapasitas asrama?",
+      "en": "What are the dormitory costs and capacity?"
+     },
+     "a": {
+      "id": "Rinciannya dapat berubah. Silakan hubungi sekolah atau tanyakan ke Bombi untuk informasi terbaru.",
+      "en": "Details may change. Please contact the school or ask Bombi for the latest information."
+     }
+    },
+    {
+     "q": {
+      "id": "Selain asrama, ada pilihan apa lagi?",
+      "en": "Besides the dormitory, what else is there?"
+     },
+     "a": {
+      "id": "Siswa bisa memilih kos atau tinggal bersama keluarga atau kerabat di Malang dan sekitarnya.",
+      "en": "Students can choose a boarding house or stay with family or relatives in and around Malang."
+     }
+    },
+    {
+     "q": {
+      "id": "Di mana lokasi sekolah?",
+      "en": "Where is the school?"
+     },
+     "a": {
+      "id": "Jl. Danau Ranau No.1, Sawojajar, Kedungkandang, Kota Malang.",
+      "en": "Jl. Danau Ranau No.1, Sawojajar, Kedungkandang, Malang."
+     }
+    }
+   ]
+  },
+  {
+   "tipe": "tautan",
+   "id": "terkait",
+   "gelap": false,
+   "label": {
+    "id": "JELAJAHI JUGA",
+    "en": "EXPLORE MORE"
+   },
+   "judul": {
+    "id": "Langkah Selanjutnya",
+    "en": "Next Steps"
+   },
+   "item": [
+    {
+     "ikon": "📝",
+     "judul": {
+      "id": "PPDB",
+      "en": "Admissions"
+     },
+     "teks": {
+      "id": "Mulai pendaftaran siswa baru.",
+      "en": "Start your application."
+     },
+     "link": "ppdb.html"
+    },
+    {
+     "ikon": "🏫",
+     "judul": {
+      "id": "Fasilitas",
+      "en": "Facilities"
+     },
+     "teks": {
+      "id": "Lihat fasilitas sekolah.",
+      "en": "See school facilities."
+     },
+     "link": "tentang.html#fasilitas"
+    },
+    {
+     "ikon": "💻",
+     "judul": {
+      "id": "Program Keahlian",
+      "en": "Skill Programs"
+     },
+     "teks": {
+      "id": "Kenali jurusan yang tersedia.",
+      "en": "Explore available majors."
+     },
+     "link": "program.html#jurusan"
+    },
+    {
+     "ikon": "☎️",
+     "judul": {
+      "id": "Kontak",
+      "en": "Contact"
+     },
+     "teks": {
+      "id": "Tanya langsung ke sekolah.",
+      "en": "Ask the school directly."
+     },
+     "link": "kontak.html"
+    }
+   ]
+  },
+  {
+   "tipe": "tanya",
+   "id": "tanya",
+   "label": {
+    "id": "MASIH BINGUNG?",
+    "en": "STILL UNSURE?"
+   },
+   "judul": {
+    "id": "Tanya Bombi, Asisten Virtual Kami",
+    "en": "Ask Bombi, Our Virtual Assistant"
+   },
+   "teks": {
+    "id": "Bombi siap menjawab seputar hunian, PPDB, dan fasilitas SMK Telkom Malang.",
+    "en": "Bombi can answer questions about housing, admissions, and facilities."
+   },
+   "tombol_bot": {
+    "id": "Tanya Bombi",
+    "en": "Ask Bombi"
+   },
+   "tombol": {
+    "teks": {
+     "id": "Hubungi Kami",
+     "en": "Contact Us"
+    },
+    "link": "kontak.html",
+    "gaya": "ghost"
+   },
+   "gelembung": {
+    "id": "Halo! 👋",
+    "en": "Hi! 👋"
+   }
+  }
+ ]
+}

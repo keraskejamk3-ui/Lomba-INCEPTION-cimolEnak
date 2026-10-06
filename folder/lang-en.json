@@ -1,0 +1,385 @@
+{
+ "meta": {
+  "title": "SMK Telkom Malang — School of Global Digitalent"
+ },
+ "nav": {
+  "home": "Home",
+  "about": "About Us",
+  "program": "Programs",
+  "info": "Information",
+  "labtour": "Lab Tour",
+  "intl": "International Class",
+  "alumni": "Alumni",
+  "ppdb": "Admissions",
+  "contact": "Contact Us",
+  "about_profile": "School Profile",
+  "about_achievement": "Achievements",
+  "about_facility": "Facilities",
+  "about_teacher": "Teachers",
+  "about_accommodation": "Accommodation",
+  "program_majors": "Majors",
+  "program_extra": "Extracurriculars",
+  "program_dtp": "Digital Talent Program",
+  "program_org": "Student Organizations",
+  "info_news": "News",
+  "info_k3": "Occupational Safety (K3)",
+  "menu": "Open menu",
+  "skip": "Skip to main content",
+  "lang": "Language"
+ },
+ "hero": {
+  "title": "School of Global Digitalent",
+  "sub": "Producing industry-ready and world-ready digital talent.",
+  "cta_ppdb": "Apply Now",
+  "cta_program": "View Programs",
+  "alt1": "SMK Telkom Malang building",
+  "alt2": "Students learning",
+  "alt3": "Students in the lab"
+ },
+ "footer": {
+  "about": "A vocational school under Telkom Education Foundation, producing world-class digital talent.",
+  "quick": "Quick Links",
+  "contact": "Contact",
+  "follow": "Follow Us",
+  "map": "Location",
+  "rights": "All rights reserved.",
+  "map_cta": "Open in Google Maps",
+  "band": {
+   "title": "Ready to join SMK Telkom Malang?",
+   "text": "Admissions are open. Start your journey as a digital talent today.",
+   "cta": "Apply Now"
+  }
+ },
+ "float": {
+  "wa": "Chat on WhatsApp",
+  "bot": "Ask the Assistant"
+ },
+ "stats": {
+  "jurusan": "Majors",
+  "siswa": "Active Students",
+  "prestasi": "Achievements"
+ },
+ "greet": {
+  "title": "Principal's Welcome",
+  "role": "Principal",
+  "play": "Play profile video",
+  "text": "Welcome to SMK Telkom Malang. We are committed to equipping every student with digital skills, strong character, and a global outlook so they are ready for careers or further study. Grow with us."
+ },
+ "why": {
+  "title": "Why Choose SMK Telkom",
+  "era": {
+   "t": "School of Digital Era",
+   "d": "Learning powered by current technology."
+  },
+  "dtp": {
+   "t": "Digital Talent Program",
+   "d": "Talent development together with industry."
+  },
+  "akreditasi": {
+   "t": "A Accreditation (Excellent)",
+   "d": "Education quality accredited as excellent."
+  },
+  "opes": {
+   "t": "OPES Program",
+   "d": "A pathway for career and entrepreneurship."
+  },
+  "yayasan": {
+   "t": "Telkom Education Foundation",
+   "d": "Part of the Telkom education network."
+  }
+ },
+ "prog": {
+  "title": "Majors",
+  "more": "Learn more"
+ },
+ "mitra": {
+  "title": "Industry Partners",
+  "strip": "In partnership with"
+ },
+ "abt": {
+  "eyebrow": "About SMK Telkom Malang",
+  "badge": "Excellent Accreditation",
+  "title": "A Digital School That Prepares You to Be Global Talent",
+  "text": "SMK Telkom Malang is a vocational school under the Telkom Education Foundation, focused on digital talent. You learn with current technology, train alongside industry partners, and build the strong character to be ready for work, further study, or entrepreneurship.",
+  "p1": "A Accreditation (Excellent)",
+  "p2": "Digital Talent Program with industry",
+  "p3": "International Class for a global outlook",
+  "p4": "Career and entrepreneurship path through OPES",
+  "cta1": "Apply Now",
+  "cta2": "Get to Know Us"
+ },
+ "fac": {
+  "eyebrow": "Facilities & Activities",
+  "title": "Learn Comfortably, Grow Fully",
+  "sub": "A learning environment that supports your practice, creativity, and leadership.",
+  "f1": {
+   "t": "Modern Laboratories",
+   "d": "Hands-on practice in labs equipped to match industry needs."
+  },
+  "f2": {
+   "t": "Lab Tour",
+   "d": "See the practice rooms and learning atmosphere for yourself before you apply."
+  },
+  "f3": {
+   "t": "Accommodation",
+   "d": "Accommodation information for students coming from outside the city."
+  },
+  "f4": {
+   "t": "Extracurriculars",
+   "d": "Grow your interests and talents through activities beyond the classroom."
+  },
+  "f5": {
+   "t": "Student Organizations",
+   "d": "Build leadership, teamwork, and responsibility."
+  },
+  "f6": {
+   "t": "Safety Culture (K3)",
+   "d": "A safe practice environment with Occupational Safety and Health in place."
+  }
+ },
+ "jrn": {
+  "eyebrow": "Student Journey",
+  "title": "Your Journey at SMK Telkom",
+  "sub": "From your first day of applying to being ready for the workplace and further education.",
+  "s1": {
+   "t": "Join",
+   "d": "Apply through admissions and choose the major that fits your interests."
+  },
+  "s2": {
+   "t": "Learn & Practice",
+   "d": "Master theory and practice through technology-driven learning."
+  },
+  "s3": {
+   "t": "With Industry",
+   "d": "Join the Digital Talent Program and collaborate with industry partners."
+  },
+  "s4": {
+   "t": "Ready to Go",
+   "d": "Graduate ready to work, study, or start a business, backed by the alumni network."
+  }
+ },
+ "prof": {
+  "eyebrow": "School Profile",
+  "title": "Get to Know SMK Telkom Malang",
+  "p1": "SMK Telkom Malang is a vocational school under the Telkom Education Foundation that produces industry-ready and world-ready digital talent. We combine technology-driven learning, laboratory practice, and collaboration with industry partners.",
+  "p2": "As part of the Telkom education network, our school keeps growing, offering majors relevant to the needs of the digital workplace, from the Digital Talent Program to the International Class.",
+  "c1": "Telkom Education Foundation",
+  "c2": "A Accreditation (Excellent)",
+  "c3": "School of Global Digitalent",
+  "card": "School Identity",
+  "k1": "Name",
+  "v1": "SMK Telkom Malang",
+  "k2": "Foundation",
+  "v2": "Telkom Education Foundation",
+  "k3": "Accreditation",
+  "v3": "A (Excellent)",
+  "k4": "Address",
+  "k5": "Phone",
+  "k6": "Email"
+ },
+ "vm": {
+  "eyebrow": "Vision & Mission",
+  "title": "Our Direction and Goals",
+  "visi": "Vision",
+  "visi_text": "To be an excellent digital vocational school that produces talent with character, global competitiveness, and industry readiness.",
+  "misi": "Mission",
+  "m1": "Deliver technology-driven learning that meets industry needs.",
+  "m2": "Develop expertise through practice, certification, and partnerships with industry.",
+  "m3": "Shape students who are disciplined, principled, and collaborative.",
+  "m4": "Broaden global perspective through international programs and the alumni network."
+ },
+ "val": {
+  "eyebrow": "School Values",
+  "title": "The Values We Stand For",
+  "sub": "The principles that shape how we learn, work, and grow together.",
+  "v1": {
+   "t": "Integrity",
+   "d": "Honest and responsible in both learning and working."
+  },
+  "v2": {
+   "t": "Innovation",
+   "d": "Bold in trying and creating new digital solutions."
+  },
+  "v3": {
+   "t": "Collaboration",
+   "d": "Working together across majors and with industry partners."
+  },
+  "v4": {
+   "t": "Professionalism",
+   "d": "Disciplined, meticulous, and ready to meet workplace standards."
+  }
+ },
+ "program": {
+  "meta_title": "Skill Programs | SMK Telkom Malang",
+  "hero": {
+   "label": "SKILL PROGRAMS",
+   "title_start": "Choose Your",
+   "title_hl": "Digital Path",
+   "title_end": "Starting in Vocational School.",
+   "desc": "Three IT-based skill programs that prepare you for work and university.",
+   "cta1": "View Programs",
+   "cta2": "Apply Now",
+   "alt": "SMK Telkom Malang building",
+   "crumb_home": "Home",
+   "crumb_program": "Programs",
+   "crumb_current": "Skill Programs"
+  },
+  "stats": {
+   "s1": "Skill Programs",
+   "s2": "School Accreditation",
+   "s3": "Established",
+   "s4": "Telkom Education Foundation"
+  },
+  "jurusan": {
+   "label": "PROGRAM OPTIONS",
+   "title": "Three Skill Programs",
+   "sub": "Pick the one that fits your interests.",
+   "more": "Learn More"
+  },
+  "ui": {
+   "learn": "What You Will Learn",
+   "career": "Career Paths",
+   "study": "Further Study",
+   "extra": "Related Extracurriculars",
+   "apply": "Apply Now"
+  },
+  "rpl": {
+   "nama": "Software Engineering",
+   "singkat": "Design and build web, mobile, and software-based systems.",
+   "tag": [
+    "Web",
+    "Mobile",
+    "UI/UX"
+   ],
+   "belajar": [
+    "Programming fundamentals and logic",
+    "Databases and web programming",
+    "Mobile app development",
+    "Interface and user experience design",
+    "Software testing and documentation"
+   ],
+   "karier": [
+    "Web / Mobile Developer",
+    "Software Engineer",
+    "UI/UX Designer",
+    "Software Tester (QA)"
+   ],
+   "lanjut": [
+    "Informatics / Information Systems",
+    "Software Engineering"
+   ]
+  },
+  "tkj": {
+   "nama": "Computer & Network Engineering",
+   "singkat": "Build, manage, and secure network infrastructure and computer systems.",
+   "tag": [
+    "Networks",
+    "Servers",
+    "Security"
+   ],
+   "belajar": [
+    "Computer assembly and maintenance",
+    "Computer networks and infrastructure",
+    "System and server administration",
+    "Network security",
+    "Cloud computing basics"
+   ],
+   "karier": [
+    "Network / System Administrator",
+    "Cyber Security Analyst",
+    "Cloud Engineer",
+    "IT Support"
+   ],
+   "lanjut": [
+    "Computer / Telecommunication Engineering",
+    "Information Technology"
+   ]
+  },
+  "pg": {
+   "nama": "Game Development",
+   "singkat": "Develop games through design, programming, graphics, and animation.",
+   "tag": [
+    "Games",
+    "Graphics",
+    "Animation"
+   ],
+   "belajar": [
+    "Game design and level design",
+    "Game programming",
+    "2D/3D graphics and animation",
+    "Game audio and effects",
+    "Game testing and publishing"
+   ],
+   "karier": [
+    "Game Developer",
+    "Game Designer",
+    "2D/3D Artist",
+    "Game Tester (QA)"
+   ],
+   "lanjut": [
+    "Game Technology / Informatics",
+    "Visual Communication Design"
+   ]
+  },
+  "alur": {
+   "label": "LEARNING PATH",
+   "title": "Your Journey from Grade 10 to Graduation",
+   "s1": {
+    "t": "Grade 10",
+    "d": "IT foundations and an introduction to your program."
+   },
+   "s2": {
+    "t": "Grade 11",
+    "d": "Core subjects, lab practice, and team projects."
+   },
+   "s3": {
+    "t": "Internship",
+    "d": "Work placement in business and industry."
+   },
+   "s4": {
+    "t": "Grade 12",
+    "d": "Final project, competency test, and career or study preparation."
+   }
+  },
+  "dukung": {
+   "label": "SUPPORT",
+   "title": "Learning with Full Support",
+   "i1": {
+    "t": "Practice Labs",
+    "d": "Hands-on practice in the school's computer labs."
+   },
+   "i2": {
+    "t": "Mentor Teachers",
+    "d": "Guided by experienced teachers in each field."
+   },
+   "i3": {
+    "t": "Telkom Backing",
+    "d": "Part of the Telkom Education Foundation."
+   },
+   "i4": {
+    "t": "Contests & Clubs",
+    "d": "Technology clubs and chances to join competitions."
+   }
+  },
+  "terkait": {
+   "label": "EXPLORE MORE",
+   "title": "Keep Exploring",
+   "l1": {
+    "t": "Extracurriculars",
+    "d": "Grow your interests beyond the classroom."
+   },
+   "l2": {
+    "t": "Achievements",
+    "d": "Student achievements at many levels."
+   },
+   "l3": {
+    "t": "Lab Tour",
+    "d": "See our laboratory facilities."
+   },
+   "l4": {
+    "t": "Admissions",
+    "d": "Start your journey today."
+   }
+  }
+ }
+}

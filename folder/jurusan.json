@@ -1,0 +1,11 @@
+[
+  { "id": "pplg", "foto": "assets/img/jurusan/rpl.jpg", "link": "program.html#pplg",
+    "nama": { "id": "Rekayasa Perangkat Lunak (RPL)", "en": "Software Engineering (SE)" },
+    "deskripsi": { "id": "Membangun aplikasi dan sistem perangkat lunak dengan standar industri.", "en": "Developing applications and software systems according to industry standards." } },
+  { "id": "tjkt", "foto": "assets/img/jurusan/DSC05007.jpg", "link": "program.html#tjkt",
+    "nama": { "id": "Teknik Jaringan Komputer dan Telekomunikasi", "en": "Computer Network and Telecommunication Engineering" },
+    "deskripsi": { "id": "Merancang, mengamankan, dan merawat infrastruktur jaringan.", "en": "Design, secure, and maintain network infrastructure." } },
+  { "id": "dkv", "foto": "assets/img/jurusan/pg.jpg", "link": "program.html#dkv",
+    "nama": { "id": "Pengembangan Gim", "en": "Game Development" },
+    "deskripsi": { "id": "Merancang dan membangun gim digital, dari konsep hingga pemrograman.", "en": "Designing and developing digital games, from concept to programming." } }
+]

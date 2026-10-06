@@ -1,0 +1,346 @@
+{
+ "_petunjuk": "Ubah teks/gambar di sini lalu simpan. Teks dua bahasa ditulis {\"id\": \"...\", \"en\": \"...\"}. Alamat gambar dihitung dari folder yang sama dengan tentang.html. Bagian prestasi/fasilitas/guru/akomodasi otomatis tampil kalau isi \"item\" tidak kosong. Perhatikan koma dan tanda kutip, karena satu kesalahan saja membuat halaman gagal dimuat.",
+ "hero": {
+  "gambar": "img/sekolah.jpg",
+  "alt": {
+   "id": "Gedung SMK Telkom Malang",
+   "en": "SMK Telkom Malang building"
+  },
+  "label": {
+   "id": "TENTANG KAMI",
+   "en": "ABOUT US"
+  },
+  "judul_awal": {
+   "id": "Membangun",
+   "en": "Building"
+  },
+  "judul_sorot": {
+   "id": "Generasi Digital",
+   "en": "the Digital Generation"
+  },
+  "judul_akhir": {
+   "id": "Masa Depan.",
+   "en": "of the Future."
+  },
+  "deskripsi": {
+   "id": "SMK Telkom Malang merupakan sekolah kejuruan yang berfokus pada pengembangan kompetensi, karakter, kreativitas, dan kesiapan siswa menghadapi perkembangan teknologi.",
+   "en": "SMK Telkom Malang is a vocational school focused on developing students' competence, character, creativity, and readiness for technological change."
+  },
+  "tombol": [
+   {
+    "teks": {
+     "id": "Kenali Kami",
+     "en": "Get to Know Us"
+    },
+    "link": "#profil",
+    "gaya": "primary"
+   },
+   {
+    "teks": {
+     "id": "Visi & Misi",
+     "en": "Vision & Mission"
+    },
+    "link": "#visi",
+    "gaya": "secondary"
+   }
+  ]
+ },
+ "profil": {
+  "gambar": "img/sekolah.jpg",
+  "alt": {
+   "id": "SMK Telkom Malang",
+   "en": "SMK Telkom Malang"
+  },
+  "badge_judul": "SMK",
+  "badge_teks": {
+   "id": "Pendidikan Kejuruan",
+   "en": "Vocational Education"
+  },
+  "label": {
+   "id": "TENTANG SEKOLAH",
+   "en": "ABOUT THE SCHOOL"
+  },
+  "judul": {
+   "id": "Sekolah untuk Generasi Era Digital",
+   "en": "A School for the Digital Era Generation"
+  },
+  "paragraf": [
+   {
+    "id": "SMK Telkom Malang merupakan sekolah menengah kejuruan yang berkomitmen untuk mengembangkan potensi siswa melalui pendidikan berbasis teknologi dan keterampilan.",
+    "en": "SMK Telkom Malang is a vocational high school committed to developing students' potential through technology- and skills-based education."
+   },
+   {
+    "id": "Siswa tidak hanya dibekali dengan pengetahuan akademik, tetapi juga keterampilan praktis, kreativitas, kemampuan bekerja sama, dan karakter yang dibutuhkan dalam menghadapi dunia industri.",
+    "en": "Students receive more than academic knowledge: they also gain practical skills, creativity, teamwork, and the character needed to face the world of industry."
+   }
+  ],
+  "poin": [
+   {
+    "id": "Pembelajaran berbasis teknologi",
+    "en": "Technology-based learning"
+   },
+   {
+    "id": "Pengembangan kompetensi siswa",
+    "en": "Student competence development"
+   },
+   {
+    "id": "Penguatan karakter dan soft skill",
+    "en": "Character and soft skill building"
+   },
+   {
+    "id": "Persiapan menuju dunia industri",
+    "en": "Preparation for the world of industry"
+   }
+  ]
+ },
+ "visimisi": {
+  "label": {
+   "id": "ARAH DAN TUJUAN",
+   "en": "DIRECTION AND GOALS"
+  },
+  "judul": {
+   "id": "Visi & Misi",
+   "en": "Vision & Mission"
+  },
+  "sub": {
+   "id": "Landasan yang menjadi arah dalam penyelenggaraan pendidikan di sekolah.",
+   "en": "The foundation that guides how education is delivered at our school."
+  },
+  "kartu": [
+   {
+    "ikon": "🎯",
+    "judul": {
+     "id": "Visi",
+     "en": "Vision"
+    },
+    "isi": {
+     "id": "Menjadi sekolah kejuruan unggulan yang menghasilkan lulusan berkarakter, kompeten, inovatif, dan mampu bersaing di era perkembangan teknologi.",
+     "en": "To be a leading vocational school that produces graduates of strong character who are competent, innovative, and able to compete in the era of technological development."
+    }
+   },
+   {
+    "ikon": "🚀",
+    "judul": {
+     "id": "Misi",
+     "en": "Mission"
+    },
+    "isi": {
+     "id": "Menyelenggarakan pendidikan berbasis teknologi, mengembangkan kompetensi sesuai kebutuhan industri, serta membentuk siswa yang kreatif, disiplin, bertanggung jawab, dan profesional.",
+     "en": "To deliver technology-based education, develop competencies that meet industry needs, and shape students who are creative, disciplined, responsible, and professional."
+    }
+   }
+  ]
+ },
+ "keunggulan": {
+  "label": {
+   "id": "MENGAPA MEMILIH KAMI?",
+   "en": "WHY CHOOSE US?"
+  },
+  "judul": {
+   "id": "Keunggulan Sekolah",
+   "en": "Our Strengths"
+  },
+  "sub": {
+   "id": "Lingkungan pembelajaran yang mendukung perkembangan kompetensi dan karakter siswa.",
+   "en": "A learning environment that supports the growth of students' competence and character."
+  },
+  "item": [
+   {
+    "ikon": "💻",
+    "judul": {
+     "id": "Teknologi",
+     "en": "Technology"
+    },
+    "isi": {
+     "id": "Siswa mendapatkan pengalaman belajar yang berkaitan dengan teknologi dan perkembangan industri digital.",
+     "en": "Students gain learning experiences tied to technology and the development of the digital industry."
+    }
+   },
+   {
+    "ikon": "🧑‍💻",
+    "judul": {
+     "id": "Kompetensi",
+     "en": "Competence"
+    },
+    "isi": {
+     "id": "Pembelajaran diarahkan untuk mengembangkan keterampilan sesuai bidang keahlian siswa.",
+     "en": "Learning is directed at building skills in each student's field of expertise."
+    }
+   },
+   {
+    "ikon": "🤝",
+    "judul": {
+     "id": "Dunia Industri",
+     "en": "Industry"
+    },
+    "isi": {
+     "id": "Siswa dipersiapkan agar memiliki kemampuan yang relevan dengan kebutuhan dunia kerja.",
+     "en": "Students are prepared with skills that are relevant to the needs of the workplace."
+    }
+   },
+   {
+    "ikon": "🌟",
+    "judul": {
+     "id": "Karakter",
+     "en": "Character"
+    },
+    "isi": {
+     "id": "Pendidikan juga berfokus pada pembentukan karakter, kedisiplinan, kreativitas, dan tanggung jawab.",
+     "en": "Education also focuses on shaping character, discipline, creativity, and responsibility."
+    }
+   }
+  ]
+ },
+ "prestasi": {
+  "tampilan": "kartu",
+  "label": {
+   "id": "CAPAIAN",
+   "en": "ACHIEVEMENTS"
+  },
+  "judul": {
+   "id": "Prestasi",
+   "en": "Achievements"
+  },
+  "sub": {
+   "id": "Capaian siswa dan sekolah di berbagai bidang.",
+   "en": "Accomplishments of our students and school across many fields."
+  },
+  "_contoh_item": {
+   "foto": "assets/img/prestasi/lks-2025.jpg",
+   "judul": {
+    "id": "Juara 1 LKS Tingkat Provinsi",
+    "en": "1st Place, Provincial Skills Competition"
+   },
+   "teks": {
+    "id": "IT Software Solutions for Business",
+    "en": "IT Software Solutions for Business"
+   },
+   "meta": "2025"
+  },
+  "item": []
+ },
+ "fasilitas": {
+  "tampilan": "kartu",
+  "label": {
+   "id": "SARANA",
+   "en": "FACILITIES"
+  },
+  "judul": {
+   "id": "Fasilitas",
+   "en": "Facilities"
+  },
+  "sub": {
+   "id": "Sarana yang mendukung kegiatan belajar dan praktik siswa.",
+   "en": "Facilities that support students' learning and practice."
+  },
+  "_contoh_item": {
+   "foto": "assets/img/fasilitas/lab-rpl.jpg",
+   "judul": {
+    "id": "Laboratorium RPL",
+    "en": "Software Engineering Lab"
+   },
+   "teks": {
+    "id": "Ruang praktik dengan komputer spesifikasi tinggi.",
+    "en": "A practice room with high-spec computers."
+   }
+  },
+  "item": []
+ },
+ "guru": {
+  "tampilan": "orang",
+  "label": {
+   "id": "TENAGA PENDIDIK",
+   "en": "EDUCATORS"
+  },
+  "judul": {
+   "id": "Guru",
+   "en": "Teachers"
+  },
+  "sub": {
+   "id": "Pendidik profesional yang mendampingi siswa.",
+   "en": "Professional educators who guide our students."
+  },
+  "_contoh_item": {
+   "foto": "assets/img/guru/nama-guru.jpg",
+   "judul": "Nama Guru, S.Kom.",
+   "teks": {
+    "id": "Guru Produktif RPL",
+    "en": "Software Engineering Teacher"
+   }
+  },
+  "item": []
+ },
+ "akomodasi": {
+  "tampilan": "kartu",
+  "label": {
+   "id": "HUNIAN",
+   "en": "ACCOMMODATION"
+  },
+  "judul": {
+   "id": "Akomodasi",
+   "en": "Accommodation"
+  },
+  "sub": {
+   "id": "Informasi tempat tinggal bagi siswa.",
+   "en": "Information on housing for students."
+  },
+  "_contoh_item": {
+   "foto": "assets/img/akomodasi/asrama.jpg",
+   "judul": {
+    "id": "Asrama Putra",
+    "en": "Boys' Dormitory"
+   },
+   "teks": {
+    "id": "Kamar nyaman dengan pengawasan pembina.",
+    "en": "Comfortable rooms supervised by dormitory mentors."
+   }
+  },
+  "item": []
+ },
+ "statistik": [
+  {
+   "angka": "PG",
+   "label": {
+    "id": "Pengembangan Gim",
+    "en": "Game Development"
+   }
+  },
+  {
+   "angka": "RPL",
+   "label": {
+    "id": "Rekayasa Perangkat Lunak",
+    "en": "Software Engineering"
+   }
+  },
+  {
+   "angka": "TKJ",
+   "label": {
+    "id": "Teknologi Komputer dan Jaringan",
+    "en": "Computer and Network Technology"
+   }
+  },
+  {
+   "angka": "4.0",
+   "label": {
+    "id": "Era Industri Digital",
+    "en": "Digital Industry Era"
+   }
+  }
+ ],
+ "cta": {
+  "tampil": true,
+  "judul": {
+   "id": "Mari Kenal SMK Telkom Malang Lebih Dekat",
+   "en": "Get to Know SMK Telkom Malang Better"
+  },
+  "isi": {
+   "id": "Temukan berbagai informasi mengenai program keahlian, fasilitas, kegiatan siswa, dan informasi sekolah lainnya.",
+   "en": "Find information about our programs, facilities, student activities, and other school news."
+  },
+  "tombol": {
+   "id": "Hubungi Kami",
+   "en": "Contact Us"
+  },
+  "link": "kontak.html"
+ }
+}

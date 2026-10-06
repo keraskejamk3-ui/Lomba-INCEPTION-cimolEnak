@@ -1,0 +1,504 @@
+{
+ "_petunjuk": "Tambah prestasi baru dengan menyalin satu blok di \"prestasi\" lalu ubah isinya. Teks dua bahasa ditulis {\"id\": \"...\", \"en\": \"...\"}. \"tingkat\" harus salah satu: internasional, nasional, provinsi. \"medali\": emas, perak, perunggu, juara, perwakilan. \"unggulan\": true membuat prestasi tampil besar di bagian Sorotan. Isi \"foto\" (misalnya \"assets/img/prestasi/lks-2024.jpg\") kalau ada fotonya; kalau kosong, kartu memakai medali berwarna. Perhatikan koma dan tanda kutip.",
+ "hero": {
+  "gambar": "DSC04979.jpg",
+  "alt": {
+   "id": "Gedung SMK Telkom Malang",
+   "en": "SMK Telkom Malang building"
+  },
+  "label": {
+   "id": "PRESTASI",
+   "en": "ACHIEVEMENTS"
+  },
+  "judul_awal": {
+   "id": "Mokleters",
+   "en": "Mokleters"
+  },
+  "judul_sorot": {
+   "id": "Berprestasi",
+   "en": "Achieving"
+  },
+  "judul_akhir": {
+   "id": "dari Malang untuk Indonesia.",
+   "en": "from Malang to the World."
+  },
+  "deskripsi": {
+   "id": "Dari lomba kompetensi tingkat provinsi, nasional, hingga forum internasional, siswa SMK Telkom Malang terus membuktikan kemampuannya di bidang teknologi.",
+   "en": "From provincial and national skills competitions to international forums, SMK Telkom Malang students keep proving their ability in technology."
+  },
+  "tombol": [
+   {
+    "teks": {
+     "id": "Lihat Semua Prestasi",
+     "en": "See All Achievements"
+    },
+    "link": "#daftar-prestasi",
+    "gaya": "primary"
+   },
+   {
+    "teks": {
+     "id": "Daftar Sekarang",
+     "en": "Apply Now"
+    },
+    "link": "ppdb.html",
+    "gaya": "ghost"
+   }
+  ]
+ },
+ "ui": {
+  "stat_total": {
+   "id": "Catatan Prestasi",
+   "en": "Achievements Recorded"
+  },
+  "stat_internasional": {
+   "id": "Tingkat Internasional",
+   "en": "International Level"
+  },
+  "stat_nasional": {
+   "id": "Tingkat Nasional",
+   "en": "National Level"
+  },
+  "stat_provinsi": {
+   "id": "Tingkat Provinsi",
+   "en": "Provincial Level"
+  },
+  "semua": {
+   "id": "Semua",
+   "en": "All"
+  },
+  "semua_tahun": {
+   "id": "Semua tahun",
+   "en": "All years"
+  },
+  "cari": {
+   "id": "Cari prestasi, lomba, atau nama siswa…",
+   "en": "Search achievements, events, or student names…"
+  },
+  "menampilkan": {
+   "id": "Menampilkan {n} prestasi",
+   "en": "Showing {n} achievements"
+  },
+  "kosong": {
+   "id": "Tidak ada prestasi yang cocok.",
+   "en": "No matching achievements."
+  },
+  "reset": {
+   "id": "Reset pencarian",
+   "en": "Reset filters"
+  },
+  "peserta": {
+   "id": "Peserta",
+   "en": "Participants"
+  },
+  "sumber": {
+   "id": "Baca beritanya",
+   "en": "Read the news"
+  },
+  "lokasi": {
+   "id": "Lokasi",
+   "en": "Location"
+  },
+  "tag_terbaru": {
+   "id": "Terbaru",
+   "en": "New"
+  },
+  "prestasi_n": {
+   "id": "{n} prestasi",
+   "en": "{n} achievements"
+  },
+  "podium_emas": {
+   "id": "Emas",
+   "en": "Gold"
+  },
+  "podium_perak": {
+   "id": "Perak",
+   "en": "Silver"
+  },
+  "podium_perunggu": {
+   "id": "Perunggu",
+   "en": "Bronze"
+  },
+  "podium_juara": {
+   "id": "Juara Lomba",
+   "en": "Competition Wins"
+  },
+  "podium_kosong": {
+   "id": "Segera hadir",
+   "en": "Coming soon"
+  }
+ },
+ "tingkat": {
+  "internasional": {
+   "label": {
+    "id": "Internasional",
+    "en": "International"
+   },
+   "ikon": "🌏"
+  },
+  "nasional": {
+   "label": {
+    "id": "Nasional",
+    "en": "National"
+   },
+   "ikon": "🎖️"
+  },
+  "provinsi": {
+   "label": {
+    "id": "Provinsi",
+    "en": "Provincial"
+   },
+   "ikon": "📍"
+  }
+ },
+ "sorotan": {
+  "label": {
+   "id": "SOROTAN",
+   "en": "HIGHLIGHTS"
+  },
+  "judul": {
+   "id": "Capaian yang Membanggakan",
+   "en": "Achievements to Be Proud Of"
+  },
+  "sub": {
+   "id": "Beberapa prestasi terbaru yang membawa nama sekolah ke tingkat yang lebih luas.",
+   "en": "Some of our latest achievements that carry the school's name further."
+  }
+ },
+ "daftar": {
+  "label": {
+   "id": "SEMUA PRESTASI",
+   "en": "ALL ACHIEVEMENTS"
+  },
+  "judul": {
+   "id": "Jejak Prestasi Mokleters",
+   "en": "The Mokleters' Track Record"
+  },
+  "sub": {
+   "id": "Cari berdasarkan tingkat, tahun, atau kata kunci.",
+   "en": "Browse by level, year, or keyword."
+  }
+ },
+ "pembinaan": {
+  "label": {
+   "id": "DI BALIK PRESTASI",
+   "en": "BEHIND THE ACHIEVEMENTS"
+  },
+  "judul": {
+   "id": "Bagaimana Mokleters Berkembang",
+   "en": "How Mokleters Grow"
+  },
+  "sub": {
+   "id": "Lingkungan belajar yang mendorong siswa mencoba, berkompetisi, dan berkarya.",
+   "en": "A learning environment that encourages students to try, compete, and create."
+  },
+  "item": [
+   {
+    "ikon": "🗓️",
+    "judul": {
+     "id": "Ekstrakurikuler Rutin",
+     "en": "Regular Extracurriculars"
+    },
+    "teks": {
+     "id": "Berkumpul setiap pekan di bawah bimbingan unit kesiswaan untuk menyeimbangkan kegiatan akademik dan non-akademik.",
+     "en": "Meeting every week under the student affairs unit to balance academic and non-academic activities."
+    }
+   },
+   {
+    "ikon": "🧑‍💻",
+    "judul": "Digital Talent Program",
+    "teks": {
+     "id": "Pembinaan talenta digital bersama industri.",
+     "en": "Digital talent development together with industry."
+    }
+   },
+   {
+    "ikon": "🤝",
+    "judul": {
+     "id": "Mentor dari Industri",
+     "en": "Industry Mentors"
+    },
+    "teks": {
+     "id": "Sekolah menggandeng praktisi dan mitra industri untuk mendampingi siswa berkarya.",
+     "en": "The school works with practitioners and industry partners to guide students' work."
+    }
+   },
+   {
+    "ikon": "🏁",
+    "judul": {
+     "id": "Kompetisi Berjenjang",
+     "en": "Tiered Competitions"
+    },
+    "teks": {
+     "id": "Siswa berlomba dari tingkat provinsi menuju nasional, bahkan mewakili Indonesia di luar negeri.",
+     "en": "Students compete from provincial to national levels, even representing Indonesia abroad."
+    }
+   }
+  ]
+ },
+ "prestasi": [
+  {
+   "tahun": 2025,
+   "tingkat": "internasional",
+   "medali": "perwakilan",
+   "unggulan": true,
+   "ikon": "🌏",
+   "penghargaan": {
+    "id": "Wakil Indonesia",
+    "en": "Indonesia's Representative"
+   },
+   "judul": {
+    "id": "ASEAN Youth Camp 2025: AI Hackathon for Green Sustainability",
+    "en": "ASEAN Youth Camp 2025: AI Hackathon for Green Sustainability"
+   },
+   "kegiatan": {
+    "id": "National Science Museum, Pathum Thani, Thailand",
+    "en": "National Science Museum, Pathum Thani, Thailand"
+   },
+   "tanggal": {
+    "id": "17–21 Juni 2025",
+    "en": "17–21 June 2025"
+   },
+   "bidang": "Artificial Intelligence",
+   "peserta": [],
+   "foto": "",
+   "tautan": ""
+  },
+  {
+   "tahun": 2024,
+   "tingkat": "nasional",
+   "medali": "emas",
+   "unggulan": true,
+   "penghargaan": {
+    "id": "Medali Emas",
+    "en": "Gold Medal"
+   },
+   "judul": {
+    "id": "Cloud Computing",
+    "en": "Cloud Computing"
+   },
+   "kegiatan": {
+    "id": "Lomba Kompetensi Siswa (LKS) ke-32 Tingkat Nasional, Lampung",
+    "en": "32nd National Skills Competition (LKS), Lampung"
+   },
+   "tanggal": {
+    "id": "2024",
+    "en": "2024"
+   },
+   "bidang": "Cloud Computing",
+   "peserta": [
+    "Teguh Bayu Pratama"
+   ],
+   "foto": "",
+   "tautan": "https://adv.kompas.id/baca/smk-telkom-malang-antar-jawa-timur-jadi-juara-umum-di-lks-nasional/"
+  },
+  {
+   "tahun": 2026,
+   "tingkat": "provinsi",
+   "medali": "juara",
+   "unggulan": true,
+   "penghargaan": {
+    "id": "Tiga Medali",
+    "en": "Three Medals"
+   },
+   "judul": {
+    "id": "LKS Dikmen Tingkat Provinsi Jawa Timur 2026",
+    "en": "East Java Provincial LKS Dikmen 2026"
+   },
+   "kegiatan": {
+    "id": "Lomba Kompetensi Siswa Pendidikan Menengah (LKS Dikmen)",
+    "en": "Secondary Education Skills Competition (LKS Dikmen)"
+   },
+   "tanggal": {
+    "id": "April 2026",
+    "en": "April 2026"
+   },
+   "bidang": "",
+   "peserta": [],
+   "foto": "",
+   "tautan": "https://radarmalang.jawapos.com/pendidikan/2604160042/smk-telkom-malang-borong-tiga-medali-di-ajang-lks-dikmen-jatim"
+  },
+  {
+   "tahun": 2024,
+   "tingkat": "nasional",
+   "medali": "perak",
+   "penghargaan": {
+    "id": "Medali Perak",
+    "en": "Silver Medal"
+   },
+   "judul": {
+    "id": "Cyber Security",
+    "en": "Cyber Security"
+   },
+   "kegiatan": {
+    "id": "Lomba Kompetensi Siswa (LKS) ke-32 Tingkat Nasional, Lampung",
+    "en": "32nd National Skills Competition (LKS), Lampung"
+   },
+   "tanggal": {
+    "id": "2024",
+    "en": "2024"
+   },
+   "bidang": "Cyber Security",
+   "peserta": [
+    "Daniel Dhaniswara",
+    "Farhan Diwan Ananta"
+   ],
+   "foto": "",
+   "tautan": "https://adv.kompas.id/baca/smk-telkom-malang-antar-jawa-timur-jadi-juara-umum-di-lks-nasional/"
+  },
+  {
+   "tahun": 2024,
+   "tingkat": "nasional",
+   "medali": "perak",
+   "penghargaan": {
+    "id": "Medali Perak",
+    "en": "Silver Medal"
+   },
+   "judul": {
+    "id": "Mobile Robotics",
+    "en": "Mobile Robotics"
+   },
+   "kegiatan": {
+    "id": "Lomba Kompetensi Siswa (LKS) ke-32 Tingkat Nasional, Lampung",
+    "en": "32nd National Skills Competition (LKS), Lampung"
+   },
+   "tanggal": {
+    "id": "2024",
+    "en": "2024"
+   },
+   "bidang": "Mobile Robotics",
+   "peserta": [
+    "Navan Exza Yusvanda",
+    "Ibani Muhammad Hillabi"
+   ],
+   "foto": "",
+   "tautan": "https://adv.kompas.id/baca/smk-telkom-malang-antar-jawa-timur-jadi-juara-umum-di-lks-nasional/"
+  },
+  {
+   "tahun": 2025,
+   "tingkat": "provinsi",
+   "medali": "juara",
+   "_periksa": "Diambil dari keterangan foto di hero beranda. Mohon cek tahun dan nama lomba, lalu hapus baris ini.",
+   "penghargaan": {
+    "id": "Juara 1",
+    "en": "1st Place"
+   },
+   "judul": {
+    "id": "IT Software Solutions for Business",
+    "en": "IT Software Solutions for Business"
+   },
+   "kegiatan": {
+    "id": "LKS Dikmen Tingkat Provinsi Jawa Timur",
+    "en": "East Java Provincial LKS Dikmen"
+   },
+   "tanggal": {
+    "id": "2025",
+    "en": "2025"
+   },
+   "bidang": "Software",
+   "peserta": [],
+   "foto": "",
+   "tautan": ""
+  },
+  {
+   "tahun": 2025,
+   "tingkat": "provinsi",
+   "medali": "juara",
+   "_periksa": "Diambil dari keterangan foto di hero beranda. Mohon cek tahun dan nama lomba, lalu hapus baris ini.",
+   "penghargaan": {
+    "id": "Juara 1",
+    "en": "1st Place"
+   },
+   "judul": {
+    "id": "Artificial Intelligence",
+    "en": "Artificial Intelligence"
+   },
+   "kegiatan": {
+    "id": "LKS Dikmen Tingkat Provinsi Jawa Timur",
+    "en": "East Java Provincial LKS Dikmen"
+   },
+   "tanggal": {
+    "id": "2025",
+    "en": "2025"
+   },
+   "bidang": "Artificial Intelligence",
+   "peserta": [],
+   "foto": "",
+   "tautan": ""
+  },
+  {
+   "tahun": 2020,
+   "tingkat": "nasional",
+   "medali": "juara",
+   "penghargaan": {
+    "id": "Juara 2",
+    "en": "2nd Place"
+   },
+   "judul": {
+    "id": "Game Development, Kompetisi Multimedia dan Game (MAGE) 6",
+    "en": "Game Development, Multimedia and Game Competition (MAGE) 6"
+   },
+   "kegiatan": {
+    "id": "Kompetisi Nasional Multimedia dan Game Event 6",
+    "en": "National Multimedia and Game Competition, Event 6"
+   },
+   "tanggal": {
+    "id": "November 2020",
+    "en": "November 2020"
+   },
+   "bidang": "Game Development",
+   "peserta": [
+    "Maulidya Dwi R",
+    "Zulfa Ikhsanuddin H",
+    "Faris Akbar A.B"
+   ],
+   "foto": "",
+   "tautan": "https://www.smktelkom-mlg.sch.id/berita/juara-2-kompetisi-nasional-multimedia-dan-game.html"
+  }
+ ],
+ "podium": {
+  "label": {
+   "id": "PODIUM MOKLETERS",
+   "en": "MOKLETERS' PODIUM"
+  },
+  "judul": {
+   "id": "Medali yang Dibawa Pulang",
+   "en": "Medals Brought Home"
+  },
+  "sub": {
+   "id": "Jumlah medali dan gelar juara dari seluruh catatan prestasi.",
+   "en": "Medals and winning titles from all recorded achievements."
+  }
+ },
+ "keahlian": {
+  "label": {
+   "id": "BIDANG KOMPETENSI",
+   "en": "FIELDS OF COMPETENCE"
+  },
+  "judul": {
+   "id": "Unggul di Banyak Bidang Teknologi",
+   "en": "Strong Across Many Tech Fields"
+  },
+  "sub": {
+   "id": "Dari cloud hingga kecerdasan buatan, Mokleters berkompetisi di bidang yang dibutuhkan industri.",
+   "en": "From cloud to artificial intelligence, Mokleters compete in the fields that industry needs."
+  },
+  "ikon": {
+   "Cloud Computing": "☁️",
+   "Cyber Security": "🛡️",
+   "Mobile Robotics": "🤖",
+   "Artificial Intelligence": "🧠",
+   "Software": "💻",
+   "Game Development": "🎮"
+  }
+ },
+ "jejak": {
+  "label": {
+   "id": "PERJALANAN",
+   "en": "JOURNEY"
+  },
+  "judul": {
+   "id": "Dari Tahun ke Tahun",
+   "en": "Year by Year"
+  }
+ }
+}

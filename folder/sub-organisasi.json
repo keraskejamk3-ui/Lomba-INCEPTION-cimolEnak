@@ -1,0 +1,615 @@
+{
+ "_petunjuk": "Tambah organisasi dengan menyalin satu blok di bagian 'daftar' > 'item', ubah isinya, lalu ganti \"tampil\": false menjadi true. 'kelompok' harus salah satu id di 'kelompok'. Tipe bagian: marquee, sorotan, kartu, daftar, langkah, mitra, kutipan, tautan, cta. Tambah \"gelap\": true di satu bagian untuk latar gelap.",
+ "hero": {
+  "gambar": "img/sekolah.jpg",
+  "alt": {
+   "id": "Gedung SMK Telkom Malang",
+   "en": "SMK Telkom Malang building"
+  },
+  "label": {
+   "id": "SUB ORGANISASI",
+   "en": "STUDENT ORGANIZATIONS"
+  },
+  "judul_awal": {
+   "id": "Berorganisasi,",
+   "en": "Organize,"
+  },
+  "judul_sorot": {
+   "id": "Berani",
+   "en": "Dare"
+  },
+  "judul_akhir": {
+   "id": "Memimpin.",
+   "en": "to Lead."
+  },
+  "deskripsi": {
+   "id": "Latih kepemimpinan, kerja sama tim, dan tanggung jawab.",
+   "en": "Build leadership, teamwork, and responsibility."
+  },
+  "ikon": "🏛️",
+  "tombol": [
+   {
+    "teks": {
+     "id": "Lihat Organisasi",
+     "en": "View Organizations"
+    },
+    "link": "#daftar-organisasi",
+    "gaya": "primary"
+   },
+   {
+    "teks": {
+     "id": "Daftar PPDB",
+     "en": "Apply Now"
+    },
+    "link": "ppdb.html",
+    "gaya": "ghost"
+   }
+  ],
+  "ikon_kecil": [
+   "🧭",
+   "📣",
+   "🤝",
+   "🏅"
+  ],
+  "jejak": [
+   {
+    "teks": {
+     "id": "Beranda",
+     "en": "Home"
+    },
+    "link": "index.html"
+   },
+   {
+    "teks": {
+     "id": "Program",
+     "en": "Programs"
+    },
+    "link": "program.html"
+   },
+   {
+    "teks": {
+     "id": "Sub Organisasi",
+     "en": "Student Organizations"
+    }
+   }
+  ]
+ },
+ "ringkasan": {
+  "_catatan": "3 Program Keahlian dan Akreditasi A mengikuti data di situs sekolah (guru.json & beranda). Mohon cek bila ada perubahan.",
+  "item": [
+   {
+    "ikon": "💻",
+    "angka": 3,
+    "label": {
+     "id": "Program Keahlian",
+     "en": "Skill Programs"
+    }
+   },
+   {
+    "ikon": "✅",
+    "angka": "A",
+    "label": {
+     "id": "Akreditasi Sekolah (Unggul)",
+     "en": "School Accreditation (Excellent)"
+    }
+   },
+   {
+    "ikon": "🏫",
+    "angka": "Telkom",
+    "label": {
+     "id": "Di bawah Yayasan Pendidikan Telkom",
+     "en": "Under Telkom Education Foundation"
+    }
+   }
+  ]
+ },
+ "bagian": [
+  {
+   "tipe": "marquee",
+   "item": [
+    {
+     "id": "OSIS",
+     "en": "Student Council"
+    },
+    {
+     "id": "Kepemimpinan",
+     "en": "Leadership"
+    },
+    {
+     "id": "Kerja Sama Tim",
+     "en": "Teamwork"
+    },
+    {
+     "id": "Tanggung Jawab",
+     "en": "Responsibility"
+    },
+    {
+     "id": "Karakter",
+     "en": "Character"
+    },
+    {
+     "id": "Mokleters",
+     "en": "Mokleters"
+    }
+   ]
+  },
+  {
+   "tipe": "sorotan",
+   "id": "sorotan",
+   "label": {
+    "id": "BELAJAR MEMIMPIN",
+    "en": "LEARN TO LEAD"
+   },
+   "judul": {
+    "id": "Tempat Berlatih Jadi Pemimpin",
+    "en": "Where You Practice Leading"
+   },
+   "teks": {
+    "id": "Organisasi siswa melatih kepemimpinan, kerja sama tim, dan tanggung jawab lewat kegiatan yang dirancang dan dijalankan bersama.",
+    "en": "Student organizations build leadership, teamwork, and responsibility through activities planned and run together."
+   },
+   "poin": [
+    {
+     "id": "Berlatih memimpin dan mengambil keputusan",
+     "en": "Practice leading and making decisions"
+    },
+    {
+     "id": "Menyusun dan menjalankan program kerja",
+     "en": "Plan and run work programs"
+    },
+    {
+     "id": "Membangun karakter dan tanggung jawab",
+     "en": "Build character and responsibility"
+    },
+    {
+     "id": "Memperluas pertemanan lintas jurusan",
+     "en": "Widen friendships across majors"
+    }
+   ],
+   "ikon": "🏛️",
+   "warna": 4,
+   "chip": [
+    {
+     "id": "Kepemimpinan",
+     "en": "Leadership"
+    },
+    {
+     "id": "Tim",
+     "en": "Team"
+    },
+    {
+     "id": "Amanah",
+     "en": "Duty"
+    }
+   ],
+   "tombol": {
+    "teks": {
+     "id": "Lihat Organisasi",
+     "en": "View Organizations"
+    },
+    "link": "#daftar-organisasi",
+    "gaya": "primary"
+   }
+  },
+  {
+   "tipe": "kartu",
+   "id": "manfaat",
+   "label": {
+    "id": "MANFAAT",
+    "en": "BENEFITS"
+   },
+   "judul": {
+    "id": "Tumbuh Lewat Organisasi",
+    "en": "Grow Through Organizations"
+   },
+   "item": [
+    {
+     "ikon": "🧭",
+     "judul": {
+      "id": "Kepemimpinan",
+      "en": "Leadership"
+     },
+     "teks": {
+      "id": "Belajar memimpin dan mengambil keputusan.",
+      "en": "Learn to lead and make decisions."
+     }
+    },
+    {
+     "ikon": "🤝",
+     "judul": {
+      "id": "Kerja Sama Tim",
+      "en": "Teamwork"
+     },
+     "teks": {
+      "id": "Bekerja bersama lintas jurusan.",
+      "en": "Work together across majors."
+     }
+    },
+    {
+     "ikon": "✅",
+     "judul": {
+      "id": "Tanggung Jawab",
+      "en": "Responsibility"
+     },
+     "teks": {
+      "id": "Terbiasa menuntaskan amanah dan program kerja.",
+      "en": "Get used to seeing duties and programs through."
+     }
+    },
+    {
+     "ikon": "🌐",
+     "judul": {
+      "id": "Jejaring",
+      "en": "Network"
+     },
+     "teks": {
+      "id": "Memperluas pertemanan dan pengalaman.",
+      "en": "Widen your friendships and experience."
+     }
+    }
+   ]
+  },
+  {
+   "tipe": "daftar",
+   "id": "daftar-organisasi",
+   "label": {
+    "id": "DAFTAR ORGANISASI",
+    "en": "ORGANIZATIONS"
+   },
+   "judul": {
+    "id": "Organisasi Siswa",
+    "en": "Student Organizations"
+   },
+   "sub": {
+    "id": "Organisasi utama dan sub organisasi. Cari berdasarkan nama atau bidang.",
+    "en": "Main organizations and sub-organizations. Search by name or field."
+   },
+   "pesan_kosong": {
+    "id": "Daftar organisasi akan segera ditambahkan.",
+    "en": "The list of organizations will be added soon."
+   },
+   "kelompok": [
+    {
+     "id": "utama",
+     "label": {
+      "id": "Organisasi Utama",
+      "en": "Main Organizations"
+     },
+     "ikon": "🏛️"
+    },
+    {
+     "id": "sub",
+     "label": {
+      "id": "Sub Organisasi",
+      "en": "Sub-Organizations"
+     },
+     "ikon": "🌱"
+    }
+   ],
+   "item": [
+    {
+     "nama": "OSIS SMK Telkom Malang",
+     "kelompok": "utama",
+     "ikon": "🏛️",
+     "deskripsi": {
+      "id": "Organisasi siswa intra sekolah.",
+      "en": "The school's student council."
+     },
+     "tag": [
+      "Kepemimpinan"
+     ],
+     "_periksa": "Lengkapi deskripsi, pembina, dan program kerja, lalu hapus baris ini."
+    },
+    {
+     "nama": "MPK (Majelis Perwakilan Kelas)",
+     "kelompok": "utama",
+     "ikon": "🗳️",
+     "deskripsi": {
+      "id": "Majelis perwakilan kelas yang menjadi wadah aspirasi siswa.",
+      "en": "The class representative council, a channel for student aspirations."
+     },
+     "tag": [
+      "Perwakilan"
+     ],
+     "_periksa": "Lengkapi deskripsi, pembina, dan program kerja, lalu hapus baris ini."
+    },
+    {
+     "nama": "BDI (Badan Dakwah Islamiyah)",
+     "kelompok": "sub",
+     "ikon": "🕌",
+     "deskripsi": {
+      "id": "Sub organisasi bidang keagamaan dan dakwah Islam.",
+      "en": "Sub-organization for Islamic religious activities and outreach."
+     },
+     "tag": [
+      "Keagamaan"
+     ],
+     "_periksa": "Lengkapi deskripsi, pembina, dan program kerja, lalu hapus baris ini."
+    },
+    {
+     "nama": "Pustel (Perpustakaan Telkom)",
+     "kelompok": "sub",
+     "ikon": "📚",
+     "deskripsi": {
+      "id": "Sub organisasi pengelola perpustakaan dan budaya literasi.",
+      "en": "Sub-organization running the library and literacy culture."
+     },
+     "tag": [
+      "Literasi"
+     ],
+     "_periksa": "Lengkapi deskripsi, pembina, dan program kerja, lalu hapus baris ini."
+    },
+    {
+     "nama": "IRC / Palang Merah",
+     "kelompok": "sub",
+     "ikon": "❤️",
+     "deskripsi": {
+      "id": "Sub organisasi kepalangmerahan dan kegiatan kemanusiaan.",
+      "en": "Red Cross sub-organization for humanitarian activities."
+     },
+     "tag": [
+      "Kemanusiaan"
+     ],
+     "_periksa": "Lengkapi deskripsi, pembina, dan program kerja, lalu hapus baris ini."
+    },
+    {
+     "nama": "MEMO (Media Moklet)",
+     "kelompok": "sub",
+     "ikon": "🎬",
+     "deskripsi": {
+      "id": "Sub organisasi media dan publikasi sekolah.",
+      "en": "Sub-organization for school media and publications."
+     },
+     "tag": [
+      "Media"
+     ],
+     "_periksa": "Lengkapi deskripsi, pembina, dan program kerja, lalu hapus baris ini."
+    },
+    {
+     "nama": "Comet",
+     "kelompok": "sub",
+     "ikon": "✨",
+     "deskripsi": {
+      "id": "Sub organisasi SMK Telkom Malang.",
+      "en": "A sub-organization of SMK Telkom Malang."
+     },
+     "_periksa": "Lengkapi deskripsi, pembina, dan program kerja, lalu hapus baris ini."
+    },
+    {
+     "nama": "MAC",
+     "kelompok": "sub",
+     "ikon": "✨",
+     "deskripsi": {
+      "id": "Sub organisasi SMK Telkom Malang.",
+      "en": "A sub-organization of SMK Telkom Malang."
+     },
+     "_periksa": "Lengkapi deskripsi, pembina, dan program kerja, lalu hapus baris ini."
+    },
+    {
+     "nama": "Palwaga",
+     "kelompok": "sub",
+     "ikon": "✨",
+     "deskripsi": {
+      "id": "Sub organisasi SMK Telkom Malang.",
+      "en": "A sub-organization of SMK Telkom Malang."
+     },
+     "_periksa": "Lengkapi deskripsi, pembina, dan program kerja, lalu hapus baris ini."
+    },
+    {
+     "nama": "Pascatema",
+     "kelompok": "sub",
+     "ikon": "✨",
+     "deskripsi": {
+      "id": "Sub organisasi SMK Telkom Malang.",
+      "en": "A sub-organization of SMK Telkom Malang."
+     },
+     "_periksa": "Lengkapi deskripsi, pembina, dan program kerja, lalu hapus baris ini."
+    },
+    {
+     "nama": "METIC",
+     "kelompok": "sub",
+     "ikon": "✨",
+     "deskripsi": {
+      "id": "Sub organisasi SMK Telkom Malang.",
+      "en": "A sub-organization of SMK Telkom Malang."
+     },
+     "_periksa": "Lengkapi deskripsi, pembina, dan program kerja, lalu hapus baris ini."
+    }
+   ]
+  },
+  {
+   "tipe": "kutipan",
+   "id": "visi",
+   "label": {
+    "id": "VISI SEKOLAH",
+    "en": "SCHOOL VISION"
+   },
+   "teks": {
+    "id": "Mencetak lulusan berAKHLAK, ahli, dan berkebhinekaan global.",
+    "en": "Producing graduates of strong character (AKHLAK), expertise, and global diversity."
+   },
+   "jabatan": {
+    "id": "Visi SMK Telkom Malang",
+    "en": "SMK Telkom Malang's Vision"
+   }
+  },
+  {
+   "tipe": "kartu",
+   "id": "nilai",
+   "label": {
+    "id": "NILAI SEKOLAH",
+    "en": "SCHOOL VALUES"
+   },
+   "judul": {
+    "id": "Nilai yang Kami Pegang",
+    "en": "The Values We Stand For"
+   },
+   "sub": {
+    "id": "Prinsip yang membentuk cara kami belajar, bekerja, dan tumbuh bersama.",
+    "en": "The principles that shape how we learn, work, and grow together."
+   },
+   "item": [
+    {
+     "ikon": "🛡️",
+     "judul": {
+      "id": "Integritas",
+      "en": "Integrity"
+     },
+     "teks": {
+      "id": "Jujur dan bertanggung jawab dalam belajar maupun bekerja.",
+      "en": "Honest and responsible in both learning and working."
+     }
+    },
+    {
+     "ikon": "💡",
+     "judul": {
+      "id": "Inovasi",
+      "en": "Innovation"
+     },
+     "teks": {
+      "id": "Berani mencoba dan menciptakan solusi digital yang baru.",
+      "en": "Bold in trying and creating new digital solutions."
+     }
+    },
+    {
+     "ikon": "🤝",
+     "judul": {
+      "id": "Kolaborasi",
+      "en": "Collaboration"
+     },
+     "teks": {
+      "id": "Bekerja sama lintas jurusan dan bersama mitra industri.",
+      "en": "Working together across majors and with industry partners."
+     }
+    },
+    {
+     "ikon": "🎯",
+     "judul": {
+      "id": "Profesional",
+      "en": "Professionalism"
+     },
+     "teks": {
+      "id": "Disiplin, teliti, dan siap memenuhi standar dunia kerja.",
+      "en": "Disciplined, meticulous, and ready to meet workplace standards."
+     }
+    }
+   ]
+  },
+  {
+   "tipe": "tautan",
+   "id": "terkait",
+   "label": {
+    "id": "JELAJAHI JUGA",
+    "en": "EXPLORE MORE"
+   },
+   "judul": {
+    "id": "Kenali Lebih Dekat SMK Telkom Malang",
+    "en": "Get to Know SMK Telkom Malang"
+   },
+   "item": [
+    {
+     "ikon": "🎯",
+     "judul": {
+      "id": "Ekstrakurikuler",
+      "en": "Extracurriculars"
+     },
+     "teks": {
+      "id": "Kembangkan minat dan bakat lewat kegiatan di luar kelas.",
+      "en": "Grow your interests and talents beyond the classroom."
+     },
+     "link": "ekstrakurikuler.html"
+    },
+    {
+     "ikon": "🏆",
+     "judul": {
+      "id": "Prestasi",
+      "en": "Achievements"
+     },
+     "teks": {
+      "id": "Prestasi siswa di tingkat provinsi, nasional, dan internasional.",
+      "en": "Student achievements at provincial, national, and international levels."
+     },
+     "link": "prestasi.html"
+    },
+    {
+     "ikon": "👩‍🏫",
+     "judul": {
+      "id": "Guru & Tenaga Pendidik",
+      "en": "Teachers & Staff"
+     },
+     "teks": {
+      "id": "Kenali pendidik yang mendampingi siswa.",
+      "en": "Meet the educators who guide students."
+     },
+     "link": "guru.html"
+    },
+    {
+     "ikon": "📝",
+     "judul": {
+      "id": "PPDB",
+      "en": "Admissions"
+     },
+     "teks": {
+      "id": "Pendaftaran telah dibuka. Mulai perjalananmu sekarang.",
+      "en": "Admissions are open. Start your journey today."
+     },
+     "link": "ppdb.html"
+    }
+   ]
+  },
+  {
+   "tipe": "tanya",
+   "id": "tanya",
+   "label": {
+    "id": "MASIH BINGUNG?",
+    "en": "STILL UNSURE?"
+   },
+   "judul": {
+    "id": "Tanya Bombi, Asisten Virtual Kami",
+    "en": "Ask Bombi, Our Virtual Assistant"
+   },
+   "teks": {
+    "id": "Bombi siap menjawab seputar jurusan, PPDB, dan fasilitas SMK Telkom Malang.",
+    "en": "Bombi is ready to answer questions about majors, admissions, and facilities at SMK Telkom Malang."
+   },
+   "tombol_bot": {
+    "id": "Tanya Bombi",
+    "en": "Ask Bombi"
+   },
+   "tombol": {
+    "teks": {
+     "id": "Hubungi Kami",
+     "en": "Contact Us"
+    },
+    "link": "kontak.html",
+    "gaya": "ghost"
+   },
+   "gelembung": {
+    "id": "Halo! 👋",
+    "en": "Hi! 👋"
+   }
+  }
+ ],
+ "ui": {
+  "semua": {
+   "id": "Semua",
+   "en": "All"
+  },
+  "cari": {
+   "id": "Cari nama atau bidang…",
+   "en": "Search name or field…"
+  },
+  "menampilkan": {
+   "id": "Menampilkan {n} kegiatan",
+   "en": "Showing {n} items"
+  },
+  "kosong": {
+   "id": "Tidak ada yang cocok dengan pencarian.",
+   "en": "No match for your search."
+  },
+  "reset": {
+   "id": "Reset pencarian",
+   "en": "Reset filters"
+  }
+ }
+}

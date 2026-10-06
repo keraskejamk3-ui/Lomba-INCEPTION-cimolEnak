@@ -1,0 +1,948 @@
+{
+ "_petunjuk": "Tambah kegiatan dengan menyalin satu blok di bagian 'daftar' > 'item', ubah isinya, lalu ganti \"tampil\": false menjadi true (atau hapus barisnya). 'kelompok' harus salah satu id di 'kelompok'. Perhatikan koma dan tanda kutip. Tipe bagian: marquee, sorotan, kartu, daftar, langkah, mitra, kutipan, tautan, cta. Tambah \"gelap\": true di satu bagian untuk latar gelap.",
+ "hero": {
+  "gambar": "DSC04962.jpg",
+  "alt": {
+   "id": "Gedung SMK Telkom Malang",
+   "en": "SMK Telkom Malang building"
+  },
+  "label": {
+   "id": "EKSTRAKURIKULER",
+   "en": "EXTRACURRICULARS"
+  },
+  "judul_awal": {
+   "id": "Kembangkan",
+   "en": "Grow Your"
+  },
+  "judul_sorot": {
+   "id": "Minat & Bakat",
+   "en": "Interests & Talents"
+  },
+  "judul_akhir": {
+   "id": "di Luar Kelas.",
+   "en": "Beyond the Classroom."
+  },
+  "deskripsi": {
+   "id": "Kembangkan minat dan bakat lewat beragam kegiatan di luar kelas.",
+   "en": "Grow your interests and talents through activities beyond the classroom."
+  },
+  "ikon": "🎯",
+  "tombol": [
+   {
+    "teks": {
+     "id": "Lihat Kegiatan",
+     "en": "View Activities"
+    },
+    "link": "#daftar-ekskul",
+    "gaya": "primary"
+   },
+   {
+    "teks": {
+     "id": "Daftar PPDB",
+     "en": "Apply Now"
+    },
+    "link": "ppdb.html",
+    "gaya": "ghost"
+   }
+  ],
+  "ikon_kecil": [
+   "⚽",
+   "🎨",
+   "💻",
+   "🎵"
+  ],
+  "jejak": [
+   {
+    "teks": {
+     "id": "Beranda",
+     "en": "Home"
+    },
+    "link": "index.html"
+   },
+   {
+    "teks": {
+     "id": "Program",
+     "en": "Programs"
+    },
+    "link": "program.html"
+   },
+   {
+    "teks": {
+     "id": "Ekstrakurikuler",
+     "en": "Extracurriculars"
+    }
+   }
+  ]
+ },
+ "ringkasan": {
+  "_catatan": "3 Program Keahlian dan Akreditasi A mengikuti data di situs sekolah (guru.json & beranda). Mohon cek bila ada perubahan.",
+  "item": [
+   {
+    "ikon": "💻",
+    "angka": 3,
+    "label": {
+     "id": "Program Keahlian",
+     "en": "Skill Programs"
+    }
+   },
+   {
+    "ikon": "✅",
+    "angka": "A",
+    "label": {
+     "id": "Akreditasi Sekolah (Unggul)",
+     "en": "School Accreditation (Excellent)"
+    }
+   },
+   {
+    "ikon": "🏫",
+    "angka": "Telkom",
+    "label": {
+     "id": "Di bawah Yayasan Pendidikan Telkom",
+     "en": "Under Telkom Education Foundation"
+    }
+   }
+  ]
+ },
+ "bagian": [
+  {
+   "tipe": "marquee",
+   "item": [
+    {
+     "id": "Olahraga",
+     "en": "Sports"
+    },
+    {
+     "id": "Seni & Budaya",
+     "en": "Arts & Culture"
+    },
+    {
+     "id": "Teknologi",
+     "en": "Technology"
+    },
+    {
+     "id": "Karakter & Sosial",
+     "en": "Character & Social"
+    },
+    {
+     "id": "Kepemimpinan",
+     "en": "Leadership"
+    },
+    {
+     "id": "Prestasi",
+     "en": "Achievement"
+    }
+   ]
+  },
+  {
+   "tipe": "sorotan",
+   "id": "sorotan",
+   "label": {
+    "id": "DI LUAR KELAS",
+    "en": "BEYOND CLASS"
+   },
+   "judul": {
+    "id": "Belajar Tidak Berhenti di Bel Pulang",
+    "en": "Learning Doesn't Stop at the Bell"
+   },
+   "teks": {
+    "id": "Ekstrakurikuler melengkapi pembelajaran di kelas dan laboratorium. Di sini kamu mengembangkan minat dan bakat, melatih kerja sama, dan membangun karakter sebagai Mokleters.",
+    "en": "Extracurriculars complement learning in class and the lab. Here you grow your interests and talents, practice teamwork, and build character as a Mokleter."
+   },
+   "poin": [
+    {
+     "id": "Temukan dan asah minat serta bakatmu",
+     "en": "Find and sharpen your interests and talents"
+    },
+    {
+     "id": "Bekerja sama dengan teman lintas jurusan",
+     "en": "Work with friends across majors"
+    },
+    {
+     "id": "Latih kepemimpinan dan tanggung jawab",
+     "en": "Build leadership and responsibility"
+    },
+    {
+     "id": "Didampingi guru pembimbing untuk lomba",
+     "en": "Coached by teachers for competitions"
+    }
+   ],
+   "ikon": "🌟",
+   "warna": 0,
+   "chip": [
+    {
+     "id": "Minat",
+     "en": "Interests"
+    },
+    {
+     "id": "Bakat",
+     "en": "Talent"
+    },
+    {
+     "id": "Karakter",
+     "en": "Character"
+    }
+   ],
+   "tombol": {
+    "teks": {
+     "id": "Lihat Prestasi",
+     "en": "See Achievements"
+    },
+    "link": "prestasi.html",
+    "gaya": "primary"
+   }
+  },
+  {
+   "tipe": "kartu",
+   "id": "manfaat",
+   "label": {
+    "id": "MANFAAT",
+    "en": "BENEFITS"
+   },
+   "judul": {
+    "id": "Lebih dari Sekadar Kegiatan Tambahan",
+    "en": "More Than Just Extra Activities"
+   },
+   "sub": {
+    "id": "Ruang untuk berkembang di luar jam pelajaran.",
+    "en": "Room to grow beyond class hours."
+   },
+   "item": [
+    {
+     "ikon": "🎨",
+     "judul": {
+      "id": "Minat & Bakat",
+      "en": "Interests & Talents"
+     },
+     "teks": {
+      "id": "Temukan dan asah bakatmu lewat kegiatan yang kamu sukai.",
+      "en": "Find and sharpen your talents through activities you enjoy."
+     }
+    },
+    {
+     "ikon": "🤝",
+     "judul": {
+      "id": "Kerja Sama Tim",
+      "en": "Teamwork"
+     },
+     "teks": {
+      "id": "Belajar bekerja sama dengan teman lintas jurusan.",
+      "en": "Learn to work with friends across majors."
+     }
+    },
+    {
+     "ikon": "🧭",
+     "judul": {
+      "id": "Kepemimpinan",
+      "en": "Leadership"
+     },
+     "teks": {
+      "id": "Latih keberanian memimpin dan bertanggung jawab.",
+      "en": "Build the courage to lead and take responsibility."
+     }
+    },
+    {
+     "ikon": "🏆",
+     "judul": {
+      "id": "Prestasi",
+      "en": "Achievement"
+     },
+     "teks": {
+      "id": "Kesempatan mengikuti lomba dan kegiatan di luar sekolah.",
+      "en": "Chances to join competitions and events beyond school."
+     }
+    }
+   ]
+  },
+  {
+   "tipe": "daftar",
+   "id": "daftar-ekskul",
+   "label": {
+    "id": "DAFTAR KEGIATAN",
+    "en": "ACTIVITY LIST"
+   },
+   "judul": {
+    "id": "Pilih Kegiatan yang Kamu Suka",
+    "en": "Pick What You Love"
+   },
+   "sub": {
+    "id": "Cari berdasarkan nama atau bidang.",
+    "en": "Search by name or field."
+   },
+   "pesan_kosong": {
+    "id": "Daftar ekstrakurikuler akan segera ditambahkan.",
+    "en": "The list of extracurriculars will be added soon."
+   },
+   "kelompok": [
+    {
+     "id": "olahraga",
+     "label": {
+      "id": "Olahraga",
+      "en": "Sports"
+     },
+     "ikon": "⚽"
+    },
+    {
+     "id": "seni",
+     "label": {
+      "id": "Seni & Budaya",
+      "en": "Arts & Culture"
+     },
+     "ikon": "🎨"
+    },
+    {
+     "id": "teknologi",
+     "label": {
+      "id": "Teknologi",
+      "en": "Technology"
+     },
+     "ikon": "💻"
+    },
+    {
+     "id": "karakter",
+     "label": {
+      "id": "Karakter & Sosial",
+      "en": "Character & Social"
+     },
+     "ikon": "🌱"
+    }
+   ],
+   "item": [
+    {
+     "tampil": true,
+     "nama": "Artificial Intelligence Kelas X",
+     "kelompok": "teknologi",
+     "ikon": "🤖",
+     "deskripsi": {
+      "id": "Kenali dasar kecerdasan buatan dan machine learning.",
+      "en": "Learn the basics of artificial intelligence and machine learning."
+     },
+     "tag": [
+      "Senin, Ruang 32-33",
+      "Pembina: Lyra Hertin, S.Pd"
+     ]
+    },
+    {
+     "tampil": true,
+     "nama": "Artificial Intelligence Kelas XI",
+     "kelompok": "teknologi",
+     "ikon": "🤖",
+     "deskripsi": {
+      "id": "Lanjutkan belajar AI lewat proyek yang lebih mendalam.",
+      "en": "Continue learning AI through deeper projects."
+     },
+     "tag": [
+      "Senin, Ruang 34-35",
+      "Pembina: Lyra Hertin, S.Pd"
+     ]
+    },
+    {
+     "tampil": true,
+     "nama": "Bola Basket",
+     "kelompok": "olahraga",
+     "ikon": "🏀",
+     "deskripsi": {
+      "id": "Latihan teknik, strategi, dan kerja sama tim bola basket.",
+      "en": "Train basketball skills, tactics, and teamwork."
+     },
+     "tag": [
+      "Senin, Lapangan Basket",
+      "Pembina: Rezhandra Cezar Pramaidaska"
+     ]
+    },
+    {
+     "tampil": true,
+     "nama": "Bola Voli",
+     "kelompok": "olahraga",
+     "ikon": "🏐",
+     "deskripsi": {
+      "id": "Latihan servis, umpan, dan smash bersama tim.",
+      "en": "Practice serving, passing, and spiking with the team."
+     },
+     "tag": [
+      "Kamis, Lapangan Basket",
+      "Pembina: Ekky Oktavinus Putra"
+     ]
+    },
+    {
+     "tampil": true,
+     "nama": "Cloud Computing",
+     "kelompok": "teknologi",
+     "ikon": "☁️",
+     "deskripsi": {
+      "id": "Pelajari layanan komputasi awan dan cara memanfaatkannya.",
+      "en": "Explore cloud services and how to use them."
+     },
+     "tag": [
+      "Senin, Ruang 7",
+      "Pembina: Adi Nurrachman, S.T, M.Kom"
+     ]
+    },
+    {
+     "tampil": true,
+     "nama": "Cyber Security Kelas X",
+     "kelompok": "teknologi",
+     "ikon": "🔐",
+     "deskripsi": {
+      "id": "Pengenalan keamanan siber dan perlindungan data.",
+      "en": "Introduction to cyber security and data protection."
+     },
+     "tag": [
+      "Kamis, Ruang 34-35",
+      "Pembina: Joni Setiyawan Saputra, S.Pd"
+     ]
+    },
+    {
+     "tampil": true,
+     "nama": "Cyber Security Kelas XI",
+     "kelompok": "teknologi",
+     "ikon": "🔐",
+     "deskripsi": {
+      "id": "Pendalaman keamanan siber lewat praktik dan simulasi.",
+      "en": "Deeper cyber security through practice and simulations."
+     },
+     "tag": [
+      "Kamis, Ruang 32-33",
+      "Pembina: Joni Setiyawan Saputra, S.Pd"
+     ]
+    },
+    {
+     "tampil": true,
+     "nama": "Digital Marketing",
+     "kelompok": "teknologi",
+     "ikon": "📣",
+     "deskripsi": {
+      "id": "Belajar strategi pemasaran digital dan pembuatan konten.",
+      "en": "Learn digital marketing strategy and content creation."
+     },
+     "tag": [
+      "Kamis, Laboratorium 2",
+      "Pembina: Rahardiyan Andzikriadi, S.S"
+     ]
+    },
+    {
+     "tampil": true,
+     "nama": "Drone Pilot",
+     "kelompok": "teknologi",
+     "ikon": "🚁",
+     "deskripsi": {
+      "id": "Belajar menerbangkan dan mengendalikan drone.",
+      "en": "Learn to fly and control drones."
+     },
+     "tag": [
+      "Rabu, Masjid",
+      "Pembina: Muhammad Chusni Agus, M.Pd"
+     ]
+    },
+    {
+     "tampil": true,
+     "nama": "English Conversation & Debate",
+     "kelompok": "karakter",
+     "ikon": "🗣️",
+     "deskripsi": {
+      "id": "Asah percakapan bahasa Inggris dan kemampuan berdebat.",
+      "en": "Sharpen English conversation and debating skills."
+     },
+     "tag": [
+      "Rabu, Aula",
+      "Pembina: Ardhian Suseno, M.Pd"
+     ]
+    },
+    {
+     "tampil": true,
+     "nama": "Fotografi",
+     "kelompok": "seni",
+     "ikon": "📷",
+     "deskripsi": {
+      "id": "Belajar teknik memotret dan mengolah foto.",
+      "en": "Learn photography techniques and photo editing."
+     },
+     "tag": [
+      "Rabu, Lab 6",
+      "Pembina: Sofyan Wijanarko"
+     ]
+    },
+    {
+     "tampil": true,
+     "nama": "Futsal",
+     "kelompok": "olahraga",
+     "ikon": "⚽",
+     "deskripsi": {
+      "id": "Latihan teknik dan strategi futsal bersama tim.",
+      "en": "Train futsal skills and tactics with the team."
+     },
+     "tag": [
+      "Selasa, Lapangan Basket",
+      "Pembina: Jeremia Duta Perdana Kasih"
+     ]
+    },
+    {
+     "tampil": true,
+     "nama": "Graphic Design Kelas X",
+     "kelompok": "teknologi",
+     "ikon": "🖌️",
+     "deskripsi": {
+      "id": "Dasar desain grafis dan penggunaan perangkat desain.",
+      "en": "Graphic design basics and design tools."
+     },
+     "tag": [
+      "Rabu, Laboratorium 5",
+      "Pembina: Firmansyah Ayatullah, S.Kom"
+     ]
+    },
+    {
+     "tampil": true,
+     "nama": "Graphic Design Kelas XI",
+     "kelompok": "teknologi",
+     "ikon": "🖌️",
+     "deskripsi": {
+      "id": "Lanjutan desain grafis lewat proyek kreatif.",
+      "en": "Advanced graphic design through creative projects."
+     },
+     "tag": [
+      "Rabu, Ruang 17",
+      "Pembina: Firmansyah Ayatullah, S.Kom"
+     ]
+    },
+    {
+     "tampil": true,
+     "nama": "Internet Network Cabling",
+     "kelompok": "teknologi",
+     "ikon": "🔌",
+     "deskripsi": {
+      "id": "Praktik pemasangan kabel jaringan dan konfigurasi dasar.",
+      "en": "Hands-on network cabling and basic configuration."
+     },
+     "tag": [
+      "Selasa, Laboratorium 1",
+      "Pembina: Firman Hadi Amrullah, S.Kom"
+     ]
+    },
+    {
+     "tampil": true,
+     "nama": "IT Network Systems Administration",
+     "kelompok": "teknologi",
+     "ikon": "🖧",
+     "deskripsi": {
+      "id": "Belajar mengelola sistem dan jaringan komputer.",
+      "en": "Learn to administer computer systems and networks."
+     },
+     "tag": [
+      "Selasa, Ruang 15/16",
+      "Pembina: Hirga Ertama Putra, S.Kom"
+     ]
+    },
+    {
+     "tampil": true,
+     "nama": "IT Software Solution for Business Kelas X",
+     "kelompok": "teknologi",
+     "ikon": "🧩",
+     "deskripsi": {
+      "id": "Dasar pembuatan solusi perangkat lunak untuk bisnis.",
+      "en": "Basics of building software solutions for business."
+     },
+     "tag": [
+      "Rabu, Ruang 34-35",
+      "Pembina: Hanif Samsu Angga Risky, S.Pd"
+     ]
+    },
+    {
+     "tampil": true,
+     "nama": "IT Software Solution for Business Kelas XI",
+     "kelompok": "teknologi",
+     "ikon": "🧩",
+     "deskripsi": {
+      "id": "Pengembangan solusi perangkat lunak bisnis yang lebih lanjut.",
+      "en": "Advanced development of business software solutions."
+     },
+     "tag": [
+      "Rabu, Laboratorium 7",
+      "Pembina: Amalia Ramadhanty, S.Kom"
+     ]
+    },
+    {
+     "tampil": true,
+     "nama": "Karawitan",
+     "kelompok": "seni",
+     "ikon": "🎶",
+     "deskripsi": {
+      "id": "Memainkan gamelan dan melestarikan musik tradisional.",
+      "en": "Play gamelan and preserve traditional music."
+     },
+     "tag": [
+      "Kamis, Ruang Kesenian",
+      "Pembina: Afif Ainurridho"
+     ]
+    },
+    {
+     "tampil": true,
+     "nama": "Palang Merah Remaja",
+     "kelompok": "karakter",
+     "ikon": "⛑️",
+     "deskripsi": {
+      "id": "Belajar pertolongan pertama dan kepedulian sosial.",
+      "en": "Learn first aid and social care."
+     },
+     "tag": [
+      "Rabu, Ruang 8",
+      "Pembina: Sufaeri"
+     ]
+    },
+    {
+     "tampil": true,
+     "nama": "Paskibra",
+     "kelompok": "karakter",
+     "ikon": "🚩",
+     "deskripsi": {
+      "id": "Latihan baris-berbaris, kedisiplinan, dan pengibaran bendera.",
+      "en": "Train marching, discipline, and flag-raising."
+     },
+     "tag": [
+      "Senin, Lapangan Manatahan",
+      "Pembina: Immanuel"
+     ]
+    },
+    {
+     "tampil": true,
+     "nama": "Pencak Silat",
+     "kelompok": "olahraga",
+     "ikon": "🥋",
+     "deskripsi": {
+      "id": "Latihan bela diri tradisional dan sportivitas.",
+      "en": "Train traditional martial arts and sportsmanship."
+     },
+     "tag": [
+      "Selasa & Jumat, Selasar Aula",
+      "Pembina: Eka Nor Fatimah"
+     ]
+    },
+    {
+     "tampil": true,
+     "nama": "Pramuka",
+     "kelompok": "karakter",
+     "ikon": "⚜️",
+     "deskripsi": {
+      "id": "Latih kemandirian, kepemimpinan, dan cinta alam.",
+      "en": "Build independence, leadership, and love for nature."
+     },
+     "tag": [
+      "Kamis, Ruang 6 – Lapangan Manatahan",
+      "Pembina: Syafirah Aisyah, S.T"
+     ]
+    },
+    {
+     "tampil": true,
+     "nama": "Robotik",
+     "kelompok": "teknologi",
+     "ikon": "🦾",
+     "deskripsi": {
+      "id": "Merancang, merakit, dan memprogram robot.",
+      "en": "Design, build, and program robots."
+     },
+     "tag": [
+      "Selasa, Laboratorium 5",
+      "Pembina: M. Bagus Arifin, S.Pd"
+     ]
+    },
+    {
+     "tampil": true,
+     "nama": "Seni Tari",
+     "kelompok": "seni",
+     "ikon": "💃",
+     "deskripsi": {
+      "id": "Belajar gerak dan ekspresi lewat tari.",
+      "en": "Learn movement and expression through dance."
+     },
+     "tag": [
+      "Senin, Aula",
+      "Pembina: Nurul Fahiliar Rohmah"
+     ]
+    },
+    {
+     "tampil": true,
+     "nama": "Seni Vokal",
+     "kelompok": "seni",
+     "ikon": "🎤",
+     "deskripsi": {
+      "id": "Latih teknik olah vokal dan tampil bernyanyi.",
+      "en": "Train vocal technique and stage singing."
+     },
+     "tag": [
+      "Kamis, Ruang 7",
+      "Pembina: Muhammad Rafif Hilmi Azmi"
+     ]
+    },
+    {
+     "tampil": true,
+     "nama": "Teater",
+     "kelompok": "seni",
+     "ikon": "🎭",
+     "deskripsi": {
+      "id": "Belajar akting, olah tubuh, dan pementasan.",
+      "en": "Learn acting, movement, and stage performance."
+     },
+     "tag": [
+      "Rabu (Aula), Kamis (Ruang 6)",
+      "Pembina: Mohammad Harits Rendika Putra"
+     ]
+    },
+    {
+     "tampil": true,
+     "nama": "Web Design",
+     "kelompok": "teknologi",
+     "ikon": "🌐",
+     "deskripsi": {
+      "id": "Belajar merancang dan membangun tampilan situs web.",
+      "en": "Learn to design and build websites."
+     },
+     "tag": [
+      "Kamis, Laboratorium 4",
+      "Pembina: Zakaria"
+     ]
+    }
+   ]
+  },
+  {
+   "tipe": "langkah",
+   "id": "cara-gabung",
+   "label": {
+    "id": "CARA BERGABUNG",
+    "en": "HOW TO JOIN"
+   },
+   "judul": {
+    "id": "Mulai dalam Tiga Langkah",
+    "en": "Get Started in Three Steps"
+   },
+   "sub": {
+    "id": "Silakan sesuaikan dengan prosedur sekolah.",
+    "en": "Please adjust to the school's actual procedure."
+   },
+   "_periksa": "Isi awal ini disusun dari teks situs dan perlu dicek/disesuaikan dengan kondisi sekolah, lalu hapus baris ini.",
+   "item": [
+    {
+     "judul": {
+      "id": "Pilih Kegiatan",
+      "en": "Pick an Activity"
+     },
+     "teks": {
+      "id": "Lihat daftar kegiatan dan pilih yang sesuai minatmu.",
+      "en": "Browse the list and choose what fits your interests."
+     }
+    },
+    {
+     "judul": {
+      "id": "Hubungi Pembina",
+      "en": "Contact the Coach"
+     },
+     "teks": {
+      "id": "Tanyakan jadwal dan cara mendaftar kepada pembina.",
+      "en": "Ask the coach about schedules and how to sign up."
+     }
+    },
+    {
+     "judul": {
+      "id": "Ikuti Latihan",
+      "en": "Join Practice"
+     },
+     "teks": {
+      "id": "Hadir, berlatih, dan berkembang bersama teman.",
+      "en": "Show up, practice, and grow with your friends."
+     }
+    }
+   ]
+  },
+  {
+   "tipe": "kutipan",
+   "id": "visi",
+   "label": {
+    "id": "VISI SEKOLAH",
+    "en": "SCHOOL VISION"
+   },
+   "teks": {
+    "id": "Mencetak lulusan berAKHLAK, ahli, dan berkebhinekaan global.",
+    "en": "Producing graduates of strong character (AKHLAK), expertise, and global diversity."
+   },
+   "jabatan": {
+    "id": "Visi SMK Telkom Malang",
+    "en": "SMK Telkom Malang's Vision"
+   }
+  },
+  {
+   "tipe": "kartu",
+   "id": "nilai",
+   "label": {
+    "id": "NILAI SEKOLAH",
+    "en": "SCHOOL VALUES"
+   },
+   "judul": {
+    "id": "Nilai yang Kami Pegang",
+    "en": "The Values We Stand For"
+   },
+   "sub": {
+    "id": "Prinsip yang membentuk cara kami belajar, bekerja, dan tumbuh bersama.",
+    "en": "The principles that shape how we learn, work, and grow together."
+   },
+   "item": [
+    {
+     "ikon": "🛡️",
+     "judul": {
+      "id": "Integritas",
+      "en": "Integrity"
+     },
+     "teks": {
+      "id": "Jujur dan bertanggung jawab dalam belajar maupun bekerja.",
+      "en": "Honest and responsible in both learning and working."
+     }
+    },
+    {
+     "ikon": "💡",
+     "judul": {
+      "id": "Inovasi",
+      "en": "Innovation"
+     },
+     "teks": {
+      "id": "Berani mencoba dan menciptakan solusi digital yang baru.",
+      "en": "Bold in trying and creating new digital solutions."
+     }
+    },
+    {
+     "ikon": "🤝",
+     "judul": {
+      "id": "Kolaborasi",
+      "en": "Collaboration"
+     },
+     "teks": {
+      "id": "Bekerja sama lintas jurusan dan bersama mitra industri.",
+      "en": "Working together across majors and with industry partners."
+     }
+    },
+    {
+     "ikon": "🎯",
+     "judul": {
+      "id": "Profesional",
+      "en": "Professionalism"
+     },
+     "teks": {
+      "id": "Disiplin, teliti, dan siap memenuhi standar dunia kerja.",
+      "en": "Disciplined, meticulous, and ready to meet workplace standards."
+     }
+    }
+   ]
+  },
+  {
+   "tipe": "tautan",
+   "id": "terkait",
+   "label": {
+    "id": "JELAJAHI JUGA",
+    "en": "EXPLORE MORE"
+   },
+   "judul": {
+    "id": "Kenali Lebih Dekat SMK Telkom Malang",
+    "en": "Get to Know SMK Telkom Malang"
+   },
+   "item": [
+    {
+     "ikon": "🏆",
+     "judul": {
+      "id": "Prestasi",
+      "en": "Achievements"
+     },
+     "teks": {
+      "id": "Prestasi siswa di tingkat provinsi, nasional, dan internasional.",
+      "en": "Student achievements at provincial, national, and international levels."
+     },
+     "link": "prestasi.html"
+    },
+    {
+     "ikon": "🏛️",
+     "judul": {
+      "id": "Sub Organisasi",
+      "en": "Student Organizations"
+     },
+     "teks": {
+      "id": "Latih kepemimpinan, kerja sama tim, dan tanggung jawab.",
+      "en": "Build leadership, teamwork, and responsibility."
+     },
+     "link": "sub-organisasi.html"
+    },
+    {
+     "ikon": "💻",
+     "judul": {
+      "id": "Program Keahlian",
+      "en": "Majors"
+     },
+     "teks": {
+      "id": "Pilih program keahlian yang sesuai minatmu.",
+      "en": "Choose the major that fits your interests."
+     },
+     "link": "program.html#jurusan"
+    },
+    {
+     "ikon": "📝",
+     "judul": {
+      "id": "PPDB",
+      "en": "Admissions"
+     },
+     "teks": {
+      "id": "Pendaftaran telah dibuka. Mulai perjalananmu sekarang.",
+      "en": "Admissions are open. Start your journey today."
+     },
+     "link": "ppdb.html"
+    }
+   ]
+  },
+  {
+   "tipe": "tanya",
+   "id": "tanya",
+   "label": {
+    "id": "MASIH BINGUNG?",
+    "en": "STILL UNSURE?"
+   },
+   "judul": {
+    "id": "Tanya Bombi, Asisten Virtual Kami",
+    "en": "Ask Bombi, Our Virtual Assistant"
+   },
+   "teks": {
+    "id": "Bombi siap menjawab seputar jurusan, PPDB, dan fasilitas SMK Telkom Malang.",
+    "en": "Bombi is ready to answer questions about majors, admissions, and facilities at SMK Telkom Malang."
+   },
+   "tombol_bot": {
+    "id": "Tanya Bombi",
+    "en": "Ask Bombi"
+   },
+   "tombol": {
+    "teks": {
+     "id": "Hubungi Kami",
+     "en": "Contact Us"
+    },
+    "link": "kontak.html",
+    "gaya": "ghost"
+   },
+   "gelembung": {
+    "id": "Halo! 👋",
+    "en": "Hi! 👋"
+   }
+  }
+ ],
+ "ui": {
+  "semua": {
+   "id": "Semua",
+   "en": "All"
+  },
+  "cari": {
+   "id": "Cari nama atau bidang…",
+   "en": "Search name or field…"
+  },
+  "menampilkan": {
+   "id": "Menampilkan {n} kegiatan",
+   "en": "Showing {n} items"
+  },
+  "kosong": {
+   "id": "Tidak ada yang cocok dengan pencarian.",
+   "en": "No match for your search."
+  },
+  "reset": {
+   "id": "Reset pencarian",
+   "en": "Reset filters"
+  }
+ }
+}

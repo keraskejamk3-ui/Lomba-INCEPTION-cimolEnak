@@ -1,0 +1,17 @@
+{
+  "nama": "SMK Telkom Malang",
+  "tagline": "School of Global Digitalent",
+  "alamat": "Jl. Danau Ranau, Sawojajar, Kec. Kedungkandang, Kota Malang, Jawa Timur 65139",
+  "telepon": "+62 341 754 333",
+  "email": "info@smktelkom-mlg.sch.id",
+  "whatsapp": "6281234567890",
+  "map_embed": "https://www.openstreetmap.org/export/embed.html?bbox=112.645%2C-7.985%2C112.662%2C-7.970&layer=mapnik",
+  "social": {
+    "facebook": "https://facebook.com/smktelkommalang",
+    "x": "https://x.com/smktelkommalang",
+    "tiktok": "https://www.tiktok.com/@smktelkommalang",
+    "youtube": "https://www.youtube.com/@smktelkom_mlg",
+    "instagram": "https://www.instagram.com/smktelkommalang/"
+  },
+  "chatbot": { "endpoint": "", "useAI": false }
+}

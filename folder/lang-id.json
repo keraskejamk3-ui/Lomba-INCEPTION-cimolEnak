@@ -1,0 +1,385 @@
+{
+ "meta": {
+  "title": "SMK Telkom Malang — School of Global Digitalent"
+ },
+ "nav": {
+  "home": "Beranda",
+  "about": "Tentang Kami",
+  "program": "Program",
+  "info": "Informasi",
+  "labtour": "Lab Tour",
+  "intl": "International Class",
+  "alumni": "Alumni",
+  "ppdb": "PPDB",
+  "contact": "Hubungi Kami",
+  "about_profile": "Profil Sekolah",
+  "about_achievement": "Prestasi",
+  "about_facility": "Fasilitas",
+  "about_teacher": "Guru",
+  "about_accommodation": "Akomodasi",
+  "program_majors": "Program Keahlian",
+  "program_extra": "Ekstrakurikuler",
+  "program_dtp": "Digital Talent Program",
+  "program_org": "Sub Organisasi",
+  "info_news": "Berita",
+  "info_k3": "Penerapan K3",
+  "menu": "Buka menu",
+  "skip": "Lewati ke konten utama",
+  "lang": "Bahasa"
+ },
+ "hero": {
+  "title": "School of Global Digitalent",
+  "sub": "Mencetak talenta digital siap industri dan siap dunia.",
+  "cta_ppdb": "Daftar PPDB",
+  "cta_program": "Lihat Program",
+  "alt1": "Gedung SMK Telkom Malang",
+  "alt2": "Kegiatan belajar siswa",
+  "alt3": "Siswa di laboratorium"
+ },
+ "footer": {
+  "about": "SMK di bawah Yayasan Pendidikan Telkom, mencetak talenta digital kelas global.",
+  "quick": "Tautan Cepat",
+  "contact": "Kontak",
+  "follow": "Ikuti Kami",
+  "map": "Lokasi",
+  "rights": "Hak cipta dilindungi.",
+  "map_cta": "Buka di Google Maps",
+  "band": {
+   "title": "Siap bergabung dengan SMK Telkom Malang?",
+   "text": "Pendaftaran telah dibuka. Mulai perjalananmu menjadi talenta digital sekarang.",
+   "cta": "Daftar Sekarang"
+  }
+ },
+ "stats": {
+  "jurusan": "Jurusan",
+  "siswa": "Siswa Aktif",
+  "prestasi": "Prestasi"
+ },
+ "greet": {
+  "title": "Sambutan Kepala Sekolah",
+  "role": "Kepala Sekolah",
+  "play": "Putar video profil",
+  "text": "Selamat Datang di SMK Telkom Malang Temukan seluruh informasi seputar sekolah kami di website ini, mulai dari profil, program keahlian, hingga kegiatan siswa. Bersama mitra industri ternama seperti Telkom Indonesia, Cisco, dan Alibaba, kami mencetak lulusan unggul, berkarakter, dan siap kerja di era digital .Mari terhubung, berinteraksi, dan berkarya bersama demi kemajuan anak bangsa"
+ },
+ "why": {
+  "title": "Mengapa Memilih SMK Telkom",
+  "era": {
+   "t": "School of Digital Era",
+   "d": "Pembelajaran berbasis teknologi terkini."
+  },
+  "dtp": {
+   "t": "Digital Talent Program",
+   "d": "Pembinaan talenta digital bersama industri."
+  },
+  "akreditasi": {
+   "t": "Akreditasi A (Unggul)",
+   "d": "Mutu pendidikan yang terakreditasi unggul."
+  },
+  "opes": {
+   "t": "Program OPES",
+   "d": "Jalur pengembangan karier dan kewirausahaan."
+  },
+  "yayasan": {
+   "t": "Yayasan Pendidikan Telkom",
+   "d": "Bernaung di bawah jaringan pendidikan Telkom."
+  }
+ },
+ "prog": {
+  "title": "Program Keahlian",
+  "more": "Selengkapnya"
+ },
+ "mitra": {
+  "title": "Mitra Industri",
+  "strip": "Bekerja sama dengan"
+ },
+ "float": {
+  "wa": "Chat via WhatsApp",
+  "bot": "Tanya Asisten"
+ },
+ "abt": {
+  "eyebrow": "Tentang SMK Telkom Malang",
+  "badge": "Akreditasi Unggul",
+  "title": "Sekolah Digital yang Menyiapkanmu Jadi Talenta Global",
+  "text": "SMK Telkom Malang adalah sekolah menengah kejuruan di bawah Yayasan Pendidikan Telkom yang berfokus pada talenta digital. Kamu belajar dengan teknologi terkini, berlatih bersama mitra industri, dan dibekali karakter kuat untuk siap bekerja, melanjutkan kuliah, atau berwirausaha.",
+  "p1": "Terakreditasi A (Unggul)",
+  "p2": "Digital Talent Program bersama industri",
+  "p3": "International Class untuk wawasan global",
+  "p4": "Jalur karier dan wirausaha lewat Program OPES",
+  "cta1": "Daftar PPDB",
+  "cta2": "Kenali Lebih Dekat"
+ },
+ "fac": {
+  "eyebrow": "Fasilitas & Kegiatan",
+  "title": "Belajar Nyaman, Berkembang Maksimal",
+  "sub": "Lingkungan belajar yang mendukung praktik, kreativitas, dan kepemimpinanmu.",
+  "f1": {
+   "t": "Laboratorium Modern",
+   "d": "Praktik langsung di laboratorium dengan perangkat yang sesuai kebutuhan industri."
+  },
+  "f2": {
+   "t": "Lab Tour",
+   "d": "Lihat langsung ruang praktik dan suasana belajar sebelum kamu mendaftar."
+  },
+  "f3": {
+   "t": "Akomodasi",
+   "d": "Informasi akomodasi bagi siswa yang berasal dari luar kota."
+  },
+  "f4": {
+   "t": "Ekstrakurikuler",
+   "d": "Kembangkan minat dan bakat lewat beragam kegiatan di luar kelas."
+  },
+  "f5": {
+   "t": "Organisasi Siswa",
+   "d": "Latih kepemimpinan, kerja sama tim, dan tanggung jawab."
+  },
+  "f6": {
+   "t": "Budaya K3",
+   "d": "Lingkungan praktik yang aman dengan penerapan Keselamatan dan Kesehatan Kerja."
+  }
+ },
+ "jrn": {
+  "eyebrow": "Perjalanan Siswa",
+  "title": "Perjalananmu di SMK Telkom",
+  "sub": "Dari hari pertama mendaftar sampai siap melangkah ke dunia kerja dan pendidikan lanjutan.",
+  "s1": {
+   "t": "Bergabung",
+   "d": "Daftar lewat PPDB dan pilih program keahlian yang sesuai minatmu."
+  },
+  "s2": {
+   "t": "Belajar & Praktik",
+   "d": "Kuasai teori dan praktik lewat pembelajaran berbasis teknologi terkini."
+  },
+  "s3": {
+   "t": "Bersama Industri",
+   "d": "Ikuti Digital Talent Program dan berkolaborasi dengan mitra industri."
+  },
+  "s4": {
+   "t": "Siap Melangkah",
+   "d": "Lulus siap kerja, kuliah, atau berwirausaha, didukung jaringan alumni."
+  }
+ },
+ "prof": {
+  "eyebrow": "Profil Sekolah",
+  "title": "Mengenal SMK Telkom Malang",
+  "p1": "SMK Telkom Malang adalah sekolah menengah kejuruan di bawah Yayasan Pendidikan Telkom yang mencetak talenta digital siap industri dan siap dunia. Kami memadukan pembelajaran berbasis teknologi, praktik di laboratorium, dan kolaborasi dengan mitra industri.",
+  "p2": "Sebagai bagian dari jaringan pendidikan Telkom, sekolah kami terus berkembang menghadirkan program keahlian yang relevan dengan kebutuhan dunia kerja digital, mulai dari Digital Talent Program hingga International Class.",
+  "c1": "Yayasan Pendidikan Telkom",
+  "c2": "Akreditasi A (Unggul)",
+  "c3": "School of Global Digitalent",
+  "card": "Identitas Sekolah",
+  "k1": "Nama",
+  "v1": "SMK Telkom Malang",
+  "k2": "Yayasan",
+  "v2": "Yayasan Pendidikan Telkom",
+  "k3": "Akreditasi",
+  "v3": "A (Unggul)",
+  "k4": "Alamat",
+  "k5": "Telepon",
+  "k6": "Email"
+ },
+ "vm": {
+  "eyebrow": "Visi & Misi",
+  "title": "Arah dan Tujuan Kami",
+  "visi": "Visi",
+  "visi_text": "Mencetak lulusan berAKHLAK, ahli, dan berkebhinekaan global.",
+  "misi": "Misi",
+  "m1": "Mengasuh MOKLETER menjadi pribadi yang religius dan tangguh. ",
+  "m2": "Mengasah MOKLETER menjadi pribadi pembelajar sepanjang hayat di bidang teknologi Informasi dan Komunikasi. ",
+  "m3": "Membekali MOKLETER dengan kompetensi berstandar internasional. ",
+  "m4": "Membuka wawasan global melalui program internasional dan jaringan alumni."
+ },
+ "val": {
+  "eyebrow": "Nilai Sekolah",
+  "title": "Nilai yang Kami Pegang",
+  "sub": "Prinsip yang membentuk cara kami belajar, bekerja, dan tumbuh bersama.",
+  "v1": {
+   "t": "Integritas",
+   "d": "Jujur dan bertanggung jawab dalam belajar maupun bekerja."
+  },
+  "v2": {
+   "t": "Inovasi",
+   "d": "Berani mencoba dan menciptakan solusi digital yang baru."
+  },
+  "v3": {
+   "t": "Kolaborasi",
+   "d": "Bekerja sama lintas jurusan dan bersama mitra industri."
+  },
+  "v4": {
+   "t": "Profesional",
+   "d": "Disiplin, teliti, dan siap memenuhi standar dunia kerja."
+  }
+ },
+ "program": {
+  "meta_title": "Program Keahlian | SMK Telkom Malang",
+  "hero": {
+   "label": "PROGRAM KEAHLIAN",
+   "title_start": "Pilih Jalur",
+   "title_hl": "Keahlian Digitalmu",
+   "title_end": "Sejak SMK.",
+   "desc": "Tiga program keahlian berbasis teknologi informasi yang menyiapkanmu untuk dunia kerja dan kuliah.",
+   "cta1": "Lihat Program",
+   "cta2": "Daftar PPDB",
+   "alt": "Gedung SMK Telkom Malang",
+   "crumb_home": "Beranda",
+   "crumb_program": "Program",
+   "crumb_current": "Program Keahlian"
+  },
+  "stats": {
+   "s1": "Program Keahlian",
+   "s2": "Akreditasi Sekolah",
+   "s3": "Berdiri Sejak",
+   "s4": "Yayasan Pendidikan Telkom"
+  },
+  "jurusan": {
+   "label": "PILIHAN PROGRAM",
+   "title": "Tiga Program Keahlian",
+   "sub": "Pilih yang paling sesuai dengan minatmu.",
+   "more": "Selengkapnya"
+  },
+  "ui": {
+   "learn": "Yang Kamu Pelajari",
+   "career": "Prospek Karier",
+   "study": "Lanjut Kuliah",
+   "extra": "Ekstrakurikuler Pendukung",
+   "apply": "Daftar PPDB"
+  },
+  "rpl": {
+   "nama": "Rekayasa Perangkat Lunak",
+   "singkat": "Merancang dan membangun aplikasi web, mobile, dan sistem berbasis perangkat lunak.",
+   "tag": [
+    "Web",
+    "Mobile",
+    "UI/UX"
+   ],
+   "belajar": [
+    "Dasar pemrograman dan logika",
+    "Basis data dan pemrograman web",
+    "Pengembangan aplikasi mobile",
+    "Desain antarmuka dan pengalaman pengguna",
+    "Pengujian dan dokumentasi perangkat lunak"
+   ],
+   "karier": [
+    "Web / Mobile Developer",
+    "Software Engineer",
+    "UI/UX Designer",
+    "Software Tester (QA)"
+   ],
+   "lanjut": [
+    "Teknik / Sistem Informatika",
+    "Rekayasa Perangkat Lunak"
+   ]
+  },
+  "tkj": {
+   "nama": "Teknik Komputer & Jaringan",
+   "singkat": "Membangun, mengelola, dan mengamankan infrastruktur jaringan dan sistem komputer.",
+   "tag": [
+    "Jaringan",
+    "Server",
+    "Keamanan"
+   ],
+   "belajar": [
+    "Perakitan dan perawatan komputer",
+    "Jaringan komputer dan infrastruktur",
+    "Administrasi sistem dan server",
+    "Keamanan jaringan",
+    "Dasar komputasi awan"
+   ],
+   "karier": [
+    "Network / System Administrator",
+    "Cyber Security Analyst",
+    "Cloud Engineer",
+    "IT Support"
+   ],
+   "lanjut": [
+    "Teknik Komputer / Teknik Telekomunikasi",
+    "Teknologi Informasi"
+   ]
+  },
+  "pg": {
+   "nama": "Pengembangan Gim",
+   "singkat": "Mengembangkan gim lewat desain, pemrograman, grafis, dan animasi.",
+   "tag": [
+    "Gim",
+    "Grafis",
+    "Animasi"
+   ],
+   "belajar": [
+    "Desain gim dan perancangan level",
+    "Pemrograman gim",
+    "Grafis dan animasi 2D/3D",
+    "Audio dan efek gim",
+    "Pengujian dan publikasi gim"
+   ],
+   "karier": [
+    "Game Developer",
+    "Game Designer",
+    "2D/3D Artist",
+    "Game Tester (QA)"
+   ],
+   "lanjut": [
+    "Teknologi Gim / Informatika",
+    "Desain Komunikasi Visual"
+   ]
+  },
+  "alur": {
+   "label": "ALUR BELAJAR",
+   "title": "Perjalanan dari Kelas X sampai Lulus",
+   "s1": {
+    "t": "Kelas X",
+    "d": "Fondasi teknologi informasi dan pengenalan program keahlian."
+   },
+   "s2": {
+    "t": "Kelas XI",
+    "d": "Materi inti, praktik laboratorium, dan proyek kelompok."
+   },
+   "s3": {
+    "t": "PKL",
+    "d": "Praktik kerja lapangan di dunia usaha dan industri."
+   },
+   "s4": {
+    "t": "Kelas XII",
+    "d": "Proyek akhir, uji kompetensi, dan persiapan karier atau kuliah."
+   }
+  },
+  "dukung": {
+   "label": "PENDUKUNG",
+   "title": "Belajar dengan Dukungan Penuh",
+   "i1": {
+    "t": "Laboratorium Praktik",
+    "d": "Praktik langsung di laboratorium komputer sekolah."
+   },
+   "i2": {
+    "t": "Guru Pembimbing",
+    "d": "Didampingi guru berpengalaman di bidang masing-masing."
+   },
+   "i3": {
+    "t": "Naungan Telkom",
+    "d": "Berada di bawah Yayasan Pendidikan Telkom."
+   },
+   "i4": {
+    "t": "Lomba & Ekskul",
+    "d": "Ekstrakurikuler teknologi dan kesempatan mengikuti lomba."
+   }
+  },
+  "terkait": {
+   "label": "JELAJAHI JUGA",
+   "title": "Lanjutkan Menjelajah",
+   "l1": {
+    "t": "Ekstrakurikuler",
+    "d": "Kembangkan minat dan bakat di luar kelas."
+   },
+   "l2": {
+    "t": "Prestasi",
+    "d": "Prestasi siswa di berbagai tingkat."
+   },
+   "l3": {
+    "t": "Lab Tour",
+    "d": "Lihat fasilitas laboratorium kami."
+   },
+   "l4": {
+    "t": "PPDB",
+    "d": "Mulai perjalananmu sekarang."
+   }
+  }
+ }
+}
