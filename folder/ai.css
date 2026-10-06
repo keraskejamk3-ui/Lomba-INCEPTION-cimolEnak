@@ -1,0 +1,523 @@
+/* ==========================================================================
+   WIDGET CHATBOT AI - SMK TELKOM MALANG STYLE (v2 - redesign)
+   ========================================================================== */
+
+:root {
+  --telkom-red: #d30000;
+  --telkom-red-light: #ef2a2a;
+  --telkom-red-dark: #a80000;
+  --telkom-bg-light: #f6f7fb;
+  --telkom-border: #e6e9f0;
+  --telkom-text: #1e293b;
+  --telkom-text-muted: #64748b;
+  /* Ruang kosong di bagian atas layar agar chat TIDAK menutupi navbar.
+     Naikkan nilainya bila navbar di halaman lain lebih tinggi. */
+  --bombi-top-gap: 110px;
+  --font-main: "Inter", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+}
+
+.chatbot-widget {
+  position: fixed;
+  right: 22px;
+  bottom: 22px;
+  z-index: 9999;
+  font-family: var(--font-main);
+}
+
+/* --------------------------------------------------------------------------
+   1. Tombol Floating Trigger
+   -------------------------------------------------------------------------- */
+.chatbot-trigger {
+  position: relative;
+  width: 62px;
+  height: 62px;
+  padding: 0;
+  border: 3px solid #ffffff;
+  border-radius: 50%;
+  background: #ffffff;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0 6px 20px rgba(211, 0, 0, 0.35), 0 2px 6px rgba(0, 0, 0, 0.15);
+  transition: transform 0.25s cubic-bezier(.34, 1.56, .64, 1), box-shadow 0.25s ease;
+  margin-left: auto;
+}
+
+/* cincin denyut agar menarik perhatian */
+.chatbot-trigger::before {
+  content: "";
+  position: absolute;
+  inset: -3px;
+  border-radius: 50%;
+  border: 2px solid var(--telkom-red);
+  opacity: 0;
+  animation: bombiPulse 2.6s ease-out infinite;
+  pointer-events: none;
+}
+
+.chatbot-trigger:hover {
+  transform: scale(1.08) rotate(-4deg);
+  box-shadow: 0 10px 26px rgba(211, 0, 0, 0.45), 0 2px 8px rgba(0, 0, 0, 0.18);
+}
+
+.chatbot-trigger[aria-expanded="true"]::before { animation: none; }
+
+.chatbot-trigger-img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 50%;
+}
+
+@keyframes bombiPulse {
+  0%   { transform: scale(1);    opacity: .55; }
+  70%  { transform: scale(1.45); opacity: 0; }
+  100% { transform: scale(1.45); opacity: 0; }
+}
+
+/* --------------------------------------------------------------------------
+   2. Jendela Chatbot
+   -------------------------------------------------------------------------- */
+.chatbot-window {
+  position: absolute;
+  bottom: 78px;
+  right: 0;
+  width: 380px;
+  max-width: calc(100vw - 32px);
+  height: 540px;
+  /* 100px = jarak jendela dari bawah layar (22px + 78px) */
+  max-height: calc(100vh - 100px - var(--bombi-top-gap));
+  max-height: calc(100dvh - 100px - var(--bombi-top-gap));
+  background: #ffffff;
+  border-radius: 22px;
+  box-shadow:
+    0 24px 60px rgba(15, 23, 42, 0.22),
+    0 8px 20px rgba(211, 0, 0, 0.12),
+    0 0 0 1px rgba(15, 23, 42, 0.05);
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+  transform-origin: bottom right;
+  animation: bombiOpen 0.32s cubic-bezier(.2, .9, .3, 1.2);
+}
+
+.chatbot-window[hidden] { display: none !important; }
+
+@keyframes bombiOpen {
+  from { opacity: 0; transform: translateY(16px) scale(.92); }
+  to   { opacity: 1; transform: translateY(0) scale(1); }
+}
+
+/* --------------------------------------------------------------------------
+   3. Header
+   -------------------------------------------------------------------------- */
+.chatbot-header {
+  position: relative;
+  padding: 18px 18px 22px;
+  background: linear-gradient(135deg, var(--telkom-red-light) 0%, var(--telkom-red) 45%, var(--telkom-red-dark) 100%);
+  color: #ffffff;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  overflow: hidden;
+}
+
+/* ornamen lingkaran dekoratif */
+.chatbot-header::before,
+.chatbot-header::after {
+  content: "";
+  position: absolute;
+  border-radius: 50%;
+  background: rgba(255, 255, 255, 0.10);
+  pointer-events: none;
+}
+.chatbot-header::before { width: 130px; height: 130px; top: -60px; right: -30px; }
+.chatbot-header::after  { width: 80px;  height: 80px;  bottom: -40px; right: 90px; background: rgba(255,255,255,0.07); }
+
+.chatbot-header-info {
+  position: relative;
+  z-index: 1;
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.chatbot-avatar {
+  position: relative;
+  width: 46px;
+  height: 46px;
+  border-radius: 50%;
+  background: #ffffff;
+  padding: 2px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+  box-shadow: 0 0 0 3px rgba(255, 255, 255, 0.28), 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+.chatbot-avatar img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 50%;
+}
+
+.chatbot-title {
+  margin: 0;
+  font-size: 16px;
+  font-weight: 700;
+  letter-spacing: .1px;
+  color: #ffffff;
+  line-height: 1.2;
+}
+
+.chatbot-status {
+  font-size: 11.5px;
+  color: rgba(255, 255, 255, 0.92);
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  margin-top: 4px;
+}
+
+.status-dot {
+  width: 8px;
+  height: 8px;
+  background-color: #4ade80;
+  border-radius: 50%;
+  box-shadow: 0 0 0 0 rgba(74, 222, 128, .7);
+  animation: bombiDot 2s infinite;
+}
+
+@keyframes bombiDot {
+  0%   { box-shadow: 0 0 0 0 rgba(74, 222, 128, .65); }
+  70%  { box-shadow: 0 0 0 7px rgba(74, 222, 128, 0); }
+  100% { box-shadow: 0 0 0 0 rgba(74, 222, 128, 0); }
+}
+
+.chatbot-close {
+  position: relative;
+  z-index: 1;
+  background: rgba(255, 255, 255, 0.18);
+  border: none;
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  color: #ffffff;
+  font-size: 20px;
+  line-height: 1;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: background 0.2s ease, transform 0.25s ease;
+}
+.chatbot-close:hover { background: rgba(255, 255, 255, 0.34); transform: rotate(90deg); }
+
+/* Kontrol kepala: bahasa, suara, tutup */
+.chatbot-header-info { min-width: 0; flex: 1; }
+.chatbot-title { font-size: 15px; }
+.chatbot-status { white-space: nowrap; }
+.chatbot-tools {
+  position: relative;
+  z-index: 1;
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  flex-shrink: 0;
+}
+.chatbot-lang {
+  display: flex;
+  padding: 2px;
+  border-radius: 999px;
+  background: rgba(255, 255, 255, 0.2);
+}
+.chatbot-lang button {
+  border: 0;
+  background: none;
+  padding: 4px 9px;
+  border-radius: 999px;
+  font-family: inherit;
+  font-size: 11px;
+  font-weight: 700;
+  letter-spacing: .04em;
+  color: #ffffff;
+  cursor: pointer;
+  transition: background .2s ease, color .2s ease;
+}
+.chatbot-lang button.on { background: #ffffff; color: var(--telkom-red); }
+.chatbot-tool {
+  background: rgba(255, 255, 255, 0.18);
+  border: none;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  color: #ffffff;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: background .2s ease;
+}
+.chatbot-tool:hover { background: rgba(255, 255, 255, 0.34); }
+.chatbot-tool:not(.on) .w { display: none; }          /* ikon speaker tanpa gelombang = mati */
+.chatbot-tool.on { background: #ffffff; color: var(--telkom-red); }
+.chatbot-close { width: 30px; height: 30px; }
+.chatbot-header :focus-visible { outline: 2px solid #ffffff; outline-offset: 2px; }
+
+/* Tombol dengarkan di tiap jawaban */
+.chat-speak {
+  display: flex;
+  width: fit-content;
+  align-items: center;
+  gap: 6px;
+  margin-top: 8px;
+  padding: 4px 10px 4px 8px;
+  border: 1px solid var(--telkom-border);
+  border-radius: 999px;
+  background: #f8fafc;
+  font-family: inherit;
+  font-size: 11.5px;
+  font-weight: 600;
+  color: var(--telkom-text-muted);
+  cursor: pointer;
+  transition: background .2s ease, color .2s ease, border-color .2s ease;
+}
+.chat-speak span::before { content: "Dengarkan"; }
+html[data-bombi-lang="en"] .chat-speak span::before { content: "Listen"; }
+.chat-speak.on span::before { content: "Stop"; }
+.chat-speak:hover { background: #fff1f1; color: var(--telkom-red); border-color: rgba(211, 0, 0, .3); }
+.chat-speak.on { background: var(--telkom-red); color: #ffffff; border-color: var(--telkom-red); }
+.chat-speak.on svg { animation: bombiSpeak 1s ease-in-out infinite; }
+@keyframes bombiSpeak { 50% { transform: scale(1.18); } }
+
+/* --------------------------------------------------------------------------
+   4. Area Percakapan
+   -------------------------------------------------------------------------- */
+.chatbot-body {
+  flex: 1;
+  margin-top: -10px;               /* menimpa lengkung header */
+  padding: 18px 16px 10px;
+  overflow-y: auto;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  background-color: var(--telkom-bg-light);
+  background-image: radial-gradient(rgba(148, 163, 184, .22) 1px, transparent 1px);
+  background-size: 16px 16px;
+  border-radius: 18px 18px 0 0;
+  position: relative;
+  scroll-behavior: smooth;
+}
+
+.chatbot-body::-webkit-scrollbar { width: 5px; }
+.chatbot-body::-webkit-scrollbar-thumb { background: #cbd5e1; border-radius: 6px; }
+
+.chat-bubble {
+  max-width: 84%;
+  padding: 11px 15px;
+  font-size: 13.5px;
+  line-height: 1.5;
+  word-wrap: break-word;
+  white-space: pre-line;
+  border-radius: 16px;
+  animation: bombiBubble 0.28s ease-out both;
+}
+
+@keyframes bombiBubble {
+  from { opacity: 0; transform: translateY(8px) scale(.97); }
+  to   { opacity: 1; transform: translateY(0) scale(1); }
+}
+
+.chat-bubble.bot {
+  align-self: flex-start;
+  background: #ffffff;
+  color: var(--telkom-text);
+  border-bottom-left-radius: 4px;
+  box-shadow: 0 2px 8px rgba(15, 23, 42, 0.07);
+  border: 1px solid var(--telkom-border);
+}
+
+.chat-bubble.user {
+  align-self: flex-end;
+  background: linear-gradient(135deg, var(--telkom-red-light), var(--telkom-red-dark));
+  color: #ffffff;
+  border-bottom-right-radius: 4px;
+  box-shadow: 0 4px 12px rgba(211, 0, 0, 0.28);
+}
+
+/* Indikator mengetik (tiga titik) */
+.chat-bubble.typing {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  padding: 14px 16px;
+  font-size: 0;
+}
+.chat-bubble.typing span {
+  width: 7px;
+  height: 7px;
+  border-radius: 50%;
+  background: #94a3b8;
+  animation: bombiTyping 1.2s infinite ease-in-out;
+}
+.chat-bubble.typing span:nth-child(2) { animation-delay: .15s; }
+.chat-bubble.typing span:nth-child(3) { animation-delay: .3s; }
+
+@keyframes bombiTyping {
+  0%, 60%, 100% { transform: translateY(0); opacity: .45; }
+  30%           { transform: translateY(-5px); opacity: 1; }
+}
+
+/* --------------------------------------------------------------------------
+   5. Pertanyaan Cepat (rapi: membungkus, bisa dilipat)
+   -------------------------------------------------------------------------- */
+.chatbot-suggest {
+  padding: 8px 16px 10px;
+  background: var(--telkom-bg-light);
+  border-top: 1px solid var(--telkom-border);
+}
+.chatbot-suggest__bar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 6px;
+}
+.chatbot-suggest__label {
+  font-size: 11px;
+  font-weight: 700;
+  letter-spacing: .06em;
+  text-transform: uppercase;
+  color: var(--telkom-text-muted);
+}
+.chatbot-suggest__toggle {
+  background: none;
+  border: 0;
+  padding: 3px 8px;
+  border-radius: 8px;
+  font-family: inherit;
+  font-size: 12px;
+  font-weight: 600;
+  color: var(--telkom-red);
+  cursor: pointer;
+  transition: background .2s ease;
+}
+.chatbot-suggest__toggle:hover { background: rgba(211, 0, 0, .08); }
+.chatbot-suggest__list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+  max-height: 86px;
+  overflow-y: auto;
+  padding: 2px 2px 4px;
+  scrollbar-width: thin;
+  scrollbar-color: #cbd5e1 transparent;
+}
+.chatbot-suggest__list::-webkit-scrollbar { width: 4px; }
+.chatbot-suggest__list::-webkit-scrollbar-thumb { background: #cbd5e1; border-radius: 4px; }
+.chatbot-suggest.collapsed .chatbot-suggest__list { display: none; }
+.chatbot-suggest.collapsed .chatbot-suggest__bar { margin-bottom: 0; }
+
+.chatbot-chip {
+  padding: 6px 12px;
+  font-family: inherit;
+  font-size: 12px;
+  font-weight: 500;
+  line-height: 1.3;
+  color: var(--telkom-red);
+  background: #ffffff;
+  border: 1px solid rgba(211, 0, 0, 0.3);
+  border-radius: 999px;
+  cursor: pointer;
+  text-align: left;
+  box-shadow: 0 1px 3px rgba(15, 23, 42, 0.06);
+  transition: background .2s ease, color .2s ease, transform .2s ease, box-shadow .2s ease;
+}
+.chatbot-chip:hover,
+.chatbot-chip:focus-visible {
+  background: linear-gradient(135deg, var(--telkom-red-light), var(--telkom-red-dark));
+  color: #ffffff;
+  border-color: transparent;
+  transform: translateY(-1px);
+  box-shadow: 0 5px 12px rgba(211, 0, 0, 0.26);
+  outline: none;
+}
+.chatbot-chip:active { transform: scale(.97); }
+
+/* --------------------------------------------------------------------------
+   6. Footer / Input
+   -------------------------------------------------------------------------- */
+.chatbot-footer {
+  padding: 12px 16px 14px;
+  border-top: 1px solid var(--telkom-border);
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  background: #ffffff;
+}
+
+.chatbot-input {
+  flex: 1;
+  border: 1.5px solid transparent;
+  padding: 12px 18px;
+  border-radius: 26px;
+  font-family: inherit;
+  font-size: 13.5px;
+  outline: none;
+  background: #f1f4f9;
+  color: var(--telkom-text);
+  transition: border-color .2s ease, background .2s ease, box-shadow .2s ease;
+}
+.chatbot-input:focus {
+  background: #ffffff;
+  border-color: var(--telkom-red);
+  box-shadow: 0 0 0 4px rgba(211, 0, 0, 0.10);
+}
+.chatbot-input::placeholder { color: #94a3b8; }
+.chatbot-input:disabled { opacity: .6; }
+
+.chatbot-send {
+  background: linear-gradient(135deg, var(--telkom-red-light), var(--telkom-red-dark));
+  color: #ffffff;
+  border: none;
+  width: 42px;
+  height: 42px;
+  border-radius: 50%;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+  box-shadow: 0 4px 12px rgba(211, 0, 0, 0.35);
+  transition: transform .2s ease, box-shadow .2s ease;
+}
+.chatbot-send svg { transition: transform .25s ease; }
+.chatbot-send:hover { transform: scale(1.08); box-shadow: 0 6px 16px rgba(211, 0, 0, 0.45); }
+.chatbot-send:hover svg { transform: translate(2px, -2px); }
+.chatbot-send:active { transform: scale(.94); }
+
+/* --------------------------------------------------------------------------
+   7. Responsif (Mobile)
+   -------------------------------------------------------------------------- */
+@media (max-width: 480px) {
+  .chatbot-window {
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    width: 100vw;
+    height: calc(100dvh - var(--bombi-top-gap));
+    max-width: 100vw;
+    max-height: calc(100dvh - var(--bombi-top-gap));
+    border-radius: 22px 22px 0 0;
+    transform-origin: bottom center;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .chatbot-widget *, .chatbot-widget *::before, .chatbot-widget *::after {
+    animation: none !important;
+    transition: none !important;
+  }
+}

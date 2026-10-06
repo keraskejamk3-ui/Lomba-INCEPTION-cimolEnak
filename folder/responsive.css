@@ -1,0 +1,5 @@
+/* Aturan navbar (hamburger, submenu, kartu menu) sekarang ada di css/navbar.css */
+@media (max-width:1100px){.footer__grid{grid-template-columns:1fr 1fr}}
+@media (max-width:600px){.footer__grid{grid-template-columns:1fr}}
+@media (max-width:1000px){.why{grid-template-columns:repeat(2,1fr)}.greet{grid-template-columns:1fr}.majors{grid-template-columns:1fr 1fr}}
+@media (max-width:600px){.why,.majors{grid-template-columns:1fr}.strip small{display:none}.hero{height:80vh}}

@@ -1,0 +1,588 @@
+/* tentang.css: gaya khusus halaman Tentang Kami.
+   Navbar dan footer memakai css/style.css (sama dengan beranda). */
+
+/* ===== HERO ===== */
+
+.page-hero {
+    min-height: 650px;
+
+    padding: 110px 8% 100px;
+
+    display: flex;
+    align-items: center;
+
+    position: relative;
+
+    overflow: hidden;
+
+    color: white;
+
+    background:
+        linear-gradient(
+            120deg,
+            rgba(10, 10, 10, 0.90),
+            rgba(30, 30, 30, 0.65)
+        ),
+        url("../img/sekolah.jpg");
+
+    background-size: cover;
+    background-position: center;
+}
+
+/* Dekorasi */
+
+.page-hero::before {
+    content: "";
+
+    position: absolute;
+
+    width: 450px;
+    height: 450px;
+
+    right: -150px;
+    top: -150px;
+
+    border-radius: 50%;
+
+    border: 70px solid rgba(215, 25, 32, 0.20);
+}
+
+.hero-content {
+    max-width: 750px;
+
+    position: relative;
+    z-index: 2;
+
+    animation: fadeUp 1s ease;
+}
+
+.hero-label {
+    display: inline-block;
+
+    padding: 7px 14px;
+
+    margin-bottom: 20px;
+
+    border-radius: 30px;
+
+    background: rgba(215, 25, 32, 0.20);
+
+    border: 1px solid rgba(255, 255, 255, 0.20);
+
+    color: #ff5960;
+
+    font-size: 13px;
+    font-weight: bold;
+
+    letter-spacing: 2px;
+}
+
+.page-hero h1 {
+    font-size: clamp(40px, 6vw, 72px);
+
+    line-height: 1.05;
+
+    margin-bottom: 25px;
+}
+
+.page-hero h1 .hl {
+    color: #ff3b43;
+}
+
+.hero-description {
+    max-width: 650px;
+
+    color: #ddd;
+
+    font-size: 17px;
+
+    margin-bottom: 35px;
+}
+
+.hero-buttons {
+    display: flex;
+    gap: 15px;
+    flex-wrap: wrap;
+}
+
+.button-primary {
+    padding: 14px 25px;
+
+    border-radius: 9px;
+
+    background: #d71920;
+    color: white;
+
+    font-weight: bold;
+
+    transition: 0.3s;
+}
+
+.button-primary:hover {
+    background: #b9141a;
+    transform: translateY(-3px);
+    box-shadow: 0 10px 25px rgba(215, 25, 32, 0.3);
+}
+
+.button-secondary {
+    padding: 14px 25px;
+
+    border-radius: 9px;
+
+    border: 1px solid rgba(255, 255, 255, 0.4);
+
+    color: white;
+
+    font-weight: bold;
+
+    transition: 0.3s;
+}
+
+.button-secondary:hover {
+    background: white;
+    color: #222;
+}
+
+/* ===== GENERAL SECTION ===== */
+
+section {
+    padding: 100px 8%;
+}
+
+.section-header {
+    max-width: 700px;
+
+    margin: 0 auto 55px;
+
+    text-align: center;
+}
+
+.section-label {
+    color: #d71920;
+
+    font-size: 13px;
+
+    font-weight: bold;
+
+    letter-spacing: 2px;
+
+    margin-bottom: 8px;
+}
+
+.section-header h2 {
+    font-size: clamp(30px, 4vw, 45px);
+
+    line-height: 1.2;
+
+    margin-bottom: 15px;
+}
+
+.section-header p {
+    color: #666;
+}
+
+/* ===== ABOUT ===== */
+
+.about {
+    background: white;
+}
+
+.about-container {
+    display: grid;
+
+    grid-template-columns: 1fr 1fr;
+
+    gap: 70px;
+
+    align-items: center;
+}
+
+.about-image {
+    position: relative;
+}
+
+.about-image img {
+    width: 100%;
+
+    display: block;
+
+    border-radius: 20px;
+
+    box-shadow: 0 25px 60px rgba(0, 0, 0, 0.15);
+}
+
+.about-badge {
+    position: absolute;
+
+    right: -20px;
+    bottom: 25px;
+
+    padding: 20px;
+
+    background: rgba(255, 255, 255, 0.92);
+
+    backdrop-filter: blur(15px);
+
+    border-radius: 15px;
+
+    box-shadow: 0 15px 40px rgba(0, 0, 0, 0.15);
+
+    border: 1px solid rgba(255, 255, 255, 0.7);
+}
+
+.about-badge strong {
+    display: block;
+
+    color: #d71920;
+
+    font-size: 25px;
+}
+
+.about-badge span {
+    font-size: 12px;
+    color: #666;
+}
+
+.about-text h2 {
+    font-size: 40px;
+
+    line-height: 1.2;
+
+    margin-bottom: 20px;
+}
+
+.about-text p {
+    color: #666;
+
+    margin-bottom: 18px;
+}
+
+.about-list {
+    list-style: none;
+
+    margin-top: 25px;
+}
+
+.about-list li {
+    margin-bottom: 12px;
+
+    display: flex;
+
+    gap: 10px;
+
+    align-items: center;
+}
+
+.check {
+    width: 25px;
+    height: 25px;
+
+    flex-shrink: 0;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    border-radius: 50%;
+
+    background: #ffe5e6;
+
+    color: #d71920;
+
+    font-size: 13px;
+    font-weight: bold;
+}
+
+/* ===== VISI MISI ===== */
+
+.vision {
+    background: #f5f6f8;
+}
+
+.vision-grid {
+    display: grid;
+
+    grid-template-columns: repeat(2, 1fr);
+
+    gap: 30px;
+}
+
+.vision-card {
+    padding: 45px;
+
+    border-radius: 20px;
+
+    background: white;
+
+    border: 1px solid #eee;
+
+    transition: 0.35s;
+
+    position: relative;
+
+    overflow: hidden;
+}
+
+.vision-card::after {
+    content: "";
+
+    position: absolute;
+
+    width: 120px;
+    height: 120px;
+
+    right: -40px;
+    bottom: -40px;
+
+    border-radius: 50%;
+
+    background: rgba(215, 25, 32, 0.06);
+}
+
+.vision-card:hover {
+    transform: translateY(-8px);
+
+    box-shadow: 0 20px 50px rgba(0, 0, 0, 0.08);
+}
+
+.vision-icon {
+    width: 60px;
+    height: 60px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    border-radius: 15px;
+
+    background: #ffe7e8;
+
+    font-size: 25px;
+
+    margin-bottom: 25px;
+}
+
+.vision-card h3 {
+    font-size: 25px;
+
+    margin-bottom: 12px;
+}
+
+.vision-card p {
+    color: #666;
+}
+
+/* ===== KEUNGGULAN ===== */
+
+.advantages {
+    background: white;
+}
+
+.advantage-grid {
+    display: grid;
+
+    grid-template-columns: repeat(4, 1fr);
+
+    gap: 20px;
+}
+
+.advantage-card {
+    padding: 30px;
+
+    border-radius: 18px;
+
+    border: 1px solid #eee;
+
+    transition: 0.35s;
+}
+
+.advantage-card:hover {
+    transform: translateY(-8px);
+
+    border-color: #ffc4c6;
+
+    box-shadow: 0 15px 40px rgba(0, 0, 0, 0.07);
+}
+
+.advantage-number {
+    color: #d71920;
+
+    font-size: 13px;
+
+    font-weight: bold;
+
+    margin-bottom: 25px;
+}
+
+.advantage-icon {
+    font-size: 35px;
+
+    margin-bottom: 20px;
+}
+
+.advantage-card h3 {
+    font-size: 19px;
+
+    margin-bottom: 10px;
+}
+
+.advantage-card p {
+    color: #666;
+
+    font-size: 14px;
+}
+
+/* ===== STATISTICS ===== */
+
+.statistics {
+    padding: 65px 8%;
+
+    background: #161616;
+
+    color: white;
+}
+
+.stats-grid {
+    display: grid;
+
+    grid-template-columns: repeat(4, 1fr);
+
+    gap: 30px;
+
+    text-align: center;
+}
+
+.stat h3 {
+    color: #ff3b43;
+
+    font-size: 40px;
+}
+
+.stat p {
+    color: #aaa;
+
+    font-size: 14px;
+}
+
+/* ===== CTA ===== */
+
+.cta {
+    padding: 100px 8%;
+}
+
+.cta-box {
+    padding: 70px 50px;
+
+    border-radius: 25px;
+
+    text-align: center;
+
+    color: white;
+
+    background:
+        linear-gradient(
+            120deg,
+            #a91118,
+            #d71920
+        );
+
+    position: relative;
+
+    overflow: hidden;
+}
+
+.cta-box::before {
+    content: "";
+
+    position: absolute;
+
+    width: 300px;
+    height: 300px;
+
+    border: 60px solid rgba(255, 255, 255, 0.08);
+
+    border-radius: 50%;
+
+    left: -120px;
+    top: -150px;
+}
+
+.cta-box h2 {
+    position: relative;
+
+    font-size: clamp(28px, 4vw, 42px);
+
+    margin-bottom: 15px;
+}
+
+.cta-box p {
+    position: relative;
+
+    color: #ffe9e9;
+
+    max-width: 600px;
+
+    margin: 0 auto 30px;
+}
+
+.cta-button {
+    position: relative;
+
+    display: inline-block;
+
+    padding: 14px 25px;
+
+    background: white;
+
+    color: #d71920;
+
+    border-radius: 9px;
+
+    font-weight: bold;
+
+    transition: 0.3s;
+}
+
+.cta-button:hover {
+    transform: translateY(-3px);
+
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.2);
+}
+
+/* ===== ANIMATION ===== */
+
+@keyframes fadeUp {
+
+    from {
+        opacity: 0;
+        transform: translateY(30px);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+
+}
+
+.cta { background: #f7f8fa; }
+
+/* ===== RESPONSIVE ===== */
+@media (max-width: 1000px) {
+    .advantage-grid { grid-template-columns: repeat(2, 1fr); }
+    .stats-grid { grid-template-columns: repeat(2, 1fr); }
+}
+@media (max-width: 750px) {
+    .about-container, .vision-grid { grid-template-columns: 1fr; }
+    .about-badge { right: 15px; }
+    section { padding: 75px 6%; }
+}
+@media (max-width: 500px) {
+    .page-hero { min-height: 600px; padding: 90px 6% 80px; }
+    .page-hero h1 { font-size: 40px; }
+    .hero-description { font-size: 15px; }
+    .advantage-grid, .stats-grid { grid-template-columns: 1fr; }
+    .vision-card { padding: 30px; }
+    .about-text h2 { font-size: 30px; }
+    .cta-box { padding: 50px 25px; }
+}
