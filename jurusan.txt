@@ -1,0 +1,8 @@
+SMK Telkom Malang (dikenal dengan sebutan Moklet) memiliki 3 jurusan: Software Engineering (RPL), Computer & Network Engineering (TKJ), dan Game Development (PG).
+Jurusan Software Engineering (SE) atau Rekayasa Perangkat Lunak (RPL) berfokus pada pengembangan perangkat lunak dan aplikasi.
+Bidang keahlian jurusan Software Engineering (RPL): Full-stack Developer, Back-end Developer, Front-end Developer, Mobile App Developer, dan UI/UX Designer.
+Jurusan Computer & Network Engineering atau Teknik Komputer Jaringan (TKJ) berfokus pada jaringan komputer, keamanan, dan layanan TI.
+Bidang keahlian jurusan Computer & Network Engineering (TKJ): Cyber Security, Cloud Computing, dan IT Network and Service Administrator.
+Jurusan Game Development atau Pengembangan Gim (PG) berfokus pada pembuatan game.
+Bidang keahlian jurusan Game Development (PG): Game Art dan Game Programming.
+Informasi lengkap setiap jurusan ada di halaman Programs → Majors pada website smktelkom-mlg.sch.id.
